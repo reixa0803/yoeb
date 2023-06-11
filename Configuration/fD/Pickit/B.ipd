@@ -812,7 +812,14 @@
 [Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
 //[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉																									
-//[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Unique" # [StashItem] == "true"	//傳奇地圖		存倉																																																		
+//[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Unique" # [StashItem] == "true"	//傳奇地圖		存倉	
+//陞大新增賣出不潔+毒牙周圍地圖賣出 神之|殘破|形亡|原小|溫房|魂之
+[Type]== "Maze Map" # [ForceSellItem] == "true" //賣出 冥神之域
+[Type]== "Crater Map" # [ForceSellItem] == "true" //賣出 殘破殞坑
+[Type]== "Malformation Map" # [ForceSellItem] == "true" //賣出 畸形亡域
+[Type]== "Frozen Cabins Map" # [ForceSellItem] == "true" //賣出 凍原小屋
+[Type]== "Conservatory Map" # [ForceSellItem] == "true" //賣出 寧逸溫房
+[Type]== "Marshes Map" # [ForceSellItem] == "true" //賣出 惡臭沼地
 																												
 	// 14F 碎片																											
 [Type] == "Sacrifice at Dawn" # [ForceSellItem] == "true" //	//黎明的奉獻		賣出																									
