@@ -819,7 +819,7 @@
 [Type]== "Malformation Map" # [ForceSellItem] == "true" //賣出 畸形亡域
 [Type]== "Frozen Cabins Map" # [ForceSellItem] == "true" //賣出 凍原小屋
 [Type]== "Conservatory Map" # [ForceSellItem] == "true" //賣出 寧逸溫房
-[Type]== "Marshes Map" # [ForceSellItem] == "true" //賣出 惡臭沼地
+[Type]== "Temple Map" # [ForceSellItem] == "true" //賣出 奪魂之殿
 																												
 	// 14F 碎片																											
 [Type] == "Sacrifice at Dawn" # [ForceSellItem] == "true" //	//黎明的奉獻		賣出																									
