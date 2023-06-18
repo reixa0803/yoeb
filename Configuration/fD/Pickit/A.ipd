@@ -1366,7 +1366,8 @@
 [Type] == "Full Dragonscale" && [Rarity] == "Unique" # [UniqueName] == "Daresso's Defiance" && [ForceSellItem] == "true"	//篡位者的懺悔永恆堅盔		賣出																									
 [Type] == "Desert Brigandine" && [Rarity] == "Unique" # [UniqueName] == "Lightning Coil" && [ForceSellItem] == "true"	//金縷帽皮帽		賣出																									
 [Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Ire" && [ForceSellItem] == "true"	//費爾之帽三角帽		賣出																									
-[Type] == "Varnished Coat" && [Rarity] == "Unique" # [UniqueName] == "Carcass Jack" && [StashItem] == "true"	//寒焰革兜		賣出																									
+[Type] == "Varnished Coat" && [Rarity] == "Unique" # [UniqueName] == "Carcass Jack" && [StashItem] == "true"	//寒焰革兜		賣出	
+[Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Heatshiver" && [StashItem] == "true"	//寒焰		存倉
 [Type] == "Holy Chainmail" && [Rarity] == "Unique" # [UniqueName] == "Voll's Protector" && [ForceSellItem] == "true"	//霜獄革兜		賣出																									
 [Type] == "Cutthroat's Garb" && [Rarity] == "Unique" # [UniqueName] == "Bronn's Lithe" && [ForceSellItem] == "true"	//愛勒弗狼首皮盔		賣出																									
 [Type] == "Destiny Leather" && [Rarity] == "Unique" # [UniqueName] == "Queen of the Forest" && [ForceSellItem] == "true"	//鼠巢熊首皮盔		賣出																									
