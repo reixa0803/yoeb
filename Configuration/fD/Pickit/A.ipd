@@ -1042,7 +1042,7 @@
 [Type] == "Ezomyte Dagger" && [Rarity] == "Unique" # [UniqueName] == "Replica Cold Iron Point" && [ForceSellItem] == "true"	//贗品．寒鋼之刃 艾茲麥短匕		賣出																									
 [Type] == "Platinum Kris" && [Rarity] == "Unique" # [UniqueName] == "Mark of the Doubting Knight" && [ForceSellItem] == "true"	//迷茫幻符 白金波刃		賣出																									
 [Type] == "Imperial Skean" && [Rarity] == "Unique" # [UniqueName] == "Divinarius" && [ForceSellItem] == "true"	//戒律之影 帝國雙刃匕		賣出																									
-[Type] == "Imperial Skean" && [Rarity] == "Unique" # [UniqueName] == "White Wind" && [StashItem] == "true"	//白風 帝國雙刃匕		賣出																									
+[Type] == "Imperial Skean" && [Rarity] == "Unique" # [UniqueName] == "White Wind" && [ForceSellItem] == "true"	//白風 帝國雙刃匕		賣出																									
 [Type] == "Demon Dagger" && [Rarity] == "Unique" # [UniqueName] == "Vulconus" && [ForceSellItem] == "true"	//祝融鍛冶 惡魔短匕		賣出																									
 	//爪																											
 [Type] == "Nailed Fist" && [Rarity] == "Unique" # [UniqueName] == "Last Resort" && [ForceSellItem] == "true"	//終息 拳釘		賣出																									
@@ -1657,7 +1657,7 @@
 [Type] == "Steelscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Tombfist" && [ForceSellItem] == "true"	//陵拳鋼影護手		賣出																									
 [Type] == "Serpentscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Haemophilia" && [ForceSellItem] == "true"	//逆凝之血蛇鱗手套		賣出																									
 [Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Wyrmsign" && [ForceSellItem] == "true"	//龍族印記蝮鱗手套		賣出																									
-[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Tanu Ahi" && [StashItem] == "true"	//埋火蝮鱗手套		賣出																									
+[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Tanu Ahi" && [ForceSellItem] == "true"	//埋火蝮鱗手套		賣出																									
 [Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Farrul's Pounce" && [ForceSellItem] == "true"	//費爾羅鋒爪火蝮鱗手套		賣出																									
 [Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Breathstealer" && [ForceSellItem] == "true"	//偷息火蝮鱗手套		賣出																									
 [Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Gravebind" && [ForceSellItem] == "true"	//幽墓束縛火蝮鱗手套		賣出																									
@@ -1715,7 +1715,7 @@
 [Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Fated End" && [ForceSellItem] == "true"	//命運終結 海靈戒指		賣出																									
 [Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Soulbound" && [ForceSellItem] == "true"	//靈魂之絆 海靈戒指		賣出																									
 [Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Andvarius" && [ForceSellItem] == "true"	//貪慾之記 金光戒指		賣出																									
-[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Ventor's Gamble" && [StashItem] == "true"	//賭神芬多 金光戒指		存倉																									
+[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Ventor's Gamble" && [ForceSellItem] == "true"	//賭神芬多 金光戒指		存倉																									
 [Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "The Highwayman" && [ForceSellItem] == "true"	//高尚之人 金光戒指		賣出																									
 [Type] == "Topaz Ring" && [Rarity] == "Unique" # [UniqueName] == "Kikazaru" && [ForceSellItem] == "true"	//基加薩魯 黃玉戒指		賣出																									
 [Type] == "Topaz Ring" && [Rarity] == "Unique" # [UniqueName] == "Valako's Sign" && [ForceSellItem] == "true"	//瓦拉庫之印 黃玉戒指		賣出																									
@@ -1762,7 +1762,7 @@
 [Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Original Sin" && [ForceSellItem] == "true"	//原罪 紫晶戒指		賣出																									
 [Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Gifts from Above" && [ForceSellItem] == "true"	//神賜 寶鑽戒指		賣出																									
 [Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Romira's Banquet" && [ForceSellItem] == "true"	//羅米拉的潛力之環 寶鑽戒指		賣出																									
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && [StashItem] == "true"	//貝雷克的火與雷之樂 雙玉戒指		存倉																									
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && [ForceSellItem] == "true"	//貝雷克的火與雷之樂 雙玉戒指		存倉																									
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && [ForceSellItem] == "true"	//貝雷克的冰與雷之曲 雙玉戒指		賣出																									
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Call of the Brotherhood" && [ForceSellItem] == "true"	//意志呼喚 雙玉戒指		賣出																									
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && [ForceSellItem] == "true"	//貝雷克的冰與火之歌 雙玉戒指		賣出																									
@@ -1891,7 +1891,7 @@
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Pyroshock Clasp" && [ForceSellItem] == "true"	//烈焰衝擊鉤 皮革腰帶		賣出																									
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Doryani's Invitation" && [ForceSellItem] == "true"	//多里亞尼之約 重革腰帶		賣出																									
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Meginord's Girdle" && [ForceSellItem] == "true"	//梅吉諾德的力量泉源 重革腰帶		賣出																									
-[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Belt of the Deceiver" && [StashItem] == "true"	//狡徒束腰 重革腰帶		賣出																									
+[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Belt of the Deceiver" && [ForceSellItem] == "true"	//狡徒束腰 重革腰帶		賣出																									
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Dyadian Dawn" && [ForceSellItem] == "true"	//戴亞迪安的晨曦 重革腰帶		賣出																									
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Bisco's Leash" && [ForceSellItem] == "true"	//畢斯寇繫帶 重革腰帶		賣出																									
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "String of Servitude" && [ForceSellItem] == "true"	//奴役之索 重革腰帶		賣出																									
