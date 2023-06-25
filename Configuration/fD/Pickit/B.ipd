@@ -2176,13 +2176,13 @@
 	// 22F 基拉克物品																											
 // [Type] == "Singular Scouting Report" # [ForceSellItem] == "true" //	//卓越偵查報告		賣出																									
 // [Type] == "Otherworldly Scouting Report" # [ForceSellItem] == "true" //	//超凡偵查報告		存倉																									
-// [Type] == "Comprehensive Scouting Report" # [StashItem] == "true" //	//全面偵查報告		存倉																									
+// [Type] == "Comprehensive Scouting Report" # [ForceSellItem] == "true" //	//全面偵查報告		存倉																									
 // [Type] == "Vaal Scouting Report" # [ForceSellItem] == "true" //	//瓦爾偵查報告		賣出																									
-// [Type] == "Delirious Scouting Report" # [StashItem] == "true" //	//譫妄偵查報告		存倉																									
-// [Type] == "Operative's Scouting Report" # [StashItem] == "true" //	//技工偵查報告		存倉																									
-// [Type] == "Blighted Scouting Report" # [StashItem] == "true" //	//凋落偵查報告		存倉																									
-// [Type] == "Influenced Scouting Report" # [StashItem] == "true" //	//勢力偵查報告		存倉																									
-// [Type] == "Explorer's Scouting Report" # [StashItem] == "true" //	//探險家偵查報告		存倉																									
+// [Type] == "Delirious Scouting Report" # [ForceSellItem] == "true" //	//譫妄偵查報告		存倉																									
+// [Type] == "Operative's Scouting Report" # [ForceSellItem] == "true" //	//技工偵查報告		存倉																									
+// [Type] == "Blighted Scouting Report" # [ForceSellItem] == "true" //	//凋落偵查報告		存倉																									
+// [Type] == "Influenced Scouting Report" # [ForceSellItem] == "true" //	//勢力偵查報告		存倉																									
+// [Type] == "Explorer's Scouting Report" # [ForceSellItem] == "true" //	//探險家偵查報告		存倉																									
 [Type] == "Surveyors Compass" # [StashItem] == "true" //	//測量員的羅盤		存倉																									
 [Type] == "Charged Compass" # [StashItem] == "true" //	//充能的羅盤		存倉																									
 [Type] == "Exceptional Eldritch Ember" # [StashItem] == "true" //	//宏偉異能灰燼		存倉																									
