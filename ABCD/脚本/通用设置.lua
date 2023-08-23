@@ -602,7 +602,7 @@ SetGoodsCaoZuo("地心探索：可镶嵌的通货|孕育石|培育器|碎片|地
 SetGoodsCaoZuo("主动技能宝石|辅助技能宝石","0|2",nil,nil,nil,nil,5)--拾取品质超过5的技能宝石
 
 SetGoodsCaoZuo(nil,"0|2|4",nil,nil,nil,nil,nil,nil,"3")--拾取 鉴定 出售橙色物品
-SetGoodsCaoZuo(nil,"0|2","知识卷轴","Metadata/Items/Currency/CurrencyIdentification",nil,nil,nil,40)--够了就不捡了
+SetGoodsCaoZuo(nil,"0|2","知识卷轴","Metadata/Items/Currency/CurrencyIdentification",nil,nil,nil,80)--够了就不捡了
 SetGoodsCaoZuo(nil,"0|2","传送卷轴","Metadata/Items/Currency/CurrencyPortal",nil,nil,nil,80)--够了就不捡了
 SetGoodsCaoZuo(nil,"0|1",nil,nil,nil,nil,nil,nil,"0|1|2",6)--6洞装设置捡卖
 SetGoodsCaoZuo(nil,"0|2",nil,nil,nil,nil,nil,nil,"0|1|2",nil,6)--6连洞装设置捡卖
