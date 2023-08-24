@@ -714,7 +714,7 @@ SetGoodsCaoZuo(nill,"0|2","?誕遺?","Metadata/Items/MapFragments/VoidbornVaultK
 SetGoodsCaoZuo("探險日誌","0|2")
 
 --SetZhuangBeiBoss(bossName,srvName,computerName,mohu,isComputerName)--设置发装仓库号 --
---SetZhuangBeiBoss("麻將有氣泡正常")
+--SetZhuangBeiBoss("")
 
 --集货boss名 字符串型
 --AddJiaoYiBossName(bossName,computerName,mohu) 添加仓库号
