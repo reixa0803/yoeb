@@ -33,7 +33,7 @@ g_openQlkMaxMapTianFuCnt=60            --ÊıÖµĞÍ Âú¶àÉÙÌì¸³ºó²»¿ªÆæÀ­¿ËÈÎÎñnilÎªÒ
 g_useMinLvMapTianFuCnt=60             -- ÊıÖµĞÍ È¡Í¼Ê±£¬µØÍ¼Ìì¸³Âú¶àÉÙµãºó ¾Í´ÓµÍ½×µØÍ¼¿ªÊ¼È¡
 g_jiaoYiAddSellGoodsTime=40         -- ½»Ò×ËÙ¶È 
 AddUseGoodsData("ÌìÙxÖ®•ø")--Ìí¼ÓÌì¸³Ö®Êé
-
+AddUseGoodsData("áá»ÚÖ®•ø")--Ìí¼ÓÌì¸³Ö®Êé
 
 --SetYiJieShuaTuModeByMapCnt(120,0.8,1)  --²Ö¿âÖĞµØÍ¼ÊıÁ¿Âú20 ÆôÓÃËÙË¢ Ö±Í¨boss
 SetYiJieShuaTuModeByMapCnt(10,0.8,1)  --²Ö¿âÖĞµØÍ¼ÊıÁ¿Âú10 Ë¢8³É ÇÒÒª´òÍêBOSS
