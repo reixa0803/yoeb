@@ -606,7 +606,7 @@ SetGoodsCaoZuo(nil,nil,"知识卷轴","Metadata/Items/Currency/CurrencyIdentific
 --SetGoodsCaoZuo(nil,"0|2","知识卷轴","Metadata/Items/Currency/CurrencyIdentification",nil,nil,nil,80)--够了就不捡了
 SetGoodsCaoZuo(nil,nil","传送卷轴","Metadata/Items/Currency/CurrencyPortal",nil,nil,nil,80)--够了就不捡了
 SetGoodsCaoZuo(nil,,nil",nil,nil,nil,nil,nil,nil,"0|1|2",6)--6洞装设置捡卖
-SetGoodsCaoZuo(nil,",nil",nil,nil,nil,nil,nil,nil,"0|1|2",nil,6)--6连洞装设置捡卖
+SetGoodsCaoZuo(nil,"0|2",nil,nil,nil,nil,nil,nil,"0|1|2",nil,6)--6连洞装设置捡卖
 SetGoodsCaoZuo("珠宝|深渊珠宝","0|1|4",nil,nil,nil,nil,nil,nil,"2")--拾取 鉴定 出售黄色物品珠宝
 SetGoodsCaoZuo(nil,"0|2","周年福袋","Metadata/Items/MicrotransactionCurrency/MicrotransactionTencentEventCoin")--
 SetGoodsCaoZuo(nil,"0|2","玻璃弹珠","Metadata/Items/Currency/CurrencyFlaskQuality")--
