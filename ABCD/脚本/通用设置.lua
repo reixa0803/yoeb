@@ -16,7 +16,7 @@
 2¡¢º¯ÊıĞÍ£ºº¯ÊıÃû(²ÎÊı1,²ÎÊı2) ÕâÑùµÄ¾ÍÊÇº¯ÊıĞÍ ÓÉº¯ÊıÃûÓëÈô¸É¸ö²ÎÊı×é³É ²ÎÊı±»°ë½ÇÀ¨ºÅ()Ì×ÆğÀ´
 ]]
 ------------------»ù±¾ÉèÖÃ
-g_needMinimizeGame=true		    --×îĞ¡»¯ß[‘ò´°¿Ú trueÎª×îĞ¡»¯ false»ònilÎª²»×îĞ¡»¯
+g_needMinimizeGame=false		    --×îĞ¡»¯ß[‘ò´°¿Ú trueÎª×îĞ¡»¯ false»ònilÎª²»×îĞ¡»¯
 g_imBoss=false					--Èç¹ûÊÇ²Ö¿âºÅÒªÎªtrue ¹Ò»úºÅÎªfalse
 g_attackDis=300			        --¹¥»÷¾àÀë
 g_yiJieTimeOut=15*24			--Òì½çµØÍ¼ÄÚµÄ³¬Ê±Ê±¼ä µ¥Î»ÎªÃë Èç¹ûÎ´ÉèÖÃ¾Í»áÓÃg_timeOut *ÊÇ³ËºÅ ÕâÀïÎª15³ËÒÔ60=15·ÖÖÓ
@@ -33,6 +33,7 @@ g_openQlkMaxMapTianFuCnt=60            --ÊıÖµĞÍ Âú¶àÉÙÌì¸³ºó²»¿ªÆæÀ­¿ËÈÎÎñnilÎªÒ
 g_useMinLvMapTianFuCnt=60             -- ÊıÖµĞÍ È¡Í¼Ê±£¬µØÍ¼Ìì¸³Âú¶àÉÙµãºó ¾Í´ÓµÍ½×µØÍ¼¿ªÊ¼È¡
 g_jiaoYiAddSellGoodsTime=40         -- ½»Ò×ËÙ¶È 
 AddUseGoodsData("ÌìÙxÖ®•ø")--Ìí¼ÓÌì¸³Ö®Êé
+AddUseGoodsData("áá»ÚÖ®•ø")--Ìí¼ÓÌì¸³Ö®Êé
 
 
 --SetYiJieShuaTuModeByMapCnt(120,0.8,1)  --²Ö¿âÖĞµØÍ¼ÊıÁ¿Âú20 ÆôÓÃËÙË¢ Ö±Í¨boss
@@ -135,7 +136,7 @@ AddNotMakeTaskData("a10q5")--Éîº£Ö®Â·
 
 --AddUseGoodsData(name,className)--Ìí¼ÓÒªÊ¹ÓÃµÄÎïÆ·±ØĞëÌîÒ»¸ö£¬ºöÂÔÌînil --name=ÎïÆ·Ãû×Ö className=ÎïÆ·ÀàÃû 
 
-g_notShuaBaiPao=false  --²»Ë¢°×ÅÛ(ÊÇ·ñ,ÊÇ·ñƒ¶“Q)
+g_notShuaBaiPao=true  --²»Ë¢°×ÅÛ(ÊÇ·ñ,ÊÇ·ñƒ¶“Q)
 
 --SetZhongShenData(className1,className2)--ÉèÖÃÒª¼ÓµÄÖÚÉñµîÊı¾İ className1=¸ß½×Êı¾İÀàÃû ×Ö·û´®ĞÍ className2=µÍ½×Êı¾İÀàÃû ×Ö·û´®ĞÍ 
 SetZhongShenData("Lunaris","Gruthkul")--ÉèÖÃÔÂÓ°Å®ÉñÖ®»êÓë¾øÍûÖ®Ä¸ ¸ñÂ³Ë¿¿ËÖ®»ê
@@ -433,12 +434,6 @@ SetCompoundDivinationCard("Ç«Ñ·","Metadata/Items/DivinationCards/DivinationCardH
 SetCompoundDivinationCard("ËıµÄÃæ¾ß","Metadata/Items/DivinationCards/DivinationCardHerMask")--
 
 SetUseArchnemesisGoods("Currency|Maps","Currency|Trinkets","Trinkets","Currency",68)--µÚÒ»¸ö¸ñ×ÓÊ¹ÓÃ½±ÀøÎªÍ¨»õ»òµØÍ¼µÄÎïÆ· µÚ2¸ö¸ñ×ÓÊ¹ÓÃ Í¨»õ+Ê×ÊÎ Ã¿3¸ö¸ñ×ÓÊ¹ÓÃÊ×ÊÎ µÚ4¸ö¸ñ×ÓÊ¹ÓÃ½±ÀøÎªÍ¨»õµÄÎïÆ·
-SetChangeLimitCnt("Í·¿ø|ÊÖÌ×|Ğ¬×Ó",2)
-SetChangeLimitCnt("ÎäÆ÷|",2)
-SetChangeLimitCnt("ÒÂ·ş",2)
-SetChangeLimitCnt("Ñü´ø",5)
-SetChangeLimitCnt("½äÖ¸",10)
-SetChangeLimitCnt("ÏîÁ´",20)
 
 g_buyNpcData={
 mapClassName="2_11_town"
