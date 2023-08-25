@@ -135,7 +135,7 @@ AddNotMakeTaskData("a10q5")--深海之路
 
 --AddUseGoodsData(name,className)--添加要使用的物品必须填一个，忽略填nil --name=物品名字 className=物品类名 
 
-g_notShuaBaiPao=true  --不刷白袍(是否,是否兌換)
+g_notShuaBaiPao=false  --不刷白袍(是否,是否兌換)
 
 --SetZhongShenData(className1,className2)--设置要加的众神殿数据 className1=高阶数据类名 字符串型 className2=低阶数据类名 字符串型 
 SetZhongShenData("Lunaris","Gruthkul")--设置月影女神之魂与绝望之母 格鲁丝克之魂
