@@ -194,26 +194,26 @@
 [Type] == "Uul-Netol's Flawless Breachstone" # [StashItem] == "true" //	//烏爾尼多的無暇裂痕石		存倉																									
 [Type] == "Chayula's Flawless Breachstone" # [StashItem] == "true" //	//夏烏拉的無暇裂痕石		存倉																									
 //																												
-//	// 5F 劫盜物品																											
-[Type] == "Contract: Bunker" # [StashItem] == "true" //	//契約書：碉堡		存倉																									
-[Type] == "Contract: Laboratory" # [StashItem] == "true" //	//契約書：實驗室		存倉																									
-[Type] == "Contract: Prohibited Library" # [StashItem] == "true" //	//契約書：禁忌館藏		存倉																									
-[Type] == "Contract: Records Office" # [StashItem] == "true" //	//契約書：紀錄室		存倉																									
-[Type] == "Contract: Repository" # [StashItem] == "true" //	//契約書：展覽室		存倉																									
-[Type] == "Contract: Smuggler's Den" # [StashItem] == "true" //	//契約書：走私者巢穴		存倉																									
-[Type] == "Contract: Tunnels" # [StashItem] == "true" //	//契約書：地道		存倉																									
-[Type] == "Contract: Underbelly" # [StashItem] == "true" //	//契約書：地下道		存倉																									
-[Type] == "Contract: Mansion" # [StashItem] == "true" //	//契約書：官邸		存倉																									
-[Type] == "Blueprint: Bunker" # [StashItem] == "true" //	//藍圖：碉堡		存倉																									
-[Type] == "Blueprint: Laboratory" # [StashItem] == "true" //	//藍圖：實驗室		存倉																									
-[Type] == "Blueprint: Prohibited Library" # [StashItem] == "true" //	//藍圖：禁忌館藏		存倉																									
-//[Type] == "Blueprint: Records Office" # [StashItem] == "true" //	//藍圖：紀錄室		存倉																									
-[Type] == "Blueprint: Repository" # [StashItem] == "true" //	//藍圖：展覽室		存倉																									
-//[Type] == "Blueprint: Smuggler's Den" # [StashItem] == "true" //	//藍圖：走私者巢穴		存倉																									
-[Type] == "Blueprint: Tunnels" # [StashItem] == "true" //	//藍圖：地道		存倉																									
-//[Type] == "Blueprint: Underbelly" # [StashItem] == "true" //	//藍圖：地下道		存倉																									
-//[Type] == "Blueprint: Mansion" # [StashItem] == "true" //	//藍圖：官邸		存倉																									
-/	// 6F 凋落油瓶																											
+	// 5F 劫盜物品																											
+[Type] == "Contract: Bunker" # [ForceSellItem] == "true" //	//契約書：碉堡		賣出																									
+[Type] == "Contract: Laboratory" # [ForceSellItem] == "true" //	//契約書：實驗室		賣出																									
+[Type] == "Contract: Prohibited Library" # [ForceSellItem] == "true" //	//契約書：禁忌館藏		賣出																									
+[Type] == "Contract: Records Office" # [ForceSellItem] == "true" //	//契約書：紀錄室		賣出																									
+[Type] == "Contract: Repository" # [ForceSellItem] == "true" //	//契約書：展覽室		賣出																									
+[Type] == "Contract: Smuggler's Den" # [ForceSellItem] == "true" //	//契約書：走私者巢穴		賣出																									
+[Type] == "Contract: Tunnels" # [ForceSellItem] == "true" //	//契約書：地道		賣出																									
+[Type] == "Contract: Underbelly" # [ForceSellItem] == "true" //	//契約書：地下道		賣出																									
+[Type] == "Contract: Mansion" # [ForceSellItem] == "true" //	//契約書：官邸		賣出																									
+[Type] == "Blueprint: Bunker" # [ForceSellItem] == "true" //	//藍圖：碉堡		賣出																									
+[Type] == "Blueprint: Laboratory" # [ForceSellItem] == "true" //	//藍圖：實驗室		賣出																									
+[Type] == "Blueprint: Prohibited Library" # [ForceSellItem] == "true" //	//藍圖：禁忌館藏		賣出																									
+[Type] == "Blueprint: Records Office" # [ForceSellItem] == "true" //	//藍圖：紀錄室		賣出																									
+[Type] == "Blueprint: Repository" # [ForceSellItem] == "true" //	//藍圖：展覽室		賣出																									
+[Type] == "Blueprint: Smuggler's Den" # [ForceSellItem] == "true" //	//藍圖：走私者巢穴		賣出																									
+[Type] == "Blueprint: Tunnels" # [ForceSellItem] == "true" //	//藍圖：地道		賣出																									
+[Type] == "Blueprint: Underbelly" # [ForceSellItem] == "true" //	//藍圖：地下道		賣出																									
+[Type] == "Blueprint: Mansion" # [ForceSellItem] == "true" //	//藍圖：官邸		賣出																									
+	// 6F 凋落油瓶																													
 [Type] == "Tainted Oil" # [StashItem] == "true" //	//污染油瓶		存倉																									
 [Type] == "Golden Oil" # [StashItem] == "true" //	//金黃油瓶		存倉																									
 [Type] == "Silver Oil" # [StashItem] == "true" //	//純銀油瓶		存倉																									
@@ -1210,7 +1210,7 @@
 //[Type] == "Crude Bow" && [Rarity] == "Unique" # [UniqueName] == "Widowhail" && [ForceSellItem] == "true"	//鰥寡之托 粗製弓		賣出																									
 [Type] == "Short Bow" && [Rarity] == "Unique" # [UniqueName] == "Quill Rain" && [StashItem] == "true"	//驟雨之弦 短弓		存倉																									
 //[Type] == "Short Bow" && [Rarity] == "Unique" # [UniqueName] == "Replica Quill Rain" && [ForceSellItem] == "true"	//贗品．驟雨之弦 短弓		賣出																									
-[Type] == "Long Bow" && [Rarity] == "Unique" # [UniqueName] == "Storm Cloud" && [StashItem] == "true"	//暴雨之弦 長弓		存倉																									
+[Type] == "Long Bow" && [Rarity] == "Unique" # [UniqueName] == "Storm Cloud" && [ForceSellItem] == "true"	//暴雨之弦 長弓		存倉																									
 //[Type] == "Long Bow" && [Rarity] == "Unique" # [UniqueName] == "The Tempest" && [ForceSellItem] == "true"	//暴風雨 長弓		賣出																									
 //[Type] == "Recurve Bow" && [Rarity] == "Unique" # [UniqueName] == "Roth's Reach" && [ForceSellItem] == "true"	//蘿絲之觸 反曲弓		賣出																									
 //[Type] == "Royal Bow" && [Rarity] == "Unique" # [UniqueName] == "Doomfletch" && [ForceSellItem] == "true"	//滅世 皇家獵弓		賣出																									
