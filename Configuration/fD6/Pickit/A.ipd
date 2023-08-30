@@ -1210,7 +1210,7 @@
 //[Type] == "Crude Bow" && [Rarity] == "Unique" # [UniqueName] == "Widowhail" && [ForceSellItem] == "true"	//鰥寡之托 粗製弓		賣出																									
 [Type] == "Short Bow" && [Rarity] == "Unique" # [UniqueName] == "Quill Rain" && [StashItem] == "true"	//驟雨之弦 短弓		存倉																									
 //[Type] == "Short Bow" && [Rarity] == "Unique" # [UniqueName] == "Replica Quill Rain" && [ForceSellItem] == "true"	//贗品．驟雨之弦 短弓		賣出																									
-[Type] == "Long Bow" && [Rarity] == "Unique" # [UniqueName] == "Storm Cloud" && [StashItem] == "true"	//暴雨之弦 長弓		存倉																									
+[Type] == "Long Bow" && [Rarity] == "Unique" # [UniqueName] == "Storm Cloud" && [ForceSellItem] == "true"	//暴雨之弦 長弓		存倉																									
 //[Type] == "Long Bow" && [Rarity] == "Unique" # [UniqueName] == "The Tempest" && [ForceSellItem] == "true"	//暴風雨 長弓		賣出																									
 //[Type] == "Recurve Bow" && [Rarity] == "Unique" # [UniqueName] == "Roth's Reach" && [ForceSellItem] == "true"	//蘿絲之觸 反曲弓		賣出																									
 //[Type] == "Royal Bow" && [Rarity] == "Unique" # [UniqueName] == "Doomfletch" && [ForceSellItem] == "true"	//滅世 皇家獵弓		賣出																									
