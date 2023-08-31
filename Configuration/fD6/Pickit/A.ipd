@@ -1190,7 +1190,7 @@
 //[Type] == "Grinning Fetish" && [Rarity] == "Unique" # [UniqueName] == "Earendel's Embrace" && [ForceSellItem] == "true"	//伊爾多恩的擁抱 遠古之祭		賣出																									
 //[Type] == "Grinning Fetish" && [Rarity] == "Unique" # [UniqueName] == "Replica Earendel's Embrace" && [ForceSellItem] == "true"	//贗品．伊爾多恩的擁抱 遠古之祭		賣出																									
 //[Type] == "Crystal Sceptre" && [Rarity] == "Unique" # [UniqueName] == "Nycta's Lantern" && [ForceSellItem] == "true"	//奈可妲之燈 水晶權杖		賣出																									
-[Type] == "Crystal Sceptre" && [Rarity] == "Unique" # [UniqueName] == "The Supreme Truth" && [StashItem] == "true"	//無上箴言 水晶權杖		存倉																									
+[Type] == "Crystal Sceptre" && [Rarity] == "Unique" # [UniqueName] == "The Supreme Truth" && [ForceSellItem] == "true"	//無上箴言 水晶權杖		存倉																									
 //[Type] == "Blood Sceptre" && [Rarity] == "Unique" # [UniqueName] == "Cerberus Limb" && [ForceSellItem] == "true"	//獄犬殘肢 血色權杖		賣出																									
 //[Type] == "Royal Sceptre" && [Rarity] == "Unique" # [UniqueName] == "The Black Cane" && [ForceSellItem] == "true"	//黑藤 皇家權杖		賣出																									
 //[Type] == "Karui Sceptre" && [Rarity] == "Unique" # [UniqueName] == "Death's Hand" && [ForceSellItem] == "true"	//死神之手 卡魯權杖		賣出																									
@@ -1208,7 +1208,7 @@
 	//弓																											
 //[Type] == "Crude Bow" && [Rarity] == "Unique" # [UniqueName] == "Silverbranch" && [ForceSellItem] == "true"	//幻銀之弦 粗製弓		賣出																									
 //[Type] == "Crude Bow" && [Rarity] == "Unique" # [UniqueName] == "Widowhail" && [ForceSellItem] == "true"	//鰥寡之托 粗製弓		賣出																									
-[Type] == "Short Bow" && [Rarity] == "Unique" # [UniqueName] == "Quill Rain" && [StashItem] == "true"	//驟雨之弦 短弓		存倉																									
+[Type] == "Short Bow" && [Rarity] == "Unique" # [UniqueName] == "Quill Rain" && [ForceSellItem] == "true"	//驟雨之弦 短弓		存倉																									
 //[Type] == "Short Bow" && [Rarity] == "Unique" # [UniqueName] == "Replica Quill Rain" && [ForceSellItem] == "true"	//贗品．驟雨之弦 短弓		賣出																									
 [Type] == "Long Bow" && [Rarity] == "Unique" # [UniqueName] == "Storm Cloud" && [ForceSellItem] == "true"	//暴雨之弦 長弓		存倉																									
 //[Type] == "Long Bow" && [Rarity] == "Unique" # [UniqueName] == "The Tempest" && [ForceSellItem] == "true"	//暴風雨 長弓		賣出																									
@@ -1260,7 +1260,7 @@
 //[Type] == "Primordial Staff" && [Rarity] == "Unique" # [UniqueName] == "Femurs of the Saints" && [ForceSellItem] == "true"	//聖徒脛骨 史典長杖		賣出																									
 //[Type] == "Lathi" && [Rarity] == "Unique" # [UniqueName] == "The Searing Touch" && [ForceSellItem] == "true"	//熾炎之使 武術長杖		賣出																									
 //[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "Cane of Unravelling" && [ForceSellItem] == "true"	//初惡枝枒 艾茲麥長杖		賣出																									
-[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "Soulwrest" && [StashItem] == "true"	//鑄影 艾茲麥長杖		存倉																									
+[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "Soulwrest" && [ForceSellItem] == "true"	//鑄影 艾茲麥長杖		存倉																									
 //[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "The Fulcrum" && [ForceSellItem] == "true"	//支點 艾茲麥長杖		賣出																									
 //[Type] == "Maelström Staff" && [Rarity] == "Unique" # [UniqueName] == "Taryn's Shiver" && [ForceSellItem] == "true"	//塔林的顫慄之語 風暴長杖		賣出																									
 //[Type] == "Maelström Staff" && [Rarity] == "Unique" # [UniqueName] == "Duskdawn" && [ForceSellItem] == "true"	//宵曉 風暴長杖		賣出																									
@@ -1421,7 +1421,7 @@
 //[Type] == "Silken Hood" && [Rarity] == "Unique" # [UniqueName] == "Starkonja's Head" && [ForceSellItem] == "true"	//斯塔空加之首		賣出																									
 //[Type] == "Silken Hood" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Flock" && [ForceSellItem] == "true"	//斯卡沃之徒		賣出																									
 //[Type] == "Silken Hood" && [Rarity] == "Unique" # [UniqueName] == "Cowl of the Cryophile" && [ForceSellItem] == "true"	//酷寒斗篷		賣出																									
-[Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [StashItem] == "true"	//極地之嗥		存倉																									
+[Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [ForceSellItem] == "true"	//極地之嗥		存倉																									
 [Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Assailum" && [StashItem] == "true"	//刺殺		存倉																									
 //[Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Replica Alpha's Howl" && [ForceSellItem] == "true"	//贗品．極地之嗥		賣出																									
 //[Type] == "Lion Pelt" && [Rarity] == "Unique" # [UniqueName] == "Obscurantis" && [ForceSellItem] == "true"	//朦朧詭面		賣出																									
@@ -1522,7 +1522,7 @@
 //[Type] == "Buckskin Tunic" && [Rarity] == "Unique" # [UniqueName] == "Ashrend" && [ForceSellItem] == "true"	//拂燼		賣出																									
 //[Type] == "Wild Leather" && [Rarity] == "Unique" # [UniqueName] == "Foxshade" && [ForceSellItem] == "true"	//狐毛鎧		賣出																									
 //[Type] == "Sun Leather" && [Rarity] == "Unique" # [UniqueName] == "Briskwrap" && [ForceSellItem] == "true"	//荒途		賣出																									
-[Type] == "Cutthroat's Garb" && [Rarity] == "Unique" # [UniqueName] == "Bronn's Lithe" && [StashItem] == "true"	//布隆的影衣		存倉																									
+[Type] == "Cutthroat's Garb" && [Rarity] == "Unique" # [UniqueName] == "Bronn's Lithe" && [ForceSellItem] == "true"	//布隆的影衣		存倉																									
 //[Type] == "Sharkskin Tunic" && [Rarity] == "Unique" # [UniqueName] == "The Rat Cage" && [ForceSellItem] == "true"	//疫鼠囚籠		賣出																									
 [Type] == "Destiny Leather" && [Rarity] == "Unique" # [UniqueName] == "Queen of the Forest" && [StashItem] == "true"	//森林之后		存倉																									
 //[Type] == "Exquisite Leather" && [Rarity] == "Unique" # [UniqueName] == "Kintsugi" && [ForceSellItem] == "true"	//金繕		賣出																									
