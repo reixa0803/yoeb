@@ -1064,7 +1064,7 @@
 //[Type] == "Omen Wand" && [Rarity] == "Unique" # [UniqueName] == "Apep's Rage" && [ForceSellItem] == "true"	//艾普之怒 靈兆法杖		賣出																									
 //[Type] == "Imbued Wand" && [Rarity] == "Unique" # [UniqueName] == "Moonsorrow" && [ForceSellItem] == "true"	//泣月 魔性法杖		賣出																									
 //[Type] == "Imbued Wand" && [Rarity] == "Unique" # [UniqueName] == "Piscator's Vigil" && [ForceSellItem] == "true"	//皮斯卡托的慧眼 魔性法杖		賣出																									
-[Type] == "Imbued Wand" && [Rarity] == "Unique" # [UniqueName] == "Obliteration" && [StashItem] == "true"	//抹滅 魔性法杖		存倉																									
+[Type] == "Imbued Wand" && [Rarity] == "Unique" # [UniqueName] == "Obliteration" && [ForceSellItem] == "true"	//抹滅 魔性法杖		存倉																									
 [Type] == "Opal Wand" && [Rarity] == "Unique" # [UniqueName] == "Tulfall" && [StashItem] == "true"	//托沃臥 靈石法杖		存倉																									
 [Type] == "Opal Wand" && [Rarity] == "Unique" # [UniqueName] == "Tulborn" && [StashItem] == "true"	//托沃崩 靈石法杖		存倉																									
 //[Type] == "Opal Wand" && [Rarity] == "Unique" # [UniqueName] == "Replica Tulfall" && [ForceSellItem] == "true"	//贗品．托沃臥 靈石法杖		賣出																									
@@ -1396,7 +1396,7 @@
 //[Type] == "Polished Spiked Shield" && [Rarity] == "Unique" # [UniqueName] == "Zeel's Amplifier" && [ForceSellItem] == "true"	//薩爾的揚音		賣出																									
 //[Type] == "Sovereign Spiked Shield" && [Rarity] == "Unique" # [UniqueName] == "Qotra's Regulator" && [ForceSellItem] == "true"	//卡特拉的守則		賣出																									
 //[Type] == "Ezomyte Spiked Shield" && [Rarity] == "Unique" # [UniqueName] == "Perepiteia" && [ForceSellItem] == "true"	//極轉電刑		賣出																									
-[Type] == "Mirrored Spiked Shield" && [Rarity] == "Unique" # [UniqueName] == "Leper's Alms" && [StashItem] == "true"	//痲瘋的醫款		存倉																									
+[Type] == "Mirrored Spiked Shield" && [Rarity] == "Unique" # [UniqueName] == "Leper's Alms" && [ForceSellItem] == "true"	//痲瘋的醫款		存倉																									
 //[Type] == "Mirrored Spiked Shield" && [Rarity] == "Unique" # [UniqueName] == "Font of Thunder" && [ForceSellItem] == "true"	//雷霆聖器		賣出																									
 //[Type] == "Supreme Spiked Shield" && [Rarity] == "Unique" # [UniqueName] == "Jaws of Agony" && [ForceSellItem] == "true"	//苦痛狂鯊		賣出																									
 	//頭盔																											
@@ -1759,7 +1759,7 @@
 //[Type] == "Coral Ring" && [Rarity] == "Unique" # [UniqueName] == "Winterweave" && [ForceSellItem] == "true"	//冬織		賣出																									
 //[Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Doedre's Damning" && [ForceSellItem] == "true"	//德瑞的魔具		賣出																									
 [Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Perandus Signet" && [StashItem] == "true"	//普蘭德斯之記		存倉																									
-[Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Praxis" && [StashItem] == "true"	//普拉克斯		存倉																									
+[Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Praxis" && [ForceSellItem] == "true"	//普拉克斯		存倉																									
 //[Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Replica Doedre's Damning" && [ForceSellItem] == "true"	//贗品．德瑞的魔具		賣出																									
 //[Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Fated End" && [ForceSellItem] == "true"	//命運終結		賣出																									
 [Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Soulbound" && [ForceSellItem] == "true"	//靈魂之絆		存倉																									
@@ -1949,7 +1949,7 @@
 //[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Replica Siegebreaker" && [ForceSellItem] == "true"	//贗品．突圍		賣出																									
 //[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Survivor's Guilt" && [ForceSellItem] == "true"	//倖存者的原罪		賣出																									
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Mageblood" && [StashItem] == "true"	//魔血		存倉																									
-[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Perandus Blazon" && [StashItem] == "true"	//普蘭德斯之印		存倉																									
+[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Perandus Blazon" && [ForceSellItem] == "true"	//普蘭德斯之印		存倉																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Sunblast" && [ForceSellItem] == "true"	//日炎		賣出																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Soulthirst" && [ForceSellItem] == "true"	//嗜魂		賣出																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Soul Tether" && [ForceSellItem] == "true"	//靈魂束縛		賣出																									
@@ -1997,7 +1997,7 @@
 //[Type] == "Sulphur Flask" && [Rarity] == "Unique" # [UniqueName] == "The Overflowing Chalice" && [ForceSellItem] == "true"	//滿溢聖杯		賣出																									
 //[Type] == "Sulphur Flask" && [Rarity] == "Unique" # [UniqueName] == "Bottled Faith" && [ForceSellItem] == "true"	//瓶中信仰		賣出																									
 //[Type] == "Sulphur Flask" && [Rarity] == "Unique" # [UniqueName] == "Replica Sorrow of the Divine" && [ForceSellItem] == "true"	//贗品．神聖哀悼		賣出																									
-[Type] == "Silver Flask" && [Rarity] == "Unique" # [UniqueName] == "Kiara's Determination" && [StashItem] == "true"	//奇亞拉的決心		存倉																									
+[Type] == "Silver Flask" && [Rarity] == "Unique" # [UniqueName] == "Kiara's Determination" && [ForceSellItem] == "true"	//奇亞拉的決心		存倉																									
 //[Type] == "Silver Flask" && [Rarity] == "Unique" # [UniqueName] == "Cinderswallow Urn" && [ForceSellItem] == "true"	//噬燼甕		賣出																									
 [Type] == "Bismuth Flask" && [Rarity] == "Unique" # [UniqueName] == "The Wise Oak" && [StashItem] == "true"	//哲櫟		存倉																									
 //[Type] == "Bismuth Flask" && [Rarity] == "Unique" # [UniqueName] == "Oriath's End" && [ForceSellItem] == "true"	//奧瑞亞之終		賣出																									
