@@ -1086,12 +1086,12 @@
 //[Type] == "Ambusher" && [Rarity] == "Unique" # [UniqueName] == "Taproot" && [ForceSellItem] == "true"	//砥礪深根 伏擊刺刃		賣出																									
 //[Type] == "Ambusher" && [Rarity] == "Unique" # [UniqueName] == "The Hidden Blade" && [ForceSellItem] == "true"	//隱藏之劍 伏擊刺刃		賣出																									
 //[Type] == "Ambusher" && [Rarity] == "Unique" # [UniqueName] == "Goblinedge" && [ForceSellItem] == "true"	//妖精之緣 伏擊刺刃		賣出																									
-[Type] == "Ezomyte Dagger" && [Rarity] == "Unique" # [UniqueName] == "Cold Iron Point" && [StashItem] == "true"	//寒鋼之刃 艾茲麥短匕		存倉																									
+[Type] == "Ezomyte Dagger" && [Rarity] == "Unique" # [UniqueName] == "Cold Iron Point" && [ForceSellItem] == "true"	//寒鋼之刃 艾茲麥短匕		存倉																									
 //[Type] == "Ezomyte Dagger" && [Rarity] == "Unique" # [UniqueName] == "Replica Cold Iron Point" && [ForceSellItem] == "true"	//贗品．寒鋼之刃 艾茲麥短匕		賣出																									
 //[Type] == "Platinum Kris" && [Rarity] == "Unique" # [UniqueName] == "Mark of the Doubting Knight" && [ForceSellItem] == "true"	//迷茫幻符 白金波刃		賣出																									
 [Type] == "Imperial Skean" && [Rarity] == "Unique" # [UniqueName] == "Divinarius" && [StashItem] == "true"	//戒律之影 帝國雙刃匕		存倉																									
 [Type] == "Imperial Skean" && [Rarity] == "Unique" # [UniqueName] == "White Wind" && [StashItem] == "true"	//白風 帝國雙刃匕		存倉																									
-[Type] == "Demon Dagger" && [Rarity] == "Unique" # [UniqueName] == "Vulconus" && [StashItem] == "true"	//祝融鍛冶 惡魔短匕		存倉																									
+[Type] == "Demon Dagger" && [Rarity] == "Unique" # [UniqueName] == "Vulconus" && [ForceSellItem] == "true"	//祝融鍛冶 惡魔短匕		存倉																									
 	//爪																											
 //[Type] == "Nailed Fist" && [Rarity] == "Unique" # [UniqueName] == "Last Resort" && [ForceSellItem] == "true"	//終息 拳釘		賣出																									
 //[Type] == "Nailed Fist" && [Rarity] == "Unique" # [UniqueName] == "Replica Last Resort" && [ForceSellItem] == "true"	//贗品．終息 拳釘		賣出																									
@@ -1577,9 +1577,9 @@
 //[Type] == "Bone Armour" && [Rarity] == "Unique" # [UniqueName] == "Bloodbond" && [ForceSellItem] == "true"	//血肉結合		賣出																									
 //[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Defiance" && [ForceSellItem] == "true"	//衛道之袍		賣出																									
 //[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Victario's Influence" && [ForceSellItem] == "true"	//維多里奧之絕響		賣出																									
-[Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [UniqueName] == "Dendrobate" && [StashItem] == "true"	//箭毒蛙		存倉																									
+[Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [UniqueName] == "Dendrobate" && [ForceSellItem] == "true"	//箭毒蛙		存倉																									
 //[Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [UniqueName] == "Expedition's End" && [ForceSellItem] == "true"	//遠征之盡		賣出																									
-[Type] == "Varnished Coat" && [Rarity] == "Unique" # [UniqueName] == "Carcass Jack" && [StashItem] == "true"	//致命之體		存倉																									
+[Type] == "Varnished Coat" && [Rarity] == "Unique" # [UniqueName] == "Carcass Jack" && [ForceSellItem] == "true"	//致命之體		存倉																									
 //[Type] == "Varnished Coat" && [Rarity] == "Unique" # [UniqueName] == "The Admiral" && [ForceSellItem] == "true"	//上將		賣出																									
 //[Type] == "Blood Raiment" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Nest" && [ForceSellItem] == "true"	//斯卡沃之巢		賣出																									
 //[Type] == "Blood Raiment" && [Rarity] == "Unique" # [UniqueName] == "The Eternity Shroud" && [ForceSellItem] == "true"	//永恆屍布		賣出																									
@@ -1717,7 +1717,7 @@
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hand of the Fervent" && [ForceSellItem] == "true"	//熱情之手		賣出																									
 //[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Southbound" && [ForceSellItem] == "true"	//南方		存倉																									
 //[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Winds" && [ForceSellItem] == "true"	//斯卡沃之翼		賣出																									
-[Type] == "Legion Gloves" && [Rarity] == "Unique" # [UniqueName] == "Null and Void" && [StashItem] == "true"	//虛空		存倉																									
+[Type] == "Legion Gloves" && [Rarity] == "Unique" # [UniqueName] == "Null and Void" && [ForceSellItem] == "true"	//虛空		存倉																									
 //[Type] == "Legion Gloves" && [Rarity] == "Unique" # [UniqueName] == "Offering to the Serpent" && [ForceSellItem] == "true"	//蛇皮獻祭		賣出																									
 //[Type] == "Crusader Gloves" && [Rarity] == "Unique" # [UniqueName] == "Repentance" && [ForceSellItem] == "true"	//悔悟之掌		賣出																									
 //[Type] == "Crusader Gloves" && [Rarity] == "Unique" # [UniqueName] == "Shaper's Touch" && [ForceSellItem] == "true"	//塑者之觸		賣出																									
