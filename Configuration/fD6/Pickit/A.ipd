@@ -121,17 +121,17 @@
 [Type] == "Divine Vessel" # [StashItem] == "true" //	//眾神聖器		存倉																									
 [Type] == "Silver Coin" # [StashItem] == "true" //	//銀幣		存倉																									
 //	//基拉克記憶																											
-[Type] == "Singular Scouting Report" # [StashItem] == "true" //	//卓越偵查報告		存倉																									
-[Type] == "Otherworldly Scouting Report" # [StashItem] == "true" //	//超凡偵查報告		存倉																									
-[Type] == "Comprehensive Scouting Report" # [StashItem] == "true" //	//全面偵查報告		存倉																									
-[Type] == "Vaal Scouting Report" # [StashItem] == "true" //	//瓦爾偵查報告		存倉																									
-[Type] == "Delirious Scouting Report" # [StashItem] == "true" //	//譫妄偵查報告		存倉																									
-[Type] == "Operative's Scouting Report" # [StashItem] == "true" //	//技工偵查報告		存倉																									
-[Type] == "Blighted Scouting Report" # [StashItem] == "true" //	//凋落偵查報告		存倉																									
-[Type] == "Influenced Scouting Report" # [StashItem] == "true" //	//勢力偵查報告		存倉																									
-[Type] == "Explorer's Scouting Report" # [StashItem] == "true" //	//探險家偵查報告		存倉																									
-[Type] == "Surveyors Compass" # [StashItem] == "true" //	//測量員的羅盤		存倉																									
-[Type] == "Charged Compass" # [StashItem] == "true" //	//充能的羅盤		存倉																									
+[Type] == "Singular Scouting Report" # [ForceSellItem] == "true" //	//卓越偵查報告		存倉																									
+[Type] == "Otherworldly Scouting Report" # [ForceSellItem] == "true" //	//超凡偵查報告		存倉																									
+[Type] == "Comprehensive Scouting Report" # [ForceSellItem] == "true" //	//全面偵查報告		存倉																									
+[Type] == "Vaal Scouting Report" # [ForceSellItem] == "true" //	//瓦爾偵查報告		存倉																									
+[Type] == "Delirious Scouting Report" # [ForceSellItem] == "true" //	//譫妄偵查報告		存倉																									
+[Type] == "Operative's Scouting Report" # [ForceSellItem] == "true" //	//技工偵查報告		存倉																									
+[Type] == "Blighted Scouting Report" # [ForceSellItem] == "true" //	//凋落偵查報告		存倉																									
+[Type] == "Influenced Scouting Report" # [ForceSellItem] == "true" //	//勢力偵查報告		存倉																									
+[Type] == "Explorer's Scouting Report" # [ForceSellItem] == "true" //	//探險家偵查報告		存倉																									
+[Type] == "Surveyors Compass" # [ForceSellItem] == "true" //	//測量員的羅盤		存倉																									
+[Type] == "Charged Compass" # [ForceSellItem] == "true" //	//充能的羅盤		存倉																									
 [Type] == "Exceptional Eldritch Ember" # [StashItem] == "true" //	//宏偉異能灰燼		存倉																									
 [Type] == "Grand Eldritch Ember" # [StashItem] == "true" //	//卓越異能灰燼		存倉																									
 [Type] == "Greater Eldritch Ember" # [StashItem] == "true" //	//高階異能灰燼		存倉																									
@@ -431,15 +431,15 @@
 [Type] == "Echoes of Love" # [ForceSellItem] == "true" //	愛我請舉手 (3)	4	賣出																									
 [Type] == "Ever-Changing" # [ForceSellItem] == "true" //	千變萬化 (3)	5	賣出																									
 [Type] == "Friendship" # [ForceSellItem] == "true" //	友誼小船 (3)		賣出																									
-[Type] == "Gemcutter's Mercy" # [StashItem] == "true" //	寶石匠的憐憫 (3)	25	存倉																									
-[Type] == "Gemcutter's Promise" # [StashItem] == "true" //	寶石匠的允諾 (3)	3	存倉																									
+[Type] == "Gemcutter's Mercy" # [ForceSellItem] == "true" //	寶石匠的憐憫 (3)	25	存倉																									
+[Type] == "Gemcutter's Promise" # [ForceSellItem] == "true" //	寶石匠的允諾 (3)	3	存倉																									
 [Type] == "Home" # [ForceSellItem] == "true" //	家園 (3)	29	賣出																									
 [Type] == "Hunter's Reward" # [ForceSellItem] == "true" //	獵人的獎賞 (3)	4	賣出																									
 [Type] == "Lachrymal Necrosis" # [ForceSellItem] == "true" //	鐵骨心腸 (3)	5	賣出																									
 [Type] == "Last Hope" # [ForceSellItem] == "true" //	最後希望 (3)	5	賣出																									
 [Type] == "Man With Bear" # [ForceSellItem] == "true" //	熊男 (3)	5	賣出																									
 [Type] == "Monochrome" # [ForceSellItem] == "true" //	非黑即白 (3)	38	賣出																									
-[Type] == "Sambodhi's Vow" # [StashItem] == "true" //	菩提誓約 (3)	4	存倉																									
+[Type] == "Sambodhi's Vow" # [ForceSellItem] == "true" //	菩提誓約 (3)	4	存倉																									
 [Type] == "Sambodhi's Wisdom" # [ForceSellItem] == "true" //	菩提的智慧 (3)	5	賣出																									
 [Type] == "Struck by Lightning" # [ForceSellItem] == "true" //	雷劈 (3)	3	賣出																									
 [Type] == "The Bitter Blossom" # [ForceSellItem] == "true" //	苦澀綻放 (3)	8	賣出																									
@@ -889,11 +889,11 @@
 [Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Normal" # [ForceSellItem] =="true"	//普通六連裝			//																								
 [Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Magic" # [ForceSellItem] =="true"	//魔法六連裝			//																								
 [Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Rare" # [ForceSellItem] =="true"	//稀有六連裝			//																								
-//	// 16F 六洞裝 																											
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal" # [SellUnid] == "true"	//六洞裝		賣出	//																								
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" # [SellUnid] == "true"	//魔法六洞裝			//																								
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare" # [SellUnid] == "true"	//稀有六洞裝			//																								
-//// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）			//																								
+	// 16F 六洞裝 																											
+//	//六洞裝		不撿	//																								
+//	//魔法六洞裝			//																								
+//	//稀有六洞裝			//																								
+	// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）																								
 //[Type] == "Prophecy Wand"      		    # [ChanceItem] == "true" && [Rarity] == "Normal" // Void Battery 潛能魔棒
 //[Type] == "Leather Belt" # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter 獵首
 //[Type] == "Heavy Belt"   # [ChanceItem] == "true" && [Rarity] == "Normal" // Mageblood 魔血
@@ -1800,7 +1800,7 @@
 //[Type] == "Prismatic Ring" && [Rarity] == "Unique" # [UniqueName] == "Thief's Torment" && [ForceSellItem] == "true"	//竊罪		存倉																									
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Shavronne's Revelation" && [ForceSellItem] == "true"	//薛朗的啟示之環		賣出																									
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Timeclasp" && [ForceSellItem] == "true"	//時光之握		賣出																									
-[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Heartbound Loop" && [StashItem] == "true"	//結魂之環		存倉																									
+[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Heartbound Loop" && [ForceSellItem] == "true"	//結魂之環		存倉																									
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Valyrium" && [ForceSellItem] == "true"	//戰日		賣出																									
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Timetwist" && [ForceSellItem] == "true"	//時空扭曲		賣出																									
 [Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Anathema" && [StashItem] == "true"	//咒詛		存倉																									
@@ -2144,33 +2144,33 @@
 	//傳說地圖		存倉																									
 [Type] == "Strand Map" && [Rarity] == "Unique" # [UniqueName] == "Whakawairua Tuahu" && [StashItem] == "true"	//禁閉祭壇		存倉																									
 [Type] == "Maze Map" && [Rarity] == "Unique" # [UniqueName] == "Doryani's Machinarium" && [StashItem] == "true"	//多里亞尼的機械迷城		存倉																									
-[Type] == "Atoll Map" && [Rarity] == "Unique" # [UniqueName] == "Maelstrom of Chaos" && [StashItem] == "true"	//混沌之淵		存倉																									
-[Type] == "Cemetery Map" && [Rarity] == "Unique" # [UniqueName] == "Hallowed Ground" && [StashItem] == "true"	//萬聖之地		存倉																									
+[Type] == "Atoll Map" && [Rarity] == "Unique" # [UniqueName] == "Maelstrom of Chaos" && [ForceSellItem] == "true"	//混沌之淵		存倉																									
+[Type] == "Cemetery Map" && [Rarity] == "Unique" # [UniqueName] == "Hallowed Ground" && [ForceSellItem] == "true"	//萬聖之地		存倉																									
 [Type] == "Sea Map" && [Rarity] == "Unique" # [UniqueName] == "Oba's Cursed Trove Underground" && [StashItem] == "true"	//歐霸的咒怨寶庫		存倉																									
-[Type] == "Dunes Map" && [Rarity] == "Unique" # [UniqueName] == "Pillars of Arun" && [StashItem] == "true"	//艾倫之柱		存倉																									
+[Type] == "Dunes Map" && [Rarity] == "Unique" # [UniqueName] == "Pillars of Arun" && [ForceSellItem] == "true"	//艾倫之柱		存倉																									
 [Type] == "Dunes Map" && [Rarity] == "Unique" # [UniqueName] == "Replica Pillars of Arun" && [StashItem] == "true"	//贗品．艾倫之柱		存倉																									
-[Type] == "Crypt Map" && [Rarity] == "Unique" # [UniqueName] == "Olmec's Sanctum Bone" && [StashItem] == "true"	//遠古之印		存倉																									
-[Type] == "River Map" && [Rarity] == "Unique" # [UniqueName] == "Caer Blaidd, Wolfpack's Den Underground" && [StashItem] == "true"	//塞爾．佈雷德狼穴		存倉																									
-[Type] == "Pyramid Map" && [Rarity] == "Unique" # [UniqueName] == "Vaults of Atziri Vaal" && [StashItem] == "true"	//阿茲里的秘寶庫		存倉																									
+[Type] == "Crypt Map" && [Rarity] == "Unique" # [UniqueName] == "Olmec's Sanctum Bone" && [ForceSellItem] == "true"	//遠古之印		存倉																									
+[Type] == "River Map" && [Rarity] == "Unique" # [UniqueName] == "Caer Blaidd, Wolfpack's Den Underground" && [ForceSellItem] == "true"	//塞爾．佈雷德狼穴		存倉																									
+[Type] == "Pyramid Map" && [Rarity] == "Unique" # [UniqueName] == "Vaults of Atziri Vaal" && [ForceSellItem] == "true"	//阿茲里的秘寶庫		存倉																									
 [Type] == "Courtyard Map" && [Rarity] == "Unique" # [UniqueName] == "The Vinktar Square" && [StashItem] == "true"	//維克塔廣場		存倉																									
-[Type] == "Shore Map" && [Rarity] == "Unique" # [UniqueName] == "Mao Kun" && [StashItem] == "true"	//賊窩		存倉																									
-[Type] == "Island Map" && [Rarity] == "Unique" # [UniqueName] == "Untainted Paradise Tropical" && [StashItem] == "true"	//純淨樂園		存倉																									
-[Type] == "Temple Map" && [Rarity] == "Unique" # [UniqueName] == "The Twilight Temple Moon" && [StashItem] == "true"	//暮色神廟		存倉																									
-[Type] == "Temple Map" && [Rarity] == "Unique" # [UniqueName] == "Poorjoy's Asylum" && [StashItem] == "true"	//沉淪之間		存倉																									
+[Type] == "Shore Map" && [Rarity] == "Unique" # [UniqueName] == "Mao Kun" && [ForceSellItem] == "true"	//賊窩		存倉																									
+[Type] == "Island Map" && [Rarity] == "Unique" # [UniqueName] == "Untainted Paradise Tropical" && [ForceSellItem] == "true"	//純淨樂園		存倉																									
+[Type] == "Temple Map" && [Rarity] == "Unique" # [UniqueName] == "The Twilight Temple Moon" && [ForceSellItem] == "true"	//暮色神廟		存倉																									
+[Type] == "Temple Map" && [Rarity] == "Unique" # [UniqueName] == "Poorjoy's Asylum" && [ForceSellItem] == "true"	//沉淪之間		存倉																									
 [Type] == "Temple Map" && [Rarity] == "Unique" # [UniqueName] == "Replica Poorjoy's Asylum" && [StashItem] == "true"	//贗品．沉淪之間		存倉																									
-[Type] == "Museum Map" && [Rarity] == "Unique" # [UniqueName] == "The Putrid Cloister" && [StashItem] == "true"	//腐臭迴廊		存倉																									
+[Type] == "Museum Map" && [Rarity] == "Unique" # [UniqueName] == "The Putrid Cloister" && [ForceSellItem] == "true"	//腐臭迴廊		存倉																									
 [Type] == "Synthesised Map" && [Rarity] == "Unique" # [UniqueName] == "Cortex" && [StashItem] == "true"	//深沉記憶		存倉																									
 [Type] == "Synthesised Map" && [Rarity] == "Unique" # [UniqueName] == "Altered Distant Memory" && [StashItem] == "true"	//遙遠記憶：編造		存倉																									
 [Type] == "Synthesised Map" && [Rarity] == "Unique" # [UniqueName] == "Augmented Distant Memory" && [StashItem] == "true"	//遙遠記憶：增幅		存倉																									
 [Type] == "Synthesised Map" && [Rarity] == "Unique" # [UniqueName] == "Twisted Distant Memory" && [StashItem] == "true"	//遙遠記憶：扭曲		存倉																									
 [Type] == "Synthesised Map" && [Rarity] == "Unique" # [UniqueName] == "Rewritten Distant Memory" && [StashItem] == "true"	//遙遠記憶：改寫		存倉																									
 [Type] == "Synthesised Map" && [Rarity] == "Unique" # [UniqueName] == "Replica Cortex" && [StashItem] == "true"	//贗品．深沉記憶		存倉																									
-[Type] == "Crypt Map" && [Rarity] == "Unique" # [UniqueName] == "The Coward's Trial Cursed" && [StashItem] == "true"	//懦者的試驗		存倉																									
+[Type] == "Crypt Map" && [Rarity] == "Unique" # [UniqueName] == "The Coward's Trial Cursed" && [ForceSellItem] == "true"	//懦者的試驗		存倉																									
 [Type] == "Promenade Map" && [Rarity] == "Unique" # [UniqueName] == "Hall of Grandmasters" && [StashItem] == "true"	//元帥殿堂		存倉																									
-[Type] == "Shrine Map" && [Rarity] == "Unique" # [UniqueName] == "Acton's Nightmare Overgrown" && [StashItem] == "true"	//輪迴的夢魘		存倉																									
-[Type] == "Necropolis Map" && [Rarity] == "Unique" # [UniqueName] == "Death and Taxes" && [StashItem] == "true"	//亡者之財		存倉																									
-[Type] == "Harbinger Map" && [Rarity] == "Unique" # [UniqueName] == "The Beachhead" && [StashItem] == "true"	//神諭之殿		存倉																									
-[Type] == "Harbinger Map" && [Rarity] == "Unique" # [UniqueName] == "Infused Beachhead" && [StashItem] == "true"	//神域之殿．煉獄		存倉																									
+[Type] == "Shrine Map" && [Rarity] == "Unique" # [UniqueName] == "Acton's Nightmare Overgrown" && [ForceSellItem] == "true"	//輪迴的夢魘		存倉																									
+[Type] == "Necropolis Map" && [Rarity] == "Unique" # [UniqueName] == "Death and Taxes" && [ForceSellItem] == "true"	//亡者之財		存倉																									
+[Type] == "Harbinger Map" && [Rarity] == "Unique" # [UniqueName] == "The Beachhead" && [ForceSellItem] == "true"	//神諭之殿		存倉																									
+[Type] == "Harbinger Map" && [Rarity] == "Unique" # [UniqueName] == "Infused Beachhead" && [ForceSellItem] == "true"	//神域之殿．煉獄		存倉																									
 	//22F																											
 	//3.22新物品																											
 [Type] == "Ahuana's Bite Sharktooth Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//阿華納之咬 鯊齒箭袋		存倉																									
