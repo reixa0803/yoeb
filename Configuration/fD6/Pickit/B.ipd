@@ -272,13 +272,13 @@
 [Type] == "Skittering Incubator" # [ForceSellItem] == "true" //	//飛掠的培育器		存倉																									
 [Type] == "Thaumaturge's Incubator" # [ForceSellItem] == "true" //	//幻術師的培育器		存倉																									
 [Type] == "Time-Lost Incubator" # [ForceSellItem] == "true" //	//時間遺忘的培育器		存倉																									
-//	// 9F 精髓																											
-//																												
+	// 9F 精髓																											
+																												
 [Type] == "Whispering Essence of Hatred" # [ForceSellItem] == "true" //	//憎恨之低語精髓		賣出																									
 [Type] == "Whispering Essence of Woe" # [ForceSellItem] == "true" //	//悲痛之低語精髓		賣出																									
 [Type] == "Whispering Essence of Greed" # [ForceSellItem] == "true" //	//貪婪之低語精髓		賣出																									
 [Type] == "Whispering Essence of Contempt" # [ForceSellItem] == "true" //	//輕視之低語精髓		賣出																									
-//																												
+																												
 [Type] == "Muttering Essence of Hatred" # [ForceSellItem] == "true" //	//憎恨之呢喃精髓		賣出																									
 [Type] == "Muttering Essence of Woe" # [ForceSellItem] == "true" //	//悲痛之呢喃精髓		賣出																									
 [Type] == "Muttering Essence of Greed" # [ForceSellItem] == "true" //	//貪婪之呢喃精髓		賣出																									
@@ -287,58 +287,58 @@
 [Type] == "Muttering Essence of Anger" # [ForceSellItem] == "true" //	//憤怒之呢喃精髓		賣出																									
 [Type] == "Muttering Essence of Torment" # [ForceSellItem] == "true" //	//折磨之呢喃精髓		賣出																									
 [Type] == "Muttering Essence of Fear" # [ForceSellItem] == "true" //	//恐懼之呢喃精髓		賣出																									
-//																												
-[Type] == "Weeping Essence of Hatred" # [StashItem] == "true" //	//憎恨之啼泣精髓		存倉																									
-[Type] == "Weeping Essence of Woe" # [StashItem] == "true" //	//悲痛之啼泣精髓		存倉																									
-[Type] == "Weeping Essence of Greed" # [StashItem] == "true" //	//貪婪之啼泣精髓		存倉																									
-[Type] == "Weeping Essence of Contempt" # [StashItem] == "true" //	//輕視之啼泣精髓		存倉																									
-[Type] == "Weeping Essence of Sorrow" # [StashItem] == "true" //	//哀惜之啼泣精髓		存倉																									
-[Type] == "Weeping Essence of Anger" # [StashItem] == "true" //	//憤怒之啼泣精髓		存倉																									
-[Type] == "Weeping Essence of Torment" # [StashItem] == "true" //	//折磨之啼泣精髓		存倉																									
-[Type] == "Weeping Essence of Fear" # [StashItem] == "true" //	//恐懼之啼泣精髓		存倉																									
-[Type] == "Weeping Essence of Suffering" # [StashItem] == "true" //	//苦難之啼泣精髓		存倉																									
-[Type] == "Weeping Essence of Rage" # [StashItem] == "true" //	//肆虐之啼泣精髓		存倉																									
-[Type] == "Weeping Essence of Wrath" # [StashItem] == "true" //	//雷霆之啼泣精髓		存倉																									
-[Type] == "Weeping Essence of Doubt" # [StashItem] == "true" //	//疑惑之啼泣精髓		存倉																									
-//																												
-[Type] == "Wailing Essence of Hatred" # [StashItem] == "true" //	//憎恨之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Woe" # [StashItem] == "true" //	//悲痛之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Greed" # [StashItem] == "true" //	//貪婪之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Contempt" # [StashItem] == "true" //	//輕視之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Sorrow" # [StashItem] == "true" //	//哀惜之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Anger" # [StashItem] == "true" //	//憤怒之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Torment" # [StashItem] == "true" //	//折磨之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Fear" # [StashItem] == "true" //	//恐懼之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Suffering" # [StashItem] == "true" //	//苦難之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Rage" # [StashItem] == "true" //	//肆虐之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Wrath" # [StashItem] == "true" //	//雷霆之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Doubt" # [StashItem] == "true" //	//疑惑之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Anguish" # [StashItem] == "true" //	//煎熬之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Loathing" # [StashItem] == "true" //	//厭惡之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Spite" # [StashItem] == "true" //	//刻毒之哀嚎精髓		存倉																									
-[Type] == "Wailing Essence of Zeal" # [StashItem] == "true" //	//熱情之哀嚎精髓		存倉																									
-//																												
-[Type] == "Screaming Essence of Hatred" # [StashItem] == "true" //	//憎恨之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Woe" # [StashItem] == "true" //	//悲痛之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Greed" # [StashItem] == "true" //	//貪婪之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Contempt" # [StashItem] == "true" //	//輕視之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Sorrow" # [StashItem] == "true" //	//哀惜之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Anger" # [StashItem] == "true" //	//憤怒之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Torment" # [StashItem] == "true" //	//折磨之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Fear" # [StashItem] == "true" //	//恐懼之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Suffering" # [StashItem] == "true" //	//苦難之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Rage" # [StashItem] == "true" //	//肆虐之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Wrath" # [StashItem] == "true" //	//雷霆之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Doubt" # [StashItem] == "true" //	//疑惑之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Anguish" # [StashItem] == "true" //	//煎熬之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Loathing" # [StashItem] == "true" //	//厭惡之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Spite" # [StashItem] == "true" //	//刻毒之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Zeal" # [StashItem] == "true" //	//熱情之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Misery" # [StashItem] == "true" //	//悽慘之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Dread" # [StashItem] == "true" //	//忌憚之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Scorn" # [StashItem] == "true" //	//傲視之咆哮精髓		存倉																									
-[Type] == "Screaming Essence of Envy" # [StashItem] == "true" //	//忌妒之咆哮精髓		存倉																									
-//																												
+																												
+[Type] == "Weeping Essence of Hatred" # [ForceSellItem] == "true" //	//憎恨之啼泣精髓		賣出																									
+[Type] == "Weeping Essence of Woe" # [ForceSellItem] == "true" //	//悲痛之啼泣精髓		賣出																									
+[Type] == "Weeping Essence of Greed" # [ForceSellItem] == "true" //	//貪婪之啼泣精髓		賣出																									
+[Type] == "Weeping Essence of Contempt" # [ForceSellItem] == "true" //	//輕視之啼泣精髓		賣出																									
+[Type] == "Weeping Essence of Sorrow" # [ForceSellItem] == "true" //	//哀惜之啼泣精髓		賣出																									
+[Type] == "Weeping Essence of Anger" # [ForceSellItem] == "true" //	//憤怒之啼泣精髓		賣出																									
+[Type] == "Weeping Essence of Torment" # [ForceSellItem] == "true" //	//折磨之啼泣精髓		賣出																									
+[Type] == "Weeping Essence of Fear" # [ForceSellItem] == "true" //	//恐懼之啼泣精髓		賣出																									
+[Type] == "Weeping Essence of Suffering" # [ForceSellItem] == "true" //	//苦難之啼泣精髓		賣出																									
+[Type] == "Weeping Essence of Rage" # [ForceSellItem] == "true" //	//肆虐之啼泣精髓		賣出																									
+[Type] == "Weeping Essence of Wrath" # [ForceSellItem] == "true" //	//雷霆之啼泣精髓		賣出																									
+[Type] == "Weeping Essence of Doubt" # [ForceSellItem] == "true" //	//疑惑之啼泣精髓		賣出																									
+																												
+[Type] == "Wailing Essence of Hatred" # [ForceSellItem] == "true" //	//憎恨之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Woe" # [ForceSellItem] == "true" //	//悲痛之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Greed" # [ForceSellItem] == "true" //	//貪婪之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Contempt" # [ForceSellItem] == "true" //	//輕視之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Sorrow" # [ForceSellItem] == "true" //	//哀惜之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Anger" # [ForceSellItem] == "true" //	//憤怒之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Torment" # [ForceSellItem] == "true" //	//折磨之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Fear" # [ForceSellItem] == "true" //	//恐懼之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Suffering" # [ForceSellItem] == "true" //	//苦難之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Rage" # [ForceSellItem] == "true" //	//肆虐之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Wrath" # [ForceSellItem] == "true" //	//雷霆之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Doubt" # [ForceSellItem] == "true" //	//疑惑之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Anguish" # [ForceSellItem] == "true" //	//煎熬之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Loathing" # [ForceSellItem] == "true" //	//厭惡之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Spite" # [ForceSellItem] == "true" //	//刻毒之哀嚎精髓		賣出																									
+[Type] == "Wailing Essence of Zeal" # [ForceSellItem] == "true" //	//熱情之哀嚎精髓		賣出																									
+																												
+[Type] == "Screaming Essence of Hatred" # [ForceSellItem] == "true" //	//憎恨之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Woe" # [ForceSellItem] == "true" //	//悲痛之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Greed" # [ForceSellItem] == "true" //	//貪婪之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Contempt" # [ForceSellItem] == "true" //	//輕視之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Sorrow" # [ForceSellItem] == "true" //	//哀惜之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Anger" # [ForceSellItem] == "true" //	//憤怒之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Torment" # [ForceSellItem] == "true" //	//折磨之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Fear" # [ForceSellItem] == "true" //	//恐懼之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Suffering" # [ForceSellItem] == "true" //	//苦難之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Rage" # [ForceSellItem] == "true" //	//肆虐之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Wrath" # [ForceSellItem] == "true" //	//雷霆之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Doubt" # [ForceSellItem] == "true" //	//疑惑之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Anguish" # [ForceSellItem] == "true" //	//煎熬之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Loathing" # [ForceSellItem] == "true" //	//厭惡之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Spite" # [ForceSellItem] == "true" //	//刻毒之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Zeal" # [ForceSellItem] == "true" //	//熱情之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Misery" # [ForceSellItem] == "true" //	//悽慘之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Dread" # [ForceSellItem] == "true" //	//忌憚之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Scorn" # [ForceSellItem] == "true" //	//傲視之咆哮精髓		賣出																									
+[Type] == "Screaming Essence of Envy" # [ForceSellItem] == "true" //	//忌妒之咆哮精髓		賣出																									
+																												
 [Type] == "Shrieking Essence of Hatred" # [StashItem] == "true" //	//憎恨之尖嘯精髓		存倉																									
 [Type] == "Shrieking Essence of Woe" # [StashItem] == "true" //	//悲痛之尖嘯精髓		存倉																									
 [Type] == "Shrieking Essence of Greed" # [StashItem] == "true" //	//貪婪之尖嘯精髓		存倉																									
@@ -359,7 +359,7 @@
 [Type] == "Shrieking Essence of Dread" # [StashItem] == "true" //	//忌憚之尖嘯精髓		存倉																									
 [Type] == "Shrieking Essence of Scorn" # [StashItem] == "true" //	//傲視之尖嘯精髓		存倉																									
 [Type] == "Shrieking Essence of Envy" # [StashItem] == "true" //	//忌妒之尖嘯精髓		存倉																									
-//																												
+																												
 [Type] == "Deafening Essence of Hatred" # [StashItem] == "true" //	//憎恨之破空精髓		存倉																									
 [Type] == "Deafening Essence of Woe" # [StashItem] == "true" //	//悲痛之破空精髓		存倉																									
 [Type] == "Deafening Essence of Greed" # [StashItem] == "true" //	//貪婪之破空精髓		存倉																									
@@ -381,7 +381,7 @@
 [Type] == "Deafening Essence of Scorn" # [StashItem] == "true" //	//傲視之破空精髓		存倉																									
 [Type] == "Deafening Essence of Envy" # [StashItem] == "true" //	//忌妒之破空精髓		存倉																									
 [Type] == "Remnant of Corruption" # [StashItem] == "true" //	//遺忘的污染器皿		存倉																									
-//	// 10F 技能寶石																											
+	// 10F 技能寶石																																
 [Type] == "Empower Support" # [StashItem] == "true" //	//賦予輔助		存倉																									
 [Type] == "Enhance Support" # [StashItem] == "true" //	//增幅輔助		存倉																									
 [Type] == "Enlighten Support" # [StashItem] == "true" //	//啟蒙輔助		存倉																									
@@ -884,23 +884,17 @@
 [Type] == "Maven's Invitation: The Formed" # [StashItem] == "true" //	//釋界之邀：塑型		存倉																									
 [Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉																									
 //																												
-//	// 15F 六連裝 (目前有無法正常賣出的語法錯誤，但是我找不到問題點)			//																								
-[Sockets] == "6" && [Linked] >= "6" # [StashItem] ="true" //	//六連裝		賣出	//																								
-[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Normal" # [ForceSellItem] =="true"	//普通六連裝			//																								
-[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Magic" # [ForceSellItem] =="true"	//魔法六連裝			//																								
-[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Rare" # [ForceSellItem] =="true"	//稀有六連裝			//																								
 	// 16F 六洞裝 																											
 //	//六洞裝		不撿	//																								
 //	//魔法六洞裝			//																								
 //	//稀有六洞裝			//																								
-	// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）																								
-//[Type] == "Prophecy Wand"      		    # [ChanceItem] == "true" && [Rarity] == "Normal" // Void Battery 潛能魔棒
-//[Type] == "Leather Belt" # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter 獵首
-//[Type] == "Heavy Belt"   # [ChanceItem] == "true" && [Rarity] == "Normal" // Mageblood 魔血
-//[Type] == "Fiend Dagger" # [ChanceItem] == "true" && [Rarity] == "Normal" // Arakaali's Fang 艾爾卡利之牙
-//[Type] == "Elegant Round Shield" # [ChanceItem] == "true" && [Rarity] == "Normal" // The Squire 大地主 
-//[Type] == "Champion Kite Shield" # [ChanceItem] == "true" && [Rarity] == "Normal" // Aegis Aurora 幻芒聖盾
-										
+	// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）																											
+//	//獵首 皮革腰帶		關閉																									
+//	//魔血 重革腰帶		關閉																									
+//	//大地主權貴圓盾		關閉																									
+//	//幻芒聖盾鬥士鳶盾		關閉																									
+//			關閉																									
+			關閉						
 //	// 18F 藥水（預設關閉）			//																								
 //					下面這行可以預設物等																							
 //已設定不存倉	//水銀藥劑		賣出		85	85物品等級包含以上賣出																						
@@ -1940,7 +1934,7 @@
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Pyroshock Clasp" && [ForceSellItem] == "true"	//烈焰衝擊鉤		賣出																									
 //[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Doryani's Invitation" && [ForceSellItem] == "true"	//多里亞尼之約		賣出																									
 //[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Meginord's Girdle" && [ForceSellItem] == "true"	//梅吉諾德的力量泉源		賣出																									
-[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Belt of the Deceiver" && [StashItem] == "true"	//狡徒束腰		存倉																									
+[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Belt of the Deceiver" && [ForceSellItem] == "true"	//狡徒束腰		存倉																									
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Dyadian Dawn" && [StashItem] == "true"	//戴亞迪安的晨曦		存倉																									
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Bisco's Leash" && [StashItem] == "true"	//畢斯寇繫帶		存倉																									
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "String of Servitude" && [StashItem] == "true"	//奴役之索		存倉																									
