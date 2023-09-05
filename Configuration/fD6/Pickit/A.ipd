@@ -244,9 +244,9 @@
 [Type] == "Timeless Karui Emblem" # [StashItem] == "true" //	//永恆卡魯徽印		存倉																									
 [Type] == "Timeless Maraketh Emblem" # [StashItem] == "true" //	//永恆馬拉克斯徽印		存倉																									
 [Type] == "Timeless Templar Emblem" # [StashItem] == "true" //	//永恆聖宗徽印		存倉																									
-[Type] == "Timeless Vaal Emblem" # [StashItem] == "true" //	//永恆瓦爾徽印		存倉																									
-[Type] == "Abyssal Incubator" # [StashItem] == "true" //	//深淵的培育器		存倉																									
-[Type] == "Blighted Incubator" # [StashItem] == "true" //	//凋落的培育器		存倉																									
+[Type] == "Timeless Vaal Emblem" # [ForceSellItem] == "true" //	//永恆瓦爾徽印		存倉																									
+[Type] == "Abyssal Incubator" # [ForceSellItem] == "true" //	//深淵的培育器		存倉																									
+[Type] == "Blighted Incubator" # [ForceSellItem] == "true" //	//凋落的培育器		存倉																									
 //此通貨不撿	//製圖師的培育器		賣出																									
 //此通貨不撿	//眾星．鐵匠的培育器		賣出																									
 //此通貨不撿	//眾星．鑄鐵的培育器		賣出																									
@@ -393,7 +393,7 @@
 [Type] == "Brother's Stash" # [StashItem] == "true" //	伯仲財庫 (1)	69	存倉																									
 [Type] == "Chaotic Disposition" # [StashItem] == "true" //	渾沌性情 (1)	10	存倉																									
 [Type] == "Divine Justice" # [ForceSellItem] == "true" //	神判 (1)	4	賣出																									
-[Type] == "Society's Remorse" # [StashItem] == "true" //	社會的懊悔 (1)	5	存倉																									
+[Type] == "Society's Remorse" # [ForceSellItem] == "true" //	社會的懊悔 (1)	5	存倉																									
 [Type] == "The Cartographer" # [ForceSellItem] == "true" //	製圖師 (1)	5	賣出																									
 [Type] == "The Heroic Shot" # [ForceSellItem] == "true" //	英勇射擊 (1)	5	賣出																									
 [Type] == "The Shortcut" # [StashItem] == "true" //	捷徑 (1)	39	存倉																									
@@ -406,7 +406,7 @@
 [Type] == "Light and Truth" # [ForceSellItem] == "true" //	光與諦 (2)	6	賣出																									
 [Type] == "The Doppelganger" # [ForceSellItem] == "true" //	傀儡 (2)	3	賣出																									
 [Type] == "The Easy Stroll" # [ForceSellItem] == "true" //	輕鬆漫步 (2)	5	賣出																									
-[Type] == "The Finishing Touch" # [StashItem] == "true" //	點睛之筆 (2)	4	存倉																									
+[Type] == "The Finishing Touch" # [ForceSellItem] == "true" //	點睛之筆 (2)	4	存倉																									
 [Type] == "The Lover" # [ForceSellItem] == "true" //	情人 (2)	2	賣出																									
 [Type] == "The Progeny of Lunaris" # [ForceSellItem] == "true" //	月神後嗣 (2)	7	賣出																									
 [Type] == "The Spark and the Flame" # [StashItem] == "true" //	雷火 (2)	5	存倉																									
@@ -452,7 +452,7 @@
 [Type] == "The Long Watch" # [ForceSellItem] == "true" //	守望特工 (3)		賣出																									
 [Type] == "The Polymath" # [ForceSellItem] == "true" //	博學 (3)	5	賣出																									
 [Type] == "The Return of the Rat" # [ForceSellItem] == "true" //	鼠歸 (3)	4	賣出																									
-[Type] == "The Risk" # [StashItem] == "true" //	危機 (3)	5	存倉																									
+[Type] == "The Risk" # [ForceSellItem] == "true" //	危機 (3)	5	存倉																									
 [Type] == "The Samurai's Eye" # [ForceSellItem] == "true" //	武士之眼 (3)	70	賣出																									
 [Type] == "The Scholar" # [ForceSellItem] == "true" //	學者 (3)	1	賣出																									
 [Type] == "The Shepherd's Sandals" # [ForceSellItem] == "true" //	牧羊人的草鞋 (3)	5	賣出																									
@@ -502,7 +502,7 @@
 [Type] == "The Enforcer" # [ForceSellItem] == "true" //	執行者 (4)	5	賣出																									
 [Type] == "The Eternal War" # [ForceSellItem] == "true" //	永恆戰爭 (4)	10	賣出																									
 [Type] == "The Fishmonger" # [ForceSellItem] == "true" //	魚販 (4)	5	賣出																									
-[Type] == "The Fool" # [StashItem] == "true" //	愚人 (4)	5	存倉																									
+[Type] == "The Fool" # [ForceSellItem] == "true" //	愚人 (4)	5	存倉																									
 [Type] == "The Garish Power" # [StashItem] == "true" //	裝飾之力 (4)	39	存倉																									
 [Type] == "The Gentleman" # [ForceSellItem] == "true" //	紳士之風 (4)	5	賣出																									
 [Type] == "The Hale Heart" # [ForceSellItem] == "true" //	心心向榮 (4)	5	賣出																									
@@ -585,7 +585,7 @@
 [Type] == "The Price of Prescience" # [ForceSellItem] == "true" //	預知代價 (5)	6	賣出																									
 [Type] == "The Price of Protection" # [ForceSellItem] == "true" //	守護的代價 (5)	4	賣出																									
 [Type] == "The Primordial" # [ForceSellItem] == "true" //	先祖之物 (5)	7	賣出																									
-[Type] == "The Puzzle" # [StashItem] == "true" //	謎 (5)	5	存倉																									
+[Type] == "The Puzzle" # [ForceSellItem] == "true" //	謎 (5)	5	存倉																									
 [Type] == "The Realm" # [StashItem] == "true" //	大平台 (5)	5	存倉																									
 [Type] == "The Rite of Elements" # [ForceSellItem] == "true" //	元素之儀 (5)	5	賣出																									
 [Type] == "The Side Quest" # [ForceSellItem] == "true" //	支線任務 (5)	5	賣出																									
@@ -750,7 +750,7 @@
 [Type] == "The World Eater" # [StashItem] == "true" //	噬世士 (8)	10	存倉																									
 [Type] == "The Wrath" # [ForceSellItem] == "true" //	怨忿 (8)	4	賣出																									
 [Type] == "A Dab of Ink" # [StashItem] == "true" //	代伯之墨 (9)	4	存倉																									
-[Type] == "Assassin's Favour" # [StashItem] == "true" //	刺客恩惠 (9)	3	存倉																									
+[Type] == "Assassin's Favour" # [ForceSellItem] == "true" //	刺客恩惠 (9)	3	存倉																									
 [Type] == "Azyran's Reward" # [StashItem] == "true" //	艾斯尤倫的報酬 (9)	6	存倉																									
 [Type] == "Coveted Possession" # [ForceSellItem] == "true" //	飢渴之佔 (9)	5	賣出																									
 [Type] == "Desecrated Virtue" # [StashItem] == "true" //	褻瀆的美德 (9)	100	存倉																									
