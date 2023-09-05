@@ -569,7 +569,7 @@
 [Type] == "The Feast" # [ForceSellItem] == "true" //	盛宴 (5)	5	賣出																									
 [Type] == "The Fletcher" # [ForceSellItem] == "true" //	製箭者 (5)	5	賣出																									
 [Type] == "The Flora's Gift" # [ForceSellItem] == "true" //	芙蘿拉的贈禮 (5)	3	賣出																									
-[Type] == "The Gambler" # [StashItem] == "true" //	賭徒 (5)	1	存倉																									
+[Type] == "The Gambler" # [ForceSellItem] == "true" //	賭徒 (5)	1	存倉																									
 [Type] == "The Gladiator" # [ForceSellItem] == "true" //	鬥士 (5)	5	賣出																									
 [Type] == "The Gulf" # [StashItem] == "true" //	鴻溝 (5)	28	存倉																									
 [Type] == "The Jeweller's Boon" # [ForceSellItem] == "true" //	珠寶商的施捨 (5)	8	賣出																									
@@ -827,30 +827,17 @@
 [Type] == "The Catch" # [ForceSellItem] == "true" //	姜太公釣魚 (18)	5	賣出																									
 [Type] == "Imperial Legacy" # [ForceSellItem] == "true" //	不朽聖物 (22)	1	賣出																									
 [Type] == "Rebirth" # [StashItem] == "true" //	重生 (27)		存倉																									
-//	// 12F 星團珠寶			設定天賦數																								
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "8" && [StashItem] == "true" //	//巨星團珠寶		存倉	8																								
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "12" && [StashItem] == "true" //	//巨星團珠寶		存倉	12																								
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "4" && [StashItem] == "true" //	//中星團珠寶		存倉	4																								
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "5" && [StashItem] == "true" //	//中星團珠寶		存倉	5																								
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "6" && [StashItem] == "true" //	//中星團珠寶		存倉	6																								
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//小星團珠寶		存倉	2																								
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//小星團珠寶		存倉	3																								
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "8" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "12" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "4" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "5" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "6" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "8" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "12" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "4" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "5" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "6" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//請勿更動//	
-																										
-//	// 13F 輿圖																											
+	// 12F 星團珠寶			設定天賦數
+	[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] >= "12" && 	[StashItem]	 == "true" 	//	12天賦 大型 稀有	拾取且存倉																						
+	[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] >= "12" && 	[StashItem]	 == "true" 	//	12天賦 大型 魔法	拾取且存倉																						
+	[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] >= "12" && 	[StashItem]	 == "true" 	//	12天賦 大型 普通	拾取且存倉
+																							
+	[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 稀有	拾取且存倉																						
+	[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 魔法	拾取且存倉																						
+	[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 普通	拾取且存倉																																													
+//[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] = "8" && [StashItem] == "true" //	//巨星團珠寶		存倉	8																								
+//[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] = "12" && [StashItem] == "true" //	//巨星團珠寶		存倉	12																																																																										
+	// 13F 輿圖																										
 [Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉																									
@@ -943,76 +930,76 @@
 //已設定不存倉	//石英藥劑		賣出		85																							
 //已設定不存倉	//硫磺藥劑		賣出		85																							
 //已設定不存倉	//石化藥劑		賣出		85																																											
-//	// 19F 聖甲蟲																											
-[Type] == "Rusted Ambush Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕伏擊		存倉																									
-[Type] == "Polished Ambush Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑伏擊		存倉																									
+	// 19F 聖甲蟲																											
+[Type] == "Rusted Ambush Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕伏擊		賣出																									
+[Type] == "Polished Ambush Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑伏擊		賣出																									
 [Type] == "Gilded Ambush Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金伏擊		存倉																									
 [Type] == "Winged Ambush Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅伏擊		存倉																									
-[Type] == "Rusted Bestiary Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕獸獵		存倉																									
-[Type] == "Polished Bestiary Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑獸獵		存倉																									
+[Type] == "Rusted Bestiary Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕獸獵		賣出																									
+[Type] == "Polished Bestiary Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑獸獵		賣出																									
 [Type] == "Gilded Bestiary Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金獸獵		存倉																									
 [Type] == "Winged Bestiary Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅獸獵		存倉																									
-[Type] == "Rusted Breach Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕裂痕		存倉																									
-[Type] == "Polished Breach Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑裂痕		存倉																									
+[Type] == "Rusted Breach Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕裂痕		賣出																									
+[Type] == "Polished Breach Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑裂痕		賣出																									
 [Type] == "Gilded Breach Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金裂痕		存倉																									
 [Type] == "Winged Breach Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅裂痕		存倉																									
-[Type] == "Rusted Cartography Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕製圖		存倉																									
-[Type] == "Polished Cartography Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑製圖		存倉																									
+[Type] == "Rusted Cartography Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕製圖		賣出																									
+[Type] == "Polished Cartography Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑製圖		賣出																									
 [Type] == "Gilded Cartography Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金製圖		存倉																									
 [Type] == "Winged Cartography Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅製圖		存倉																									
-[Type] == "Rusted Divination Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕命運		存倉																									
-[Type] == "Polished Divination Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑命運		存倉																									
+[Type] == "Rusted Divination Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕命運		賣出																									
+[Type] == "Polished Divination Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑命運		賣出																									
 [Type] == "Gilded Divination Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金命運		存倉																									
 [Type] == "Winged Divination Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅命運		存倉																									
-[Type] == "Rusted Elder Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕尊師		存倉																									
-[Type] == "Polished Elder Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑尊師		存倉																									
+[Type] == "Rusted Elder Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕尊師		賣出																									
+[Type] == "Polished Elder Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑尊師		賣出																									
 [Type] == "Gilded Elder Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金尊師		存倉																									
 [Type] == "Winged Elder Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅尊師		存倉																									
-[Type] == "Rusted Harbinger Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕神諭		存倉																									
-[Type] == "Polished Harbinger Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑神諭		存倉																									
+[Type] == "Rusted Harbinger Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕神諭		賣出																									
+[Type] == "Polished Harbinger Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑神諭		賣出																									
 [Type] == "Gilded Harbinger Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金神諭		存倉																									
 [Type] == "Winged Harbinger Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅神諭		存倉																									
-[Type] == "Rusted Legion Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕戰亂		存倉																									
-[Type] == "Polished Legion Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑戰亂		存倉																									
+[Type] == "Rusted Legion Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕戰亂		賣出																									
+[Type] == "Polished Legion Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑戰亂		賣出																									
 [Type] == "Gilded Legion Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金戰亂		存倉																									
 [Type] == "Winged Legion Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅戰亂		存倉																									
-[Type] == "Rusted Metamorph Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕鍊魔		存倉																									
-[Type] == "Polished Metamorph Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑鍊魔		存倉																									
+[Type] == "Rusted Metamorph Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕鍊魔		賣出																									
+[Type] == "Polished Metamorph Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑鍊魔		賣出																									
 [Type] == "Gilded Metamorph Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金鍊魔		存倉																									
 [Type] == "Winged Metamorph Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅鍊魔		存倉																									
-[Type] == "Rusted Perandus Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕普蘭德斯		存倉																									
-[Type] == "Polished Perandus Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑普蘭德斯		存倉																									
+[Type] == "Rusted Perandus Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕普蘭德斯		賣出																									
+[Type] == "Polished Perandus Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑普蘭德斯		賣出																									
 [Type] == "Gilded Perandus Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金普蘭德斯		存倉																									
 [Type] == "Winged Perandus Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅普蘭德斯		存倉																									
-[Type] == "Rusted Reliquary Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕聖物		存倉																									
-[Type] == "Polished Reliquary Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑聖物		存倉																									
+[Type] == "Rusted Reliquary Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕聖物		賣出																									
+[Type] == "Polished Reliquary Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑聖物		賣出																									
 [Type] == "Gilded Reliquary Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金聖物		存倉																									
 [Type] == "Winged Reliquary Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅聖物		存倉																									
-[Type] == "Rusted Shaper Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕塑者		存倉																									
-[Type] == "Polished Shaper Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑塑者		存倉																									
+[Type] == "Rusted Shaper Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕塑者		賣出																									
+[Type] == "Polished Shaper Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑塑者		賣出																									
 [Type] == "Gilded Shaper Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金塑者		存倉																									
 [Type] == "Winged Shaper Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅塑者		存倉																									
-[Type] == "Rusted Sulphite Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕硫酸		存倉																									
-[Type] == "Polished Sulphite Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑硫酸		存倉																									
+[Type] == "Rusted Sulphite Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕硫酸		賣出																									
+[Type] == "Polished Sulphite Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑硫酸		賣出																									
 [Type] == "Gilded Sulphite Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金硫酸		存倉																									
 [Type] == "Winged Sulphite Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅硫酸		存倉																									
-[Type] == "Rusted Torment Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕苦痛		存倉																									
-[Type] == "Polished Torment Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑苦痛		存倉																									
+[Type] == "Rusted Torment Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕苦痛		賣出																									
+[Type] == "Polished Torment Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑苦痛		賣出																									
 [Type] == "Gilded Torment Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金苦痛		存倉																									
 [Type] == "Winged Torment Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅苦痛		存倉																									
 [Type] == "Gilded Abyss Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金深淵		存倉																									
 [Type] == "Gilded Blight Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金凋落		存倉																									
-[Type] == "Polished Abyss Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑深淵		存倉																									
-[Type] == "Polished Blight Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑凋落		存倉																									
-[Type] == "Rusted Abyss Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕深淵		存倉																									
-[Type] == "Rusted Blight Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕凋落		存倉																									
+[Type] == "Polished Abyss Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑深淵		賣出																									
+[Type] == "Polished Blight Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑凋落		賣出																									
+[Type] == "Rusted Abyss Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕深淵		賣出																									
+[Type] == "Rusted Blight Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕凋落		賣出																									
 [Type] == "Winged Abyss Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅深淵		存倉																									
 [Type] == "Winged Blight Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅凋落		存倉																									
-[Type] == "Gilded Expedition Scarab" # [StashItem] == "true" //	//探險鏽蝕		存倉																									
-[Type] == "Polished Expedition Scarab" # [StashItem] == "true" //	//探險圓滑		存倉																									
+[Type] == "Gilded Expedition Scarab" # [ForceSellItem] == "true" //	//探險鏽蝕		賣出																									
+[Type] == "Polished Expedition Scarab" # [ForceSellItem] == "true" //	//探險圓滑		賣出																									
 [Type] == "Rusted Expedition Scarab" # [StashItem] == "true" //	//探險鍍金		存倉																									
 [Type] == "Winged Expedition Scarab" # [StashItem] == "true" //	//探險展翅		存倉																									
-//	// 20F 化石																											
+	// 20F 化石																												
 [Type] == "Aberrant Fossil" # [StashItem] == "true" //	//特異化石		存倉																									
 [Type] == "Aetheric Fossil" # [StashItem] == "true" //	//神幻化石		存倉																									
 [Type] == "Bloodstained Fossil" # [StashItem] == "true" //	//血漬化石		存倉																									
@@ -1470,7 +1457,7 @@
 //[Type] == "Prophet Crown" && [Rarity] == "Unique" # [UniqueName] == "The Brine Crown" && [ForceSellItem] == "true"	//海王冠冕		賣出																									
 //[Type] == "Prophet Crown" && [Rarity] == "Unique" # [UniqueName] == "Speaker's Wreath" && [ForceSellItem] == "true"	//預言家桂冠		賣出																									
 //[Type] == "Prophet Crown" && [Rarity] == "Unique" # [UniqueName] == "Crown of the Inward Eye" && [ForceSellItem] == "true"	//暗眼之冠		賣出																									
-[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Voll's Vision" && [StashItem] == "true"	//福爾的遠見		存倉																									
+[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Voll's Vision" && [ForceSellItem] == "true"	//福爾的遠見		存倉																									
 //[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Malachai's Vision" && [ForceSellItem] == "true"	//瑪拉凱的遠見		賣出																									
 //[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Ahn's Contempt" && [ForceSellItem] == "true"	//漢恩的蔑視		賣出																									
 //[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Memory Vault" && [ForceSellItem] == "true"	//回憶寶庫		賣出																									
@@ -1633,7 +1620,7 @@
 //[Type] == "Serpentscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Mutewind Whispersteps" && [ForceSellItem] == "true"	//啞風輕步		賣出																									
 //[Type] == "Wyrmscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Legacy of Fury" && [ForceSellItem] == "true"	//傳承憤怒		賣出																									
 //[Type] == "Hydrascale Boots" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Talons" && [ForceSellItem] == "true"	//斯卡沃鷹爪		賣出																									
-[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Darkray Vectors" && [StashItem] == "true"	//暗雷		存倉																									
+[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Darkray Vectors" && [ForceSellItem] == "true"	//暗雷		存倉																									
 [Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Annihilation's Approach" && [StashItem] == "true"	//殲滅的方法		存倉																									
 //[Type] == "Mesh Boots" && [Rarity] == "Unique" # [UniqueName] == "Wake of Destruction" && [ForceSellItem] == "true"	//覆滅之兆		賣出																									
 //[Type] == "Riveted Boots" && [Rarity] == "Unique" # [UniqueName] == "Ralakesh's Impatience" && [ForceSellItem] == "true"	//芮勒蓋許的急躁		賣出																									
@@ -1670,7 +1657,7 @@
 //[Type] == "Vaal Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Replica Atziri's Acuity" && [ForceSellItem] == "true"	//贗品．阿茲里的捷思		賣出																									
 //[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Veruso's Battering Rams" && [ForceSellItem] == "true"	//維盧梭攻城槌		賣出																									
 //[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Craiceann's Pincers" && [ForceSellItem] == "true"	//奎爾珊堅鉗		賣出																									
-[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Spirit" && [StashItem] == "true"	//岡姆之魂		存倉																									
+[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Spirit" && [ForceSellItem] == "true"	//岡姆之魂		存倉																									
 [Type] == "Goathide Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hrimsorrow" && [ForceSellItem] == "true"	//冰冷之眼		存倉																									
 //[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hrimburn" && [ForceSellItem] == "true"	//李姆本		賣出																									
 //[Type] == "Deerskin Gloves" && [Rarity] == "Unique" # [UniqueName] == "Maligaro's Virtuosity" && [ForceSellItem] == "true"	//馬雷葛蘿的血染手套		賣出																									
@@ -1681,8 +1668,8 @@
 //[Type] == "Wool Gloves" && [Rarity] == "Unique" # [UniqueName] == "Sadima's Touch" && [ForceSellItem] == "true"	//獵寶者的護手		賣出																									
 //[Type] == "Velvet Gloves" && [Rarity] == "Unique" # [UniqueName] == "Doedre's Tenure" && [ForceSellItem] == "true"	//德瑞的精神手套		賣出																									
 //[Type] == "Velvet Gloves" && [Rarity] == "Unique" # [UniqueName] == "Doedre's Malevolence" && [ForceSellItem] == "true"	//德瑞的惡意		賣出																									
-[Type] == "Silk Gloves" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Gentle Touch" && [StashItem] == "true"	//安賽娜絲的安撫之語		存倉																									
-[Type] == "Embroidered Gloves" && [Rarity] == "Unique" # [UniqueName] == "Vixen's Entrapment" && [StashItem] == "true"	//雌狐的圈套		存倉																									
+[Type] == "Silk Gloves" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Gentle Touch" && [ForceSellItem] == "true"	//安賽娜絲的安撫之語		存倉																									
+[Type] == "Embroidered Gloves" && [Rarity] == "Unique" # [UniqueName] == "Vixen's Entrapment" && [ForceSellItem] == "true"	//雌狐的圈套		存倉																									
 //[Type] == "Satin Gloves" && [Rarity] == "Unique" # [UniqueName] == "Allelopathy" && [ForceSellItem] == "true"	//相生相剋		賣出																									
 //[Type] == "Satin Gloves" && [Rarity] == "Unique" # [UniqueName] == "Demon Stitcher" && [ForceSellItem] == "true"	//縫魔		賣出																									
 //[Type] == "Satin Gloves" && [Rarity] == "Unique" # [UniqueName] == "Replica Allelopathy" && [ForceSellItem] == "true"	//贗品．相生相剋		賣出																									
@@ -1700,8 +1687,8 @@
 //[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Wyrmsign" && [ForceSellItem] == "true"	//龍族印記		賣出																									
 [Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Tanu Ahi" && [StashItem] == "true"	//埋火		存倉																									
 //[Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Farrul's Pounce" && [ForceSellItem] == "true"	//費爾羅鋒爪		賣出																									
-[Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Breathstealer" && [StashItem] == "true"	//偷息		存倉																									
-[Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Gravebind" && [StashItem] == "true"	//幽墓束縛		存倉																									
+[Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Breathstealer" && [ForceSellItem] == "true"	//偷息		存倉																									
+[Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Gravebind" && [ForceSellItem] == "true"	//幽墓束縛		存倉																									
 //[Type] == "Dragonscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Surgebinders" && [ForceSellItem] == "true"	//浪湧縛者		賣出																									
 //[Type] == "Chain Gloves" && [Rarity] == "Unique" # [UniqueName] == "Shackles of the Wretched" && [ForceSellItem] == "true"	//悲運之縛		賣出																									
 //[Type] == "Mesh Gloves" && [Rarity] == "Unique" # [UniqueName] == "Triad Grip" && [ForceSellItem] == "true"	//三弦指法		賣出																									
@@ -1806,9 +1793,9 @@
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Gifts from Above" && [ForceSellItem] == "true"	//神賜		存倉																									
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Romira's Banquet" && [ForceSellItem] == "true"	//羅米拉的潛力之環		賣出																									
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && [StashItem] == "true"	//貝雷克的火與雷之樂		存倉																									
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && [StashItem] == "true"	//貝雷克的冰與雷之曲		存倉																									
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && [ForceSellItem] == "true"	//貝雷克的冰與雷之曲		存倉																									
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Call of the Brotherhood Two-" && [StashItem] == "true"	//意志呼喚		存倉																									
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && [StashItem] == "true"	//貝雷克的冰與火之歌		存倉																									
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && [ForceSellItem] == "true"	//貝雷克的冰與火之歌		存倉																									
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Rigwald's Crest Two-" && [ForceSellItem] == "true"	//瑞佛之冠		賣出																									
 //[Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Voideye" && [ForceSellItem] == "true"	//虛空慧眼		賣出																									
 //[Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Malachai's Artifice" && [ForceSellItem] == "true"	//瑪拉凱的巧技		賣出																									
@@ -1908,7 +1895,7 @@
 //[Type] == "Rotfeather Talisman" && [Rarity] == "Unique" # [UniqueName] == "Natural Hierarchy" && [ForceSellItem] == "true"	//自然組織		賣出																									
 //[Type] == "Greatwolf Talisman" && [Rarity] == "Unique" # [UniqueName] == "Eyes of the Greatwolf" && [ForceSellItem] == "true"	//巨狼之眼		賣出																									
 	//腰帶		賣出																									
-[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Prismweave" && [StashItem] == "true"	//幻彩菱織		存倉																									
+[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Prismweave" && [ForceSellItem] == "true"	//幻彩菱織		存倉																									
 //[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Feastbind" && [ForceSellItem] == "true"	//盛宴之結		賣出																									
 //[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Faminebind" && [ForceSellItem] == "true"	//饑荒之結		賣出																									
 //[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "The Retch" && [ForceSellItem] == "true"	//嘔吐		賣出																									
