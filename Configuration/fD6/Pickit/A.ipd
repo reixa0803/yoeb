@@ -391,7 +391,7 @@
 [Type] == "The Fortunate" # [StashItem] == "true" //	//幸運之火		存倉																									
 [Type] == "Brother's Gift" # [StashItem] == "true" //	兄弟之贈 (1)	1143	存倉																									
 [Type] == "Brother's Stash" # [StashItem] == "true" //	伯仲財庫 (1)	69	存倉																									
-[Type] == "Chaotic Disposition" # [StashItem] == "true" //	渾沌性情 (1)	10	存倉																									
+[Type] == "Chaotic Disposition" # [ForceSellItem] == "true" //	渾沌性情 (1)	10	存倉																									
 [Type] == "Divine Justice" # [ForceSellItem] == "true" //	神判 (1)	4	賣出																									
 [Type] == "Society's Remorse" # [ForceSellItem] == "true" //	社會的懊悔 (1)	5	存倉																									
 [Type] == "The Cartographer" # [ForceSellItem] == "true" //	製圖師 (1)	5	賣出																									
@@ -1142,7 +1142,7 @@
 //[Type] == "Midnight Blade" && [Rarity] == "Unique" # [UniqueName] == "Ahn's Might" && [ForceSellItem] == "true"	//漢恩的期許 夜語長劍		賣出																									
 	//單手細劍																											
 //[Type] == "Whalebone Rapier" && [Rarity] == "Unique" # [UniqueName] == "The Goddess Bound" && [ForceSellItem] == "true"	//女神的靈縛 鯨骨細刃		賣出																									
-[Type] == "Basket Rapier" && [Rarity] == "Unique" # [UniqueName] == "Aurumvorax" && [ForceSellItem] == "true"	//靈護 練武者細劍		存倉																									
+[Type] == "Basket Rapier" && [Rarity] == "Unique" # [UniqueName] == "Aurumvorax" && [StashItem] == "true"	//靈護 練武者細劍		存倉																									
 //[Type] == "Jagged Foil" && [Rarity] == "Unique" # [UniqueName] == "Fidelitas' Spike" && [ForceSellItem] == "true"	//費德利塔斯之鋒 鋸狀薄刃		賣出																									
 //[Type] == "Antique Rapier" && [Rarity] == "Unique" # [UniqueName] == "Ewar's Mirage" && [ForceSellItem] == "true"	//伊沃幻像 古代細劍		賣出																									
 //[Type] == "Estoc" && [Rarity] == "Unique" # [UniqueName] == "Daresso's Passion" && [ForceSellItem] == "true"	//德瑞索的熱情 穿甲刺劍		賣出																									
@@ -1457,7 +1457,7 @@
 //[Type] == "Prophet Crown" && [Rarity] == "Unique" # [UniqueName] == "The Brine Crown" && [ForceSellItem] == "true"	//海王冠冕		賣出																									
 //[Type] == "Prophet Crown" && [Rarity] == "Unique" # [UniqueName] == "Speaker's Wreath" && [ForceSellItem] == "true"	//預言家桂冠		賣出																									
 //[Type] == "Prophet Crown" && [Rarity] == "Unique" # [UniqueName] == "Crown of the Inward Eye" && [ForceSellItem] == "true"	//暗眼之冠		賣出																									
-[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Voll's Vision" && [ForceSellItem] == "true"	//福爾的遠見		存倉																									
+[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Voll's Vision" && [StashItem] == "true"	//福爾的遠見		存倉																									
 //[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Malachai's Vision" && [ForceSellItem] == "true"	//瑪拉凱的遠見		賣出																									
 //[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Ahn's Contempt" && [ForceSellItem] == "true"	//漢恩的蔑視		賣出																									
 //[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Memory Vault" && [ForceSellItem] == "true"	//回憶寶庫		賣出																									
@@ -1909,7 +1909,7 @@
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Replica Bated Breath" && [ForceSellItem] == "true"	//贗品．凝息		賣出																									
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Chain of Endurance" && [ForceSellItem] == "true"	//堅決鎖鏈		賣出																									
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Headhunter" && [StashItem] == "true"	//獵首		存倉																									
-//[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [ForceSellItem] == "true"	//永生		存倉																									
+//[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [StashItem] == "true"	//永生		存倉																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Wurm's Molt" && [ForceSellItem] == "true"	//龍蛻之帶		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Umbilicus Immortalis" && [ForceSellItem] == "true"	//不朽繫命		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Cyclopean Coil" && [ForceSellItem] == "true"	//巨岩之環		賣出																									
