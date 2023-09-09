@@ -7,6 +7,21 @@
 //	[Rarity]== "Normal"#[UpgradeToRare]== "true"//使用點金石			//使用點金	不//使用點金
 
 //    [Quality]<="1"&& [Rarity]=="Rare"  #[IgnoreMap]== "true"//不打黃圖
+
+// --不打征服/尊師--
+[6827] == "1" # [IgnoreMap] == "true" // Elder infuenced maps
+[6827] == "2" # [IgnoreMap] == "true" // Elder infuenced maps
+[6827] == "3" # [IgnoreMap] == "true" // Elder infuenced maps
+[6827] == "4" # [IgnoreMap] == "true" // Elder infuenced maps
+
+[13845] == "1"  # [IgnoreMap] == "true" // Baron maps
+[13845] == "2"  # [IgnoreMap] == "true" // Veritania maps
+[13845] == "3"  # [lgnoreMap] == "true" // Drox maps
+[13845] == "4"  # [lgnoreMap] =="true" // AI-Hezmin maps
+[Type] == "Synthesised Map" # [lgnoreMap] == "true" // Synthesised maps 
+
+[Type] == "Crimson Temple Map" # [ExitAfterBossKill] == "true"
+[Type] == "City Square Map" # [ExitAfterBossKill] == "true"
 	
 	//避開王房地圖//(預設)				//中文判斷																				
 	[Type]=="Graveyard Map" #	[SkipBossArena]	=="true"	//墮影墓場	不打這張圖的王																				
@@ -99,7 +114,7 @@
 	[Type]=="Haunted Mansion Map" #	[IgnoreMap]	=="true"	//幽魂宅邸	打這張圖																				
 	[Type]=="Maze Map" #	[IgnoreMap]	=="true"	//冥神之域	打這張圖																				
 	[Type]=="Channel Map" #	[IgnoreMap]	=="true"	//秘密通道	打這張圖																				
-	[Type]=="Toxic Sewer Map" #	[RunMap]	=="true"	//腐敗下水道	打這張圖																				
+	[Type]=="Toxic Sewer Map" #	[IgnoreMap]	=="true"	//腐敗下水道	打這張圖																				
 	[Type]=="Ancient City Map" #	[IgnoreMap]	=="true"	//遠古危城	打這張圖																				
 	[Type]=="Ivory Temple Map" #	[IgnoreMap]	=="true"	//象牙神殿	打這張圖																				
 	[Type]=="Spider Lair Map" #	[IgnoreMap]	=="true"	//巨蛛巢穴	打這張圖																				
@@ -110,7 +125,7 @@
 	[Type]=="Phantasmagoria Map" #	[IgnoreMap]	=="true"	//魔靈幻獄	打這張圖																				
 	[Type]=="Academy Map" #	[IgnoreMap]	=="true"	//惡靈學院	打這張圖																				
 	[Type]=="Thicket Map" #	[IgnoreMap]	=="true"	//驚懼樹叢	打這張圖																				
-	[Type]=="Wharf Map" #	[RunMap]	=="true"	//毒牙海港	打這張圖																				
+	[Type]=="Wharf Map" #	[IgnoreMap]	=="true"	//毒牙海港	打這張圖																				
 	[Type]=="Ashen Wood Map" #	[IgnoreMap]	=="true"	//旱木林地	打這張圖																				
 	[Type]=="Atoll Map" #	[IgnoreMap]	=="true"	//濱海山丘	打這張圖																				
 	[Type]=="Cemetery Map" #	[IgnoreMap]	=="true"	//晨曦墓地	打這張圖																				
@@ -190,7 +205,7 @@
 	[Type]=="Colosseum Map" #	[IgnoreMap]	=="true"	//大決鬥場	打這張圖																				
 	[Type]=="Acid Caverns Map" #	[IgnoreMap]	=="true"	//酸岩酸嶼	打這張圖																				
 	[Type]=="Dark Forest Map" #	[IgnoreMap]	=="true"	//夜語幽林	打這張圖																				
-	[Type]=="Crimson Temple Map" #	[IgnoreMap]	=="true"	//緋紅神殿	打這張圖																				
+	[Type]=="Crimson Temple Map" #	[RunMap]	=="true"	//緋紅神殿	打這張圖																				
 	[Type]=="Plaza Map" #	[IgnoreMap]	=="true"	//廣場	打這張圖																				
 	[Type]=="Dig Map" #	[IgnoreMap]	=="true"	//違禁掘坑	打這張圖																				
 	[Type]=="Palace Map" #	[IgnoreMap]	=="true"	//神域之殿	打這張圖																				
