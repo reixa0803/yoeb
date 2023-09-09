@@ -7,7 +7,6 @@
 //	[Rarity]== "Normal"#[UpgradeToRare]== "true"//使用點金石			//使用點金	不//使用點金
 
 //    [Quality]<="1"&& [Rarity]=="Rare"  #[IgnoreMap]== "true"//不打黃圖
-
 // --不打征服/尊師--
 [6827] == "1" # [IgnoreMap] == "true" // Elder infuenced maps
 [6827] == "2" # [IgnoreMap] == "true" // Elder infuenced maps
