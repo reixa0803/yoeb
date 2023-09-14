@@ -2131,7 +2131,7 @@
 [Type] == "Dunes Map" && [Rarity] == "Unique" # [UniqueName] == "Replica Pillars of Arun" && [ForceSellItem] == "true"	//贗品．艾倫之柱		存倉																									
 [Type] == "Crypt Map" && [Rarity] == "Unique" # [UniqueName] == "Olmec's Sanctum Bone" && [ForceSellItem] == "true"	//遠古之印		存倉																									
 [Type] == "River Map" && [Rarity] == "Unique" # [UniqueName] == "Caer Blaidd, Wolfpack's Den Underground" && [ForceSellItem] == "true"	//塞爾．佈雷德狼穴		存倉																									
-[Type] == "Pyramid Map" && [Rarity] == "Unique" # [UniqueName] == "Vaults of Atziri Vaal" && [ForceSellItem] == "true"	//阿茲里的秘寶庫		存倉																									
+[Type] == "Pyramid Map" && [Rarity] == "Unique" # [UniqueName] == "Vaults of Atziri Vaal" && [StashItem] == "true"	//阿茲里的秘寶庫		存倉																									
 [Type] == "Courtyard Map" && [Rarity] == "Unique" # [UniqueName] == "The Vinktar Square" && [StashItem] == "true"	//維克塔廣場		存倉																									
 [Type] == "Shore Map" && [Rarity] == "Unique" # [UniqueName] == "Mao Kun" && [ForceSellItem] == "true"	//賊窩		存倉																									
 [Type] == "Island Map" && [Rarity] == "Unique" # [UniqueName] == "Untainted Paradise Tropical" && [ForceSellItem] == "true"	//純淨樂園		存倉																									
