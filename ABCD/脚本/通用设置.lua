@@ -44,9 +44,9 @@ SetYiJieShuaTuModeByMapCnt(0,0.9,0)     --仓库中地图数量满0 刷全图
 --SetZhuangBeiBoss("abcd")--发装备的仓库号 如果不需要 就注释掉 只有挂机号跟仓库号都是 外挂账号 才有效
 
 g_duobiHpVal=0.65      --打怪时HP少于多少躲避
-g_useCsjzMinHp= 0.3    --血量探到设置的值以下使用传送
+g_useCsjzMinHp= 0.4    --血量探到设置的值以下使用传送
 g_youXianMapLv=78      --超过等级优先取高级图
-g_needZaFenLv= 75      --多少级开始炸坟
+g_needZaFenLv= 80      --多少级开始炸坟
 g_needSuDiLv=85        --满85级打强袭宿敌内容
 g_needMengYanLv=80     --多少级开始打梦魇
 g_useMoveSkillType=0   --使用位移技能赶路场景 
@@ -173,10 +173,10 @@ g_yijieNoWhiteMonster=false		--异界时是否不打白怪 true为不打 nil或false为打
 g_yijieNoWhiteBox=false			--异界时是否不开白箱子 true为不开 nil或false为开
 g_useYiJieWanChengDuLv=80	--使用下面异界完成度那个设置的等级，如果未到等则刷全图
 g_yiJieWanChengDu=0.9		--异界完成度 完成多少就回去 为1或1以下的小数
-g_yongHengShiBeiLv=70		--大于等于多少级打永恒石碑 
-g_needTaFangLv=75			--大于等于多少级打塔防
-g_needLianMoLv=72			--大于等于多少级打炼魔
-g_attackFreezeMonsterLv=1	--大于等于多少级打冰冻怪
+g_yongHengShiBeiLv=80		--大于等于多少级打永恒石碑 
+g_needTaFangLv=80			--大于等于多少级打塔防
+g_needLianMoLv=80			--大于等于多少级打炼魔
+g_attackFreezeMonsterLv=80	--大于等于多少级打冰冻怪
 g_needChuanYueLv=100			--大于等于多少级打穿越怪
 g_needLieXiLv=70			--大於等于多少级打时空裂缝怪
 g_needMiWuLv=70				--大于等于多少级打迷雾
@@ -194,11 +194,11 @@ g_checkSellMapCnt=80		--地图超过这个数量才会检测出售地图
 g_destroyNoUseMap=false		--销毁上面设置不使用的地图 nil或false为不销毁
 g_mapUseFuHaoLv=nil			--大于等于多少级对蓝图使用富豪石 nil为永远不使用
 g_mapUseZengFuLv=nil			--大于等于多少级对蓝图使用增幅石 nil为永远不使用
-g_mapUseDianJingLv=70		--大于等于多少级对白图使用点金石 nil为永远不使用
+g_mapUseDianJingLv=80		--大于等于多少级对白图使用点金石 nil为永远不使用
 g_mapUseTuiBianLv=60		--大于等于多少级对白图使用蜕变石 nil为永远不使用
 g_mapUseJiHuiLv=nil			--大于等于多少级对白图使用机会石 nil为永远不使用
 g_mapUseWaErLv=nil			--大于等于多少级对白、蓝地图使用瓦尔宝珠 nil为永远不使用
-g_mapUseDingZiLv=70			--大于等于多少级使用制图钉 nil为永远不使用
+g_mapUseDingZiLv=80			--大于等于多少级使用制图钉 nil为永远不使用
 g_noUseMapLv=10   			--不使用、不捡多少阶及以上的地图 nil或0为忽略 设置优先的地图除外
 
 --SetNotOpenChestMap(mapClassName)--设置不开箱子的地图 
