@@ -236,14 +236,14 @@
 	// 8F 軍團裂片&培育器		存倉																									
 //此通貨不撿	//永恆不朽帝國裂片		賣出																									
 //此通貨不撿	//永恆卡魯裂片		賣出																									
-[Type] == "Timeless Maraketh Splinter" # [StashItem] == "true" //	//永恆馬拉克斯裂片		存倉																									
-[Type] == "Timeless Templar Splinter" # [StashItem] == "true" //	//永恆聖宗裂片		存倉																									
+[Type] == "Timeless Maraketh Splinter" # [ForceSellItem] == "true" //	//永恆馬拉克斯裂片		存倉																									
+[Type] == "Timeless Templar Splinter" # [ForceSellItem] == "true" //	//永恆聖宗裂片		存倉																									
 //此通貨不撿	//永恆瓦爾裂片		賣出																									
-[Type] == "Timeless Eternal Emblem" # [StashItem] == "true" //	//永恆不朽帝國徽印		存倉																									
-[Type] == "Timeless Karui Emblem" # [StashItem] == "true" //	//永恆卡魯徽印		存倉																									
-[Type] == "Timeless Maraketh Emblem" # [StashItem] == "true" //	//永恆馬拉克斯徽印		存倉																									
-[Type] == "Timeless Templar Emblem" # [StashItem] == "true" //	//永恆聖宗徽印		存倉																									
-[Type] == "Timeless Vaal Emblem" # [StashItem] == "true" //	//永恆瓦爾徽印		存倉																									
+[Type] == "Timeless Eternal Emblem" # [ForceSellItem] == "true" //	//永恆不朽帝國徽印		存倉																									
+[Type] == "Timeless Karui Emblem" # [ForceSellItem] == "true" //	//永恆卡魯徽印		存倉																									
+[Type] == "Timeless Maraketh Emblem" # [ForceSellItem] == "true" //	//永恆馬拉克斯徽印		存倉																									
+[Type] == "Timeless Templar Emblem" # [ForceSellItem] == "true" //	//永恆聖宗徽印		存倉																									
+[Type] == "Timeless Vaal Emblem" # [ForceSellItem] == "true" //	//永恆瓦爾徽印		存倉																									
 //此通貨不撿	//深淵的培育器		賣出																									
 //此通貨不撿	//凋落的培育器		賣出																									
 //此通貨不撿	//製圖師的培育器		賣出																									
@@ -1030,7 +1030,7 @@
 //[Type] == "Driftwood Wand" && [Rarity] == "Unique" # [UniqueName] == "Lifesprig" && [ForceSellItem] == "true"	//生機之記 朽木法杖	->請修改賣出或存倉	賣出																									
 //[Type] == "Goat's Horn" && [Rarity] == "Unique" # [UniqueName] == "Abberath's Horn" && [ForceSellItem] == "true"	//艾貝拉斯之角 羊角法杖		賣出																									
 //[Type] == "Carved Wand" && [Rarity] == "Unique" # [UniqueName] == "Ashcaller" && [ForceSellItem] == "true"	//灰燼行者 粗紋法杖		賣出																									
-[Type] == "Carved Wand" && [Rarity] == "Unique" # [UniqueName] == "The Poet's Pen" && [StashItem] == "true"	//學富之筆 粗紋法杖		存倉																									
+[Type] == "Carved Wand" && [Rarity] == "Unique" # [UniqueName] == "The Poet's Pen" && [ForceSellItem] == "true"	//學富之筆 粗紋法杖		存倉																									
 //[Type] == "Spiraled Wand" && [Rarity] == "Unique" # [UniqueName] == "Reverberation Rod" && [ForceSellItem] == "true"	//混響 螺紋法杖		賣出																									
 //[Type] == "Spiraled Wand" && [Rarity] == "Unique" # [UniqueName] == "Storm Prison" && [ForceSellItem] == "true"	//禁錮暴風 螺紋法杖		賣出																									
 //[Type] == "Spiraled Wand" && [Rarity] == "Unique" # [UniqueName] == "Amplification Rod" && [ForceSellItem] == "true"	//增幅杖 螺紋法杖		賣出																									
@@ -1525,7 +1525,7 @@
 //[Type] == "Savant's Robe" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Tawm'r Isley" && [ForceSellItem] == "true"	//陶米兒艾斯理之袍		賣出																									
 [Type] == "Savant's Robe" && [Rarity] == "Unique" # [UniqueName] == "Garb of the Ephemeral" && [StashItem] == "true"	//無常禮袍		存倉																									
 //[Type] == "Necromancer Silks" && [Rarity] == "Unique" # [UniqueName] == "Vis Mortis" && [ForceSellItem] == "true"	//兀鳴		賣出																									
-[Type] == "Necromancer Silks" && [Rarity] == "Unique" # [UniqueName] == "Fleshcrafter" && [StashItem] == "true"	//人體匠師		存倉																									
+[Type] == "Necromancer Silks" && [Rarity] == "Unique" # [UniqueName] == "Fleshcrafter" && [ForceSellItem] == "true"	//人體匠師		存倉																									
 [Type] == "Occultist's Vestment" && [Rarity] == "Unique" # [UniqueName] == "Shavronne's Wrappings" && [ForceSellItem] == "true"	//薛朗的護身長袍		存倉																									
 //[Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [UniqueName] == "Infernal Mantle" && [ForceSellItem] == "true"	//煉獄之心		賣出																									
 //[Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [UniqueName] == "Doedre's Skin" && [ForceSellItem] == "true"	//德瑞之膚		賣出																									
@@ -1792,9 +1792,9 @@
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Gifts from Above" && [ForceSellItem] == "true"	//神賜		存倉																									
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Romira's Banquet" && [ForceSellItem] == "true"	//羅米拉的潛力之環		賣出																									
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && [StashItem] == "true"	//貝雷克的火與雷之樂		存倉																									
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && [StashItem] == "true"	//貝雷克的冰與雷之曲		存倉																									
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && [ForceSellItem] == "true"	//貝雷克的冰與雷之曲		存倉																									
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Call of the Brotherhood Two-" && [StashItem] == "true"	//意志呼喚		存倉																									
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && [StashItem] == "true"	//貝雷克的冰與火之歌		存倉																									
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && [ForceSellItem] == "true"	//貝雷克的冰與火之歌		存倉																									
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Rigwald's Crest Two-" && [ForceSellItem] == "true"	//瑞佛之冠		賣出																									
 //[Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Voideye" && [ForceSellItem] == "true"	//虛空慧眼		賣出																									
 //[Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Malachai's Artifice" && [ForceSellItem] == "true"	//瑪拉凱的巧技		賣出																									
