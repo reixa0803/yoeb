@@ -281,16 +281,18 @@
 	[map_ground_lightning]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//地圖裡有感電地面	避開//地圖裡有感電地面的圖，用改造或C去骰																				
 //	[map_ground_lightning]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//地圖裡有感電地面	我不怕這個																				
 	[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//汙染地面	避開//汙染地面的圖，用改造或C去骰																				
-	[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//汙染地面	避開//汙染地面的圖，用改造或C去骰																				
+//	[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//汙染地面	我不怕這個																				
 //	[map_players_block_chance_+%] < "0" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//降低格檔	我不怕這個																				
 //	[map_players_block_chance_+%] < "0" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//降低格檔	我不怕這個																				
 	[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//脆弱詛咒	避開//脆弱詛咒的圖，用改造或C去骰																				
 //	[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//脆弱詛咒	我不怕這個																				
-//	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//地圖怪物避免元素異常狀態	我不怕這個																				
-//	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare #	[RerollMods]	=="true"	//地圖怪物避免元素異常狀態	我不怕這個																				
-	[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//降低最大抗	避開//降低最大抗的圖，用改造或C去骰																				
-	[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//降低最大抗	避開//降低最大抗的圖，用改造或C去骰																				
-	[map_monsters_cannot_be_leeched_from] > "0" && [Rarity] == "Magic" # 	[RerollMods]	=="true"	//無法偷取	避開//無法偷取的圖，用改造或C去骰																				
-	[map_monsters_cannot_be_leeched_from]  > "0" && [Rarity] == "Rare" # 	[RerollMods]	=="true"	//無法偷取	避開//無法偷取的圖，用改造或C去骰																				
-	[map_monsters_steal_charges] >= "1" && [Rarity] == "Magic" #  	[RerollMods]	=="true"	//怪物偷球	避開//怪物偷球的圖，用改造或C去骰																				
-	[map_monsters_steal_charges] >= "1" && [Rarity] == "Rare" # 	[RerollMods]	=="true"	//怪物偷球	避開//怪物偷球的圖，用改造或C去骰																				
+	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//地圖怪物避免元素異常狀態	我不怕這個																				
+	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare #	[RerollMods]	=="true"	//地圖怪物避免元素異常狀態	我不怕這個																				
+	[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//降低最大抗	避開//降低最大抗的圖，直接忽略不打																				
+	[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//降低最大抗	避開//降低最大抗的圖，直接忽略不打																				
+	[map_monsters_cannot_be_leeched_from] > "0" && [Rarity] == "Magic" # 	[RerollMods]	=="true"	//無法偷取	避開//無法偷取的圖，直接忽略不打																				
+	[map_monsters_cannot_be_leeched_from]  > "0" && [Rarity] == "Rare" # 	[RerollMods]	=="true"	//無法偷取	避開//無法偷取的圖，直接忽略不打																				
+	[map_monsters_steal_charges] >= "1" && [Rarity] == "Magic" #  	[RerollMods]	=="true"	//怪物偷球	避開//怪物偷球的圖，直接忽略不打																				
+	[map_monsters_steal_charges] >= "1" && [Rarity] == "Rare" # 	[RerollMods]	=="true"	//怪物偷球	避開//怪物偷球的圖，直接忽略不打																				
+	[map_player_cooldown_speed_+%_final] < "0" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//玩家冷卻回復降低	避開//玩家冷卻回復降低的圖，直接忽略不打																				
+	[map_player_cooldown_speed_+%_final] < "0" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//玩家冷卻回復降低	避開//玩家冷卻回復降低的圖，直接忽略不打																				
