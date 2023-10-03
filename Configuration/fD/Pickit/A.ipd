@@ -1565,7 +1565,7 @@
 //[Type] == "Blood Raiment" && [Rarity] == "Unique" # [UniqueName] == "The Eternity Shroud" && [ForceSellItem] == "true"	//永恆屍布		賣出																									
 //[Type] == "Blood Raiment" && [Rarity] == "Unique" # [UniqueName] == "Replica Eternity Shroud" && [ForceSellItem] == "true"	//贗品．永恆屍布		賣出																									
 //[Type] == "Sadist Garb" && [Rarity] == "Unique" # [UniqueName] == "Tinkerskin" && [ForceSellItem] == "true"	//焊匠之膚		賣出																									
-[Type] == "Sadist Garb" && [Rarity] == "Unique" # [UniqueName] == "Inpulsa's Broken Heart" && [StashItem] == "true"	//印卜薩的心碎		存倉																									
+[Type] == "Sadist Garb" && [Rarity] == "Unique" # [UniqueName] == "Inpulsa's Broken Heart" && [ForceSellItem] == "true"	//印卜薩的心碎		存倉																									
 //[Type] == "Sadist Garb" && [Rarity] == "Unique" # [UniqueName] == "Doppelganger Guise" && [ForceSellItem] == "true"	//達佩爾甘格偽裝		賣出																									
 //[Type] == "Carnal Armour" && [Rarity] == "Unique" # [UniqueName] == "The Restless Ward" && [ForceSellItem] == "true"	//無盡之衛		賣出																									
 [Type] == "Carnal Armour" && [Rarity] == "Unique" # [UniqueName] == "Shroud of the Lightless" && [StashItem] == "true"	//晦暗的屍布		存倉																									
@@ -2168,4 +2168,4 @@
 [Type] == "Tawhanuku's Timing Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//塔瓦庫努的時機 月光石戒指		存倉																									
 [Type] == "Utula's Hunger Majestic Plate" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//奇塔弗的飢餓 莊嚴之鎧		存倉																									
 [Type] == "Warrior's Tale Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//戰士之訴 赤紅珠寶		存倉																									
-[Type] == "Forbidden Tome" # [StashItem] == "true" // //禁忌之書
+//[Type] == "Forbidden Tome" # [StashItem] == "true" // //禁忌之書
