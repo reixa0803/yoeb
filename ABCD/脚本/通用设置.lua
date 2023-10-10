@@ -46,9 +46,9 @@ SetYiJieShuaTuModeByMapCnt(0,0.9,0)     --仓库中地图数量满0 刷全图
 g_duobiHpVal=0.65      --打怪时HP少于多少躲避
 g_useCsjzMinHp= 0.4    --血量探到设置的值以下使用传送
 g_youXianMapLv=78      --超过等级优先取高级图
-g_needZaFenLv= 80      --多少级开始炸坟
-g_needSuDiLv=85        --满85级打强袭宿敌内容
-g_needMengYanLv=80     --多少级开始打梦魇
+g_needZaFenLv= 89      --多少级开始炸坟
+g_needSuDiLv=89        --满85级打强袭宿敌内容
+g_needMengYanLv=89     --多少级开始打梦魇
 g_useMoveSkillType=0   --使用位移技能赶路场景 
 
 --SetAtlasRegionsUseShouWangShiCnt("0|1|2|3|4|5|6|7",2)--设置异界区域放几个守望石
@@ -173,13 +173,13 @@ g_yijieNoWhiteMonster=false		--异界时是否不打白怪 true为不打 nil或false为打
 g_yijieNoWhiteBox=false			--异界时是否不开白箱子 true为不开 nil或false为开
 g_useYiJieWanChengDuLv=80	--使用下面异界完成度那个设置的等级，如果未到等则刷全图
 g_yiJieWanChengDu=0.9		--异界完成度 完成多少就回去 为1或1以下的小数
-g_yongHengShiBeiLv=80		--大于等于多少级打永恒石碑 
-g_needTaFangLv=80			--大于等于多少级打塔防
-g_needLianMoLv=80			--大于等于多少级打炼魔
-g_attackFreezeMonsterLv=80	--大于等于多少级打冰冻怪
+g_yongHengShiBeiLv=89		--大于等于多少级打永恒石碑 
+g_needTaFangLv=89			--大于等于多少级打塔防
+g_needLianMoLv=89			--大于等于多少级打炼魔
+g_attackFreezeMonsterLv=72	--大于等于多少级打冰冻怪
 g_needChuanYueLv=100			--大于等于多少级打穿越怪
-g_needLieXiLv=70			--大於等于多少级打时空裂缝怪
-g_needMiWuLv=70				--大于等于多少级打迷雾
+g_needLieXiLv=89			--大於等于多少级打时空裂缝怪
+g_needMiWuLv=89				--大于等于多少级打迷雾
 
 --地图相关
 --SetNotMapGoMap(className,cnt) 设置无地图或未到等级时要刷的剧情地图 className字符串型 地图类名 cnt=次数
