@@ -402,35 +402,35 @@ SetSellGoodsData("白玉神庙","Metadata/Items/Maps/MapWorldsIvoryTemple",3,"0|1|2|
 SetSellGoodsData("分叉之河","Metadata/Items/Maps/MapWorldsForkingRiver",3,"0|1|2|")
 
 --SetCompoundDivinationCard(name,className,nType) --设置需要合成的命运卡 name=卡片名 className=卡片类名 nType=合成场景 nil或不填为无论何时都合成 0为没在刷异界才合 1为只在刷异界才合
-SetCompoundDivinationCard("黑暗三面","Metadata/Items/DivinationCards/DivinationCardThreeFacesInTheDark")--设置合成忠诚命运卡
-SetCompoundDivinationCard("蘭塔朵迷惘之愛","Metadata/Items/DivinationCards/DivinationCardLantadorsLostLove")--设置合成忠诚命运卡
-SetCompoundDivinationCard("薇妮雅的信物","Metadata/Items/DivinationCards/DivinationCardViniasToken")--设置合成忠诚命运卡
-SetCompoundDivinationCard("珠宝匠","Metadata/Items/DivinationCards/DivinationCardTheGemcutter")--设置合成忠诚命运卡
-SetCompoundDivinationCard("浑沌性情","Metadata/Items/DivinationCards/DivinationCardChaoticDisposition")--设置合成忠诚命运卡
-SetCompoundDivinationCard("帝运","Metadata/Items/DivinationCards/DivinationCardEmperorsLuck")--设置合成忠诚命运卡
-SetCompoundDivinationCard("好运连连","Metadata/Items/DivinationCards/DivinationCardLuckyConnections")--设置合成忠诚命运卡
-SetCompoundDivinationCard("混沌之雨","Metadata/Items/DivinationCards/DivinationCardRainOfChaos")--设置合成忠诚命运卡
-SetCompoundDivinationCard("飢渴之佔","Metadata/Items/DivinationCards/DivinationCardCovetedPossession")--设置合成忠诚命运卡
-SetCompoundDivinationCard("棄財求生","Metadata/Items/DivinationCards/DivinationCardAbandonedWealth")--设置合成忠诚命运卡
-SetCompoundDivinationCard("发明家","Metadata/Items/DivinationCards/DivinationCardTheInventor")--设置合成忠诚命运卡
-SetCompoundDivinationCard("惊喜盒","Metadata/Items/DivinationCards/DivinationCardJackInTheBox")--设置合成忠诚命运卡
-SetCompoundDivinationCard("联姻","Metadata/Items/DivinationCards/DivinationCardTheUnion")--设置合成忠诚命运卡
-SetCompoundDivinationCard("怨忿","Metadata/Items/DivinationCards/DivinationCardTheWrath")--设置合成忠诚命运卡
-SetCompoundDivinationCard("灾变","Metadata/Items/DivinationCards/DivinationCardTheCatalyst")--设置合成忠诚命运卡
-SetCompoundDivinationCard("求生专家","Metadata/Items/DivinationCards/DivinationCardTheSurvivalist")--设置合成忠诚命运卡
-SetCompoundDivinationCard("忠诚","Metadata/Items/DivinationCards/DivinationCardLoyalty")--设置合成忠诚命运卡
-SetCompoundDivinationCard("制图师","Metadata/Items/DivinationCards/DivinationCardTheCartographer")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("黑暗三面","Metadata/Items/DivinationCards/DivinationCardThreeFacesInTheDark")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("蘭塔朵迷惘之愛","Metadata/Items/DivinationCards/DivinationCardLantadorsLostLove")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("薇妮雅的信物","Metadata/Items/DivinationCards/DivinationCardViniasToken")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("珠宝匠","Metadata/Items/DivinationCards/DivinationCardTheGemcutter")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("浑沌性情","Metadata/Items/DivinationCards/DivinationCardChaoticDisposition")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("帝运","Metadata/Items/DivinationCards/DivinationCardEmperorsLuck")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("好运连连","Metadata/Items/DivinationCards/DivinationCardLuckyConnections")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("混沌之雨","Metadata/Items/DivinationCards/DivinationCardRainOfChaos")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("飢渴之佔","Metadata/Items/DivinationCards/DivinationCardCovetedPossession")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("棄財求生","Metadata/Items/DivinationCards/DivinationCardAbandonedWealth")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("发明家","Metadata/Items/DivinationCards/DivinationCardTheInventor")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("惊喜盒","Metadata/Items/DivinationCards/DivinationCardJackInTheBox")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("联姻","Metadata/Items/DivinationCards/DivinationCardTheUnion")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("怨忿","Metadata/Items/DivinationCards/DivinationCardTheWrath")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("灾变","Metadata/Items/DivinationCards/DivinationCardTheCatalyst")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("求生专家","Metadata/Items/DivinationCards/DivinationCardTheSurvivalist")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("忠诚","Metadata/Items/DivinationCards/DivinationCardLoyalty")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("制图师","Metadata/Items/DivinationCards/DivinationCardTheCartographer")--设置合成忠诚命运卡
 SetCompoundDivinationCard("生命之樹","Metadata/Items/DivinationCards/DivinationCardTheSephirot")--设置合成忠诚命运卡
-SetCompoundDivinationCard("聖徒之財","Metadata/Items/DivinationCards/DivinationCardTheSaintsTreasure")--设置合成忠诚命运卡
-SetCompoundDivinationCard("無痕","Metadata/Items/DivinationCards/DivinationCardNoTraces")--设置合成忠诚命运卡
-SetCompoundDivinationCard("善","Metadata/Items/DivinationCards/DivinationCardTheInnocent")--设置合成忠诚命运卡
-SetCompoundDivinationCard("愚人","Metadata/Items/DivinationCards/DivinationCardTheFool")--设置合成忠诚命运卡
-SetCompoundDivinationCard("赌徒","Metadata/Items/DivinationCards/DivinationCardTheGambler")--设置合成忠诚命运卡
-SetCompoundDivinationCard("工匠大师","Metadata/Items/DivinationCards/DivinationCardTheMasterArtisan")--设置合成忠诚命运卡
-SetCompoundDivinationCard("情人","Metadata/Items/DivinationCards/DivinationCardTheLover")--设置合成忠诚命运卡
-SetCompoundDivinationCard("净白","Metadata/Items/DivinationCards/DivinationCardTheOpulecent")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("聖徒之財","Metadata/Items/DivinationCards/DivinationCardTheSaintsTreasure")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("無痕","Metadata/Items/DivinationCards/DivinationCardNoTraces")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("善","Metadata/Items/DivinationCards/DivinationCardTheInnocent")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("愚人","Metadata/Items/DivinationCards/DivinationCardTheFool")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("赌徒","Metadata/Items/DivinationCards/DivinationCardTheGambler")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("工匠大师","Metadata/Items/DivinationCards/DivinationCardTheMasterArtisan")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("情人","Metadata/Items/DivinationCards/DivinationCardTheLover")--设置合成忠诚命运卡
+--SetCompoundDivinationCard("净白","Metadata/Items/DivinationCards/DivinationCardTheOpulecent")--设置合成忠诚命运卡
 SetCompoundDivinationCard("谦逊","Metadata/Items/DivinationCards/DivinationCardHumility",0)--设置合成忠诚命运卡
-SetCompoundDivinationCard("她的面具","Metadata/Items/DivinationCards/DivinationCardHerMask")--
+--SetCompoundDivinationCard("她的面具","Metadata/Items/DivinationCards/DivinationCardHerMask")--
 
 SetUseArchnemesisGoods("Currency|Maps","Currency|Trinkets","Trinkets","Currency",68)--第一个格子使用奖励为通货或地图的物品 第2个格子使用 通货+首饰 每3个格子使用首饰 第4个格子使用奖励为通货的物品
 SetChangeLimitCnt("头盔|手套|鞋子",2)
@@ -482,19 +482,19 @@ SetGoodsCaoZuo(nil,"0|2","玻璃弹珠","Metadata/Items/Currency/CurrencyFlaskQualit
 SetGoodsCaoZuo(nil,"0","磨刀石","Metadata/Items/Currency/CurrencyWeaponQuality")--磨刀石不存
 SetGoodsCaoZuo(nil,"0","护甲片","Metadata/Items/Currency/CurrencyArmourQuality")--护甲片不存
 SetGoodsCaoZuo(nil,"3","卷轴碎片","Metadata/Items/Currency/CurrencyIdentificationShard")--卷轴碎片丢
-SetGoodsCaoZuo(nil,"0|2","蘭塔朵迷惘之愛","Metadata/Items/DivinationCards/DivinationCardLantadorsLostLove")
+--SetGoodsCaoZuo(nil,"0|2","蘭塔朵迷惘之愛","Metadata/Items/DivinationCards/DivinationCardLantadorsLostLove")
 SetGoodsCaoZuo(nil,"0|2","祝福石","Metadata/Items/Currency/CurrencyRerollImplicit")--
 SetGoodsCaoZuo(nil,"1|3","工程石","Metadata/Items/Currency/CurrencyStrongboxQuality")--
 SetGoodsCaoZuo(nil,"1|3","工程石碎片","Metadata/Items/Currency/CurrencyStrongboxQualityShard")--
 SetGoodsCaoZuo(nil,"0|2","平行石","Metadata/Items/Currency/CurrencyRerollMapType")--
-SetGoodsCaoZuo(nil,"0|2","凡人的憤怒","Metadata/Items/MapFragments/CurrencyVaalFragment2_1")--
-SetGoodsCaoZuo(nil,"0|2","凡人的希望","Metadata/Items/MapFragments/CurrencyVaalFragment2_2")--
-SetGoodsCaoZuo(nil,"0|2","凡人的無知","Metadata/Items/MapFragments/CurrencyVaalFragment2_3")--
-SetGoodsCaoZuo(nil,"0|2","凡人的哀傷","Metadata/Items/MapFragments/CurrencyVaalFragment2_4")--
-SetGoodsCaoZuo(nil,"0|2","午夜的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_1")--
-SetGoodsCaoZuo(nil,"0|2","黎明的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_2")--
-SetGoodsCaoZuo(nil,"0|2","正午的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_3")--
-SetGoodsCaoZuo(nil,"0|2","黃昏的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_4")--
+--SetGoodsCaoZuo(nil,"0|2","凡人的憤怒","Metadata/Items/MapFragments/CurrencyVaalFragment2_1")--
+--SetGoodsCaoZuo(nil,"0|2","凡人的希望","Metadata/Items/MapFragments/CurrencyVaalFragment2_2")--
+--SetGoodsCaoZuo(nil,"0|2","凡人的無知","Metadata/Items/MapFragments/CurrencyVaalFragment2_3")--
+--SetGoodsCaoZuo(nil,"0|2","凡人的哀傷","Metadata/Items/MapFragments/CurrencyVaalFragment2_4")--
+--SetGoodsCaoZuo(nil,"0|2","午夜的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_1")--
+--SetGoodsCaoZuo(nil,"0|2","黎明的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_2")--
+--SetGoodsCaoZuo(nil,"0|2","正午的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_3")--
+--SetGoodsCaoZuo(nil,"0|2","黃昏的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_4")--
 SetGoodsCaoZuo(nil,"0|2","新月裂片","Metadata/Items/MapFragments/CurrencyMavenKeyFragment")--
 SetGoodsCaoZuo(nil,"0|2","釋界之令","Metadata/Items/MapFragments/CurrencyMavenKey")--
 
@@ -798,15 +798,15 @@ SetJiaoYiGoods(nil,"骰子","Metadata/Items/Currency/CurrencyRefreshGambler")
 SetJiaoYiGoods(nil,"廢金屬","Metadata/Items/Currency/CurrencyRefreshDealer")
 SetJiaoYiGoods(nil,"異域幣鑄","Metadata/Items/Currency/CurrencyRefreshBarter")
 
-SetJiaoYiGoods(nil,"卓越偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportUnique")
-SetJiaoYiGoods(nil,"超凡偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportBreachstone")
-SetJiaoYiGoods(nil,"全面偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportMoreHidden")
-SetJiaoYiGoods(nil,"瓦爾偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportCorrupted")
-SetJiaoYiGoods(nil,"譫妄偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportDelirium")
-SetJiaoYiGoods(nil,"技工偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportJuiced")
-SetJiaoYiGoods(nil,"凋落偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportBlighted")
-SetJiaoYiGoods(nil,"勢力偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportGuardian")
-SetJiaoYiGoods(nil,"探險家偵查報告","Metadata/Items/Currency/CurrencyJewelleryQualityPhysicalChaos")
+--SetJiaoYiGoods(nil,"卓越偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportUnique")
+--SetJiaoYiGoods(nil,"超凡偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportBreachstone")
+--SetJiaoYiGoods(nil,"全面偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportMoreHidden")
+--SetJiaoYiGoods(nil,"瓦爾偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportCorrupted")
+--SetJiaoYiGoods(nil,"譫妄偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportDelirium")
+--SetJiaoYiGoods(nil,"技工偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportJuiced")
+--SetJiaoYiGoods(nil,"凋落偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportBlighted")
+--SetJiaoYiGoods(nil,"勢力偵查報告","Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportGuardian")
+--SetJiaoYiGoods(nil,"探險家偵查報告","Metadata/Items/Currency/CurrencyJewelleryQualityPhysicalChaos")
 
 SetJiaoYiGoods(nil,"低階異能靈液","Metadata/Items/Currency/CurrencyEldritchIchor1")--低階異能靈液
 SetJiaoYiGoods(nil,"高階異能靈液","Metadata/Items/Currency/CurrencyEldritchIchor2")--高階異能靈液
@@ -817,14 +817,14 @@ SetJiaoYiGoods(nil,"高階異能灰燼","Metadata/Items/Currency/CurrencyEldritchEmber
 SetJiaoYiGoods(nil,"宏偉異能灰燼","Metadata/Items/Currency/CurrencyEldritchEmber3")--宏偉異能灰燼
 SetJiaoYiGoods(nil,"卓越異能灰燼","Metadata/Items/Currency/CurrencyEldritchEmber4")--卓越異能灰燼
 
-SetJiaoYiGoods(nil,"凡人的憤怒","Metadata/Items/MapFragments/CurrencyVaalFragment2_1")--
-SetJiaoYiGoods(nil,"凡人的希望","Metadata/Items/MapFragments/CurrencyVaalFragment2_2")--
-SetJiaoYiGoods(nil,"凡人的無知","Metadata/Items/MapFragments/CurrencyVaalFragment2_3")--
-SetJiaoYiGoods(nil,"凡人的哀傷","Metadata/Items/MapFragments/CurrencyVaalFragment2_4")--
-SetJiaoYiGoods(nil,"午夜的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_1")--
-SetJiaoYiGoods(nil,"黎明的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_2")--
-SetJiaoYiGoods(nil,"正午的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_3")--
-SetJiaoYiGoods(nil,"黃昏的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_4")--
+--SetJiaoYiGoods(nil,"凡人的憤怒","Metadata/Items/MapFragments/CurrencyVaalFragment2_1")--
+--SetJiaoYiGoods(nil,"凡人的希望","Metadata/Items/MapFragments/CurrencyVaalFragment2_2")--
+--SetJiaoYiGoods(nil,"凡人的無知","Metadata/Items/MapFragments/CurrencyVaalFragment2_3")--
+--SetJiaoYiGoods(nil,"凡人的哀傷","Metadata/Items/MapFragments/CurrencyVaalFragment2_4")--
+--SetJiaoYiGoods(nil,"午夜的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_1")--
+--SetJiaoYiGoods(nil,"黎明的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_2")--
+--SetJiaoYiGoods(nil,"正午的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_3")--
+--SetJiaoYiGoods(nil,"黃昏的奉獻","Metadata/Items/MapFragments/CurrencyVaalFragment1_4")--
 SetJiaoYiGoods(nil,"新月裂片","Metadata/Items/MapFragments/CurrencyMavenKeyFragment")--
 SetJiaoYiGoods(nil,"釋界之令","Metadata/Items/MapFragments/CurrencyMavenKey")--
 
@@ -1028,12 +1028,12 @@ SetJiaoYiGoods(nil,"總督軍的崇高石","Metadata/Items/AtlasExiles/AddModToRareWarl
 SetJiaoYiGoods(nil,"喚醒者之玉","Metadata/Items/AtlasExiles/ApplyInfluence",nil,nil,nil,nil)
 
 --初期要撿後期不撿的東西
-SetJiaoYiGoods(nil,nil,nil,nil,"Soulwrest")--"鑄影 艾茲麥長杖"
-SetJiaoYiGoods(nil,nil,nil,nil,"The Iron Fortress")--"鋼鐵壁壘 征戰重鎧"
-SetJiaoYiGoods(nil,nil,nil,nil,"The Brass Dome")--"堅銅戰罩 角鬥重鎧"
-SetJiaoYiGoods(nil,nil,nil,nil,"Kaom's Heart")--"岡姆的壯志 榮耀戰鎧"
+--SetJiaoYiGoods(nil,nil,nil,nil,"Soulwrest")--"鑄影 艾茲麥長杖"
+--SetJiaoYiGoods(nil,nil,nil,nil,"The Iron Fortress")--"鋼鐵壁壘 征戰重鎧"
+--SetJiaoYiGoods(nil,nil,nil,nil,"The Brass Dome")--"堅銅戰罩 角鬥重鎧"
+--SetJiaoYiGoods(nil,nil,nil,nil,"Kaom's Heart")--"岡姆的壯志 榮耀戰鎧"
 SetJiaoYiGoods(nil,nil,nil,nil,"Hyrri's Ire")--"西里的戰衣 星辰皮甲"
-SetJiaoYiGoods(nil,nil,nil,nil,"Abberath's Hooves")--"艾貝拉斯之蹄 羊皮短靴"
+--SetJiaoYiGoods(nil,nil,nil,nil,"Abberath's Hooves")--"艾貝拉斯之蹄 羊皮短靴"
 SetJiaoYiGoods(nil,nil,nil,nil,"Dyadian Dawn")--"戴亞迪安的晨曦 重革腰帶"
 SetJiaoYiGoods(nil,nil,nil,nil,"Tremor Rod")--"顫抖之杖 軍用長杖"
 SetJiaoYiGoods(nil,nil,nil,nil,"Doryani's Prototype")--"多里亞尼之型 聖者鏈甲"
