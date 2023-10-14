@@ -1940,7 +1940,7 @@
 //[Type] == "Wereclaw Talisman" && [Rarity] == "Unique" # [UniqueName] == "Rigwald's Curse" && [ForceSellItem] == "true"	//瑞佛詛咒		賣出																									
 //[Type] == "Clutching Talisman" && [Rarity] == "Unique" # [UniqueName] == "Blightwell" && [ForceSellItem] == "true"	//枯井		賣出																									
 //[Type] == "Rotfeather Talisman" && [Rarity] == "Unique" # [UniqueName] == "Natural Hierarchy" && [ForceSellItem] == "true"	//自然組織		賣出																									
-//[Type] == "Greatwolf Talisman" && [Rarity] == "Unique" # [UniqueName] == "Eyes of the Greatwolf" && [ForceSellItem] == "true"	//巨狼之眼		賣出																									
+[Type] == "Greatwolf Talisman" && [Rarity] == "Unique" # [UniqueName] == "Eyes of the Greatwolf" && [StashItem] == "true"	//巨狼之眼		賣出																									
 	//腰帶		賣出																									
 [Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Prismweave" && [ForceSellItem] == "true"	//幻彩菱織		存倉																									
 //[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Feastbind" && [ForceSellItem] == "true"	//盛宴之結		賣出																									
@@ -2212,7 +2212,7 @@
 [Type] == "Kiloava's Bluster Ironwood Buckler" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//奇洛瓦的咆哮 鋼木輕盾		存倉																									
 [Type] == "Maata's Teaching Karui Sceptre" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//瑪塔的教導 卡魯權杖		存倉																									
 [Type] == "Rakiata's Dance Engraved Greatsword" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//拉奇塔之舞 符文巨劍		存倉																									
-[Type] == "Replica Dragonfang's Flight Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//贗品龍牙翱翔 黑曜護身符		存倉																									
+[Type] == "Replica Dragonfang's Flight" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//贗品龍牙翱翔 黑曜護身符		存倉																									
 [Type] == "Tawhanuku's Timing Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//塔瓦庫努的時機 月光石戒指		存倉																									
 [Type] == "Utula's Hunger Majestic Plate" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//奇塔弗的飢餓 莊嚴之鎧		存倉																									
 [Type] == "Warrior's Tale Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//戰士之訴 赤紅珠寶		存倉																									
