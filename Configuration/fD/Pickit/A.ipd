@@ -1940,7 +1940,7 @@
 //[Type] == "Wereclaw Talisman" && [Rarity] == "Unique" # [UniqueName] == "Rigwald's Curse" && [ForceSellItem] == "true"	//瑞佛詛咒		賣出																									
 //[Type] == "Clutching Talisman" && [Rarity] == "Unique" # [UniqueName] == "Blightwell" && [ForceSellItem] == "true"	//枯井		賣出																									
 //[Type] == "Rotfeather Talisman" && [Rarity] == "Unique" # [UniqueName] == "Natural Hierarchy" && [ForceSellItem] == "true"	//自然組織		賣出																									
-//[Type] == "Greatwolf Talisman" && [Rarity] == "Unique" # [UniqueName] == "Eyes of the Greatwolf" && [ForceSellItem] == "true"	//巨狼之眼		賣出																									
+[Type] == "Greatwolf Talisman" && [Rarity] == "Unique" # [UniqueName] == "Eyes of the Greatwolf" && [StashItem] == "true"	//巨狼之眼		賣出																									
 	//腰帶		賣出																									
 [Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Prismweave" && [ForceSellItem] == "true"	//幻彩菱織		存倉																									
 //[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Feastbind" && [ForceSellItem] == "true"	//盛宴之結		賣出																									
