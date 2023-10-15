@@ -165,7 +165,7 @@ SetSaveIndex("Ì½ëUÈÕÕI","3")--À¶Í¼
 --SetSaveIndex(nil,"4",nil,"Metadata/Items/MapFragments/340VaultKey")--¹ÅĞàßzè€
 --SetSaveIndex(nil,"4",nil,"Metadata/Items/MapFragments/VaalVaultKey")--Íß –ßzè€
 SetSaveIndex(nil,"4",nil,"Metadata/Items/MapFragments/RitualFragment")--½şÑª±®Æ÷
-SetSaveIndex(nil,"4",nil,"Metadata/Items/MapFragments/VoidbornVaultKey")--Ì“ÕQßzè€
+SetSaveIndex(nil,"2",nil,"Metadata/Items/MapFragments/VoidbornVaultKey")--Ì“ÕQßzè€
 
 
 ------------------¹Ò»úÏà¹Ø
