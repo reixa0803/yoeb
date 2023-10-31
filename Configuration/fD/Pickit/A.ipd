@@ -1564,7 +1564,7 @@
 [Type] == "Simple Robe" && [Rarity] == "Unique" # [UniqueName] == "Skin of the Loyal" && [StashItem] == "true"	//忠誠之膚		存倉																									
 [Type] == "Simple Robe" && [Rarity] == "Unique" # [UniqueName] == "Skin of the Lords" && [StashItem] == "true"	//君主之膚		存倉																									
 //[Type] == "Silken Vest" && [Rarity] == "Unique" # [UniqueName] == "Ghostwrithe" && [ForceSellItem] == "true"	//鬧鬼		賣出																									
-//[Type] == "Scholar's Robe" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Flame" && [ForceSellItem] == "true"	//烈炎之袍		賣出																									
+[Type] == "Scholar's Robe" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Flame" && [StashItem] == "true"	//烈炎之袍		賣出																									
 //[Type] == "Sage's Robe" && [Rarity] == "Unique" # [UniqueName] == "Zahndethus' Cassock" && [ForceSellItem] == "true"	//札德圖斯的聖衣		賣出																									
 [Type] == "Sage's Robe" && [Rarity] == "Unique" # [UniqueName] == "Dialla's Malefaction" && [StashItem] == "true"	//達拉的罪刑		存倉																									
 [Type] == "Spidersilk Robe" && [Rarity] == "Unique" # [UniqueName] == "The Covenant" && [ForceSellItem] == "true"	//血誓		存倉																									
