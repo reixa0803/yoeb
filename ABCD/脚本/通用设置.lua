@@ -708,7 +708,7 @@ SetGoodsCaoZuo(nill,"3","藍圖","Metadata/Items/Heist/HeistBlueprintControlBlocks
 SetGoodsCaoZuo(nill,"3","藍圖","Metadata/Items/Heist/HeistBlueprintCourts")--藍圖：紀錄室,附魔
 SetGoodsCaoZuo(nill,"3","藍圖","Metadata/Items/Heist/HeistBlueprintMines")--藍圖：走私者老巢,盜賊
 
-SetJiaoYiGoods(nil,"盜之印","Metadata/Items/Heist/HeistCoin")
+--SetJiaoYiGoods(nil,"盜之印","Metadata/Items/Heist/HeistCoin")
 --值錢撿存
 SetGoodsCaoZuo(nill,"0|2","虛誕遺鑰","Metadata/Items/MapFragments/VoidbornVaultKey")--虛誕遺鑰
 
