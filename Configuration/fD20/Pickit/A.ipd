@@ -918,18 +918,23 @@
 [Type] == "Maven's Invitation: The Formed" # [StashItem] == "true" //	//釋界之邀：塑型		存倉																									
 [Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉																									
 //																												
-	// 16F 六洞裝 																											
-//	//六洞裝		不撿	//																								
-//	//魔法六洞裝			//																								
-//	//稀有六洞裝			//																								
-	// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）																											
-//	//獵首 皮革腰帶		關閉																									
-//	//魔血 重革腰帶		關閉																									
-//	//大地主權貴圓盾		關閉																									
+//	// 15F 六連裝 (目前有無法正常賣出的語法錯誤，但是我找不到問題點)			//																								
+[Sockets] == "6" && [Linked] >= "6" # [StashItem] ="true" //	//六連裝		存倉	//																								
+//[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Normal" # [ForceSellItem] =="true"	//普通六連裝			//																								
+//[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Magic" # [ForceSellItem] =="true"	//魔法六連裝			//																								
+//[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Rare" # [ForceSellItem] =="true"	//稀有六連裝			//																								
+//	// 16F 六洞裝 																											
+[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal" # [SellUnid] == "true"	//六洞裝		賣出	//																								
+[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" # [SellUnid] == "true"	//魔法六洞裝			//																								
+[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare" # [SellUnid] == "true"	//稀有六洞裝			//																								
+//	// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）																											
+//	//獵首		關閉																									
+//	//魔血		關閉																									
+//	//生機之記 朽木法杖		關閉																									
 //	//幻芒聖盾鬥士鳶盾		關閉																									
 //			關閉																									
-			關閉						
-//	// 18F 藥水（預設關閉）			//																								
+//			關閉																									
+//	// 18F 藥水（預設關閉）			//																				
 //					下面這行可以預設物等																							
 //已設定不存倉	//水銀藥劑		賣出		85	85物品等級包含以上賣出																						
 //已設定不存倉	//黃金藥劑		賣出		85																							
