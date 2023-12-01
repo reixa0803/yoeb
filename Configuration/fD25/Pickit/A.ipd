@@ -1450,8 +1450,8 @@
 [Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Heatshiver" && [StashItem] == "true"	//寒焰		存倉																									
 [Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Frostferno" && [StashItem] == "true"	//霜獄		存倉																									
 //[Type] == "Wolf Pelt" && [Rarity] == "Unique" # [UniqueName] == "Elevore" && [ForceSellItem] == "true"	//愛勒弗		賣出																									
-//[Type] == "Ursine Pelt" && [Rarity] == "Unique" # [UniqueName] == "Rat's Nest" && [ForceSellItem] == "true"	//鼠巢		賣出																									
-//[Type] == "Silken Hood" && [Rarity] == "Unique" # [UniqueName] == "Starkonja's Head" && [ForceSellItem] == "true"	//斯塔空加之首		賣出																									
+[Type] == "Ursine Pelt" && [Rarity] == "Unique" # [UniqueName] == "Rat's Nest" && [StashItem] == "true"	//鼠巢		賣出																									
+[Type] == "Silken Hood" && [Rarity] == "Unique" # [UniqueName] == "Starkonja's Head" && [StashItem] == "true"	//斯塔空加之首		賣出																									
 //[Type] == "Silken Hood" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Flock" && [ForceSellItem] == "true"	//斯卡沃之徒		賣出																									
 //[Type] == "Silken Hood" && [Rarity] == "Unique" # [UniqueName] == "Cowl of the Cryophile" && [ForceSellItem] == "true"	//酷寒斗篷		賣出																									
 [Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [ForceSellItem] == "true"	//極地之嗥		存倉																									
@@ -1472,7 +1472,7 @@
 //[Type] == "Necromancer Circlet" && [Rarity] == "Unique" # [UniqueName] == "Fenumus' Toxins" && [ForceSellItem] == "true"	//菲恩絲獠牙		賣出																									
 //[Type] == "Necromancer Circlet" && [Rarity] == "Unique" # [UniqueName] == "The Devouring Diadem" && [ForceSellItem] == "true"	//吞噬之冠		賣出																									
 [Type] == "Necromancer Circlet" && [Rarity] == "Unique" # [UniqueName] == "Sandstorm Visage" && [StashItem] == "true"	//沙瀑面紗		存倉																									
-//[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Flamesight" && [ForceSellItem] == "true"	//炎視		賣出																									
+[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Flamesight" && [StashItem] == "true"	//炎視		賣出																									
 //[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Galesight" && [ForceSellItem] == "true"	//風視		賣出																									
 //[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Thundersight" && [ForceSellItem] == "true"	//雷視		賣出																									
 //[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Cowl of the Ceraunophile" && [ForceSellItem] == "true"	//狂雷斗篷		賣出																									
@@ -1491,7 +1491,7 @@
 //[Type] == "Lacquered Helmet" && [Rarity] == "Unique" # [UniqueName] == "The Fledgling" && [ForceSellItem] == "true"	//幼雛		賣出																									
 //[Type] == "Fluted Bascinet" && [Rarity] == "Unique" # [UniqueName] == "Crest of Desire" && [ForceSellItem] == "true"	//慾望之冠		賣出																									
 //[Type] == "Nightmare Bascinet" && [Rarity] == "Unique" # [UniqueName] == "The Bringer of Rain" && [ForceSellItem] == "true"	//祭禮之雨		賣出																									
-//[Type] == "Nightmare Bascinet" && [Rarity] == "Unique" # [UniqueName] == "Devoto's Devotion" && [ForceSellItem] == "true"	//德沃托的信念之盔		賣出																									
+[Type] == "Nightmare Bascinet" && [Rarity] == "Unique" # [UniqueName] == "Devoto's Devotion" && [StashItem] == "true"	//德沃托的信念之盔		賣出																									
 //[Type] == "Soldier Helmet" && [Rarity] == "Unique" # [UniqueName] == "Honourhome" && [ForceSellItem] == "true"	//私慾的光輝		賣出																									
 //[Type] == "Great Helmet" && [Rarity] == "Unique" # [UniqueName] == "Veil of the Night" && [ForceSellItem] == "true"	//夜幕		賣出																									
 //[Type] == "Great Helmet" && [Rarity] == "Unique" # [UniqueName] == "Replica Veil of the Night" && [ForceSellItem] == "true"	//贗品．夜幕		賣出																									
