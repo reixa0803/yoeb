@@ -158,7 +158,7 @@
 	[Type]=="Plateau Map" #	[IgnoreMap]	=="true"	//海風高原	打這張圖																				
 	[Type]=="Estuary Map" #	[IgnoreMap]	=="true"	//熔火岩灘	打這張圖																				
 	[Type]=="Vault Map" #	[IgnoreMap]	=="true"	//魔金寶庫	不打這張圖																				
-	[Type]=="Temple Map" #	[IgnoreMap]	=="true"	//奪魂之殿	打這張圖																				
+	[Type]=="Temple Map" #	[RunMap]	=="true"	//奪魂之殿	打這張圖																				
 	[Type]=="Arena Map" #	[IgnoreMap]	=="true"	//競技場	不打這張圖																				
 	[Type]=="Museum Map" #	[IgnoreMap]	=="true"	//古博物館	打這張圖																				
 	[Type]=="Scriptorium Map" #	[IgnoreMap]	=="true"	//墓影書坊	打這張圖																				
