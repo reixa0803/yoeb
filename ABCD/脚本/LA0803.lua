@@ -22,6 +22,9 @@ SetUseZhuangBeiTypeData("StrInt","项链")
 g_attackDis=50				--攻击距离
 g_duobiHpVal=0.2
 
+------------------基本设置
+g_needMinimizeGame=nil		    --最小化遊戲窗口 true为最小化 false或nil为不最小化
+
 --SetNeedSkillLineData(val,str,invalidLv,pos)--设置换技能宝石数据 
 --val=每块宝石的比重值
 --str="宝石1,宝石1类名|宝石2,宝石2类名|宝石3,宝石3类名" 名与类名之间用,隔开 宝石之间用|隔开
