@@ -1,0 +1,2496 @@
+v0.94b
+Fixed gem leveling.
+
+v0.94
+Fixed offsets for game version 3.23.0.
+
+v0.93e
+Fixed offsets for game version 3.22.2b.
+
+v0.93d
+Fixed offsets for game version 3.22.2. 
+
+v0.93c
+Fixed offsets for game version 3.22.1. 
+
+v0.93b
+Fixed mirrored item detection. 
+
+v0.93
+Fixed offsets for game version 3.22.0.
+Added support for Corrupting Fever buff skill.
+
+v0.92e
+Fixed offsets for game version 3.21.2b.
+
+v0.92d
+Fixed wardloop routine buff detection.
+Auras should be recasted properly in hideout after death.
+Increased item pickup speed.
+
+v0.92c
+Added Wardloop routine in combat tab (Use all flasks and swap weapons twice if skeleton buff is not found while in farming zone).
+Incubators are considered as normal items instead of currency.
+Bot now clicks on general tab from currency stash tab before using any currency out of it.
+Fixed monster rarity detection.
+
+v0.92b
+Fixed offsets for game version 3.21.0.
+Fixed friend/foe detection.
+Fixed minions detection.
+Fixed breakable chest detection.
+Fixed necromancer/undead detection.
+Fixed restart because of "no monster killed" issue.
+
+v0.92
+Fixed offsets for game version 3.21.0.
+
+v0.91f
+Fixed offsets for game version 3.20.2c.
+
+v0.91e
+Fixed offsets for game version 3.20.2b.
+
+v0.91d
+Fixed offsets for game version 3.20.2.
+
+v0.91c
+Fixed waypoint state detection.
+
+v0.91b
+Bot now returns to area after being sucked into sanctum portal.
+
+v0.91
+Fixed offsets for game version 3.20.0.
+
+v0.90d
+Fixed offsets for game version 3.19.1c.
+Remove absurd_monster_hp_value.
+
+v0.90c
+Fixed offsets for game version 3.19.1.
+
+v0.90b
+Fixed offsets for game version 3.19.0g.
+
+v0.90
+Fixed offsets for game version 3.19.0.
+Fixed issue where bot would consider map finished right after opening it.
+Updated map and pickit ipd files (<3 Kintaro).
+
+v0.89g
+Updated offsets for Garena TW.
+
+v0.89f
+Fixed waypoint state detection.
+
+v0.89e
+Fixed offsets for game version 3.18.1c.
+
+v0.89d
+Fixed offsets for game version 3.18.1b.
+
+v0.89c
+Fixed offsets for game version 3.18.1
+
+v0.89b
+Fixed crash when bot has item under cursor.
+
+v0.89
+Fixed offsets for game version 3.18.0.
+
+v0.88j
+Fixed map non-stop reseting issue.
+
+v0.88i
+Fixed offsets for game version 3.17.4.
+
+v0.88h
+Fixed gem leveling (and crash).
+
+v0.88g
+Fixed golem summoning.
+Fixed mirrored and corrupted items detection.
+
+v0.88f
+Fixed offsets for game version 3.17.3.
+
+v0.88e
+Fixed offsets for game version 3.17.2.
+Archnemesis monster state should be detected properly.
+Fixed mods indexes.
+Fixed waypoint state detection.
+
+v0.88d
+Fixed offsets for game version 3.17.1b.
+
+v0.88c
+Fixed offsets for game version 3.17.1.
+
+v0.88b
+Fixed archnemesis monster detection (stop attacking it).
+Fixed Items Selling sentence detection in hideout.
+
+v0.88
+Fixed offsets for game version 3.17.0.
+
+v0.87g
+Fixed offsets for game version 3.16.3b.
+
+v0.87f
+Fixed chaos recipe (item level detection).
+Fixed mirored map detection.
+
+v0.87e
+Fixed offsets for game version 3.16.2b.
+Added Defiance Banner and Petrified Blood auras.
+
+v0.87d
+Fix idling after all portal get used.
+Fix first map considered cleared.
+
+v0.87c
+Updated offsets for Garena TW.
+
+v0.87b
+Fixed offsets for game version 3.16.0b.
+
+v0.87
+Fixed offsets for game version 3.16.0.
+
+v0.86c
+Fixed mirored and corrupted state detection for items.
+
+v0.86b
+Updated modifiers list.
+
+v0.86
+Fixed offsets for game version 3.15.0.
+
+v0.85j
+Fixed offsets for game version 3.14.3.
+
+v0.85i
+Fixed escape menu detection.
+
+v0.85h
+Fixed offsets for game version 3.14.1d.
+Updated modifiers list.
+
+v0.85g
+Fixed offsets for game version 3.14.1c.
+
+v0.85f
+Fixed offsets for game version 3.14.0c.
+
+v0.85e
+Fixed mana flask usage.
+Updated modifiers list.
+Fixed monsters buffs detection.
+
+v0.85d
+Fixed gem leveling.
+
+v0.85c
+Updated offsets for game version 3.14.0.
+
+v0.85b
+User can now setup a movement_key that is going to be used instead of left click while navigating (movement_key in skills.ini, general section).
+Fixed device master selection click.
+Updated offsets for game version 3.13.2b.
+
+v0.85
+Added device master selection feature (map_device_master_selection in config.ini file).
+Added delay that will make bot sleep after casting skill.
+Removed metamorph and vaal corrupted area features as they were broken.
+Removed master alert feature.
+
+v0.84g
+Updated offsets for game version 3.13.1.
+
+v0.84f
+Updated offsets for Garena TW.
+Fixed gem leveling.
+Updated default config files.
+
+v0.84e
+Updated offsets for game version 3.13.0.
+Bot should use transmutation if map is set to be upgraded to rare but there is no alchemy in stash.
+
+v0.84d
+Updated offsets for game version 3.12.5b.
+
+v0.84c
+Updated offsets for Garena TW.
+Updated premium currency stash coordinates.
+
+v0.84b
+Updated offsets for game version 3.12.4d.
+
+v0.84
+Fixed steam version.
+
+v0.83h
+Fixed bot stucked at abyss start node when delirium or breach is enable.
+
+v0.83g
+Fixed map tier detection (shaped map seems broken tho).
+
+v0.83f
+Fixed Totem monster detection.
+Fixed undead / resurrect mods monster detection.
+
+v0.83e
+Fixed offsets for game version 3.12.3.
+Fixed a bug where bot needed to enable breach to farm delirium.
+
+v0.83d
+Fixed waypoint state detection.
+
+v0.83c
+Fixed offsets for Garena TW and Tencent versions 3.12.2.
+Updated map tier list.
+Added category to pickit named "Contract" for contracts.
+
+v0.83b
+Updated mods data.
+Fixed transition not taken on some maps (ie Glacier).
+Fixed metamorphosis.
+
+v0.83
+Updated offsets for game version 3.12.0.
+
+v0.82g
+Fixed item pickup.
+
+v0.82f
+Updated offsets for game version 3.11.2.
+
+v0.82e
+Updated offsets for game version 3.11.1g.
+
+v0.82d
+Updated offsets for game version 3.11.1b.
+Bot should now exit properly after entering corrupted area by mistake.
+
+v0.82c
+Fixed Tropical Island transitions handling.
+Updated mods data (again).
+
+v0.82b
+Updated mods data for game version 3.11.0d. 
+Fixed metamorphosis.
+
+v0.82
+Updated offsets for game version 3.11.0d.
+
+v0.81i
+Fixed offset for escape menu detection.
+
+v0.81h
+Updated offsets for game version 3.10.1d.
+
+v0.81g
+Updated offsets for game version 3.10.1c.
+
+v0.81f
+Updated offsets for game version 3.10.1.
+
+v0.81e
+Added delirium feature (enable_delirium key in config.ini).
+Fixed metamorphosis feature.
+Corrupted item detection fixed.
+Fixed corrupted area detection.
+
+v0.81d
+Updated offsets for game version 3.10.0b.
+Fixed Guid stash and Trial panels detection.
+Fixed slow issues with steam game version.
+
+v0.81c
+Fixed some random crashes.
+
+v0.81b
+Added Tickbox in UI for Metamorphosis feature.
+Added Carrion golem gem support.
+Added Skitterbots gem support.
+Fixed bot stucked summoning vial during metamorph creation.
+
+v0.81
+Added metamorphosis feature (enable_metamorph key in config.ini).
+Added new "Organ" category keyword for pickit.
+Minor fixes.
+
+v0.80g
+Updated offsets for game version 3.9.1.
+
+v0.80f
+Fixed pathfinding and transition issues.
+Updated map tier list.
+Fixed npc sentence clicking on steam.
+
+v0.80e
+Updated offsets for game version 3.9.0.
+
+v0.80d
+Updated offsets for game version 3.8.2c.
+
+v0.80c
+Updated offsets for game version 3.8.1.
+
+v0.80b
+Bot should now always exit a boss arena before considering a map finished.
+Added new setting (system.ini, boss_arena_exploration_distance, default 70) to reduce exploration distance while inside boss arena and avoid bot leaving map before killing the boss.
+Fixed strongbox lock detection.
+Added Blood and Sand stances support for Flesh and Stone aura.
+Fixed transition to Alva Incursion.
+Fixed bot looping on regular area creation when out of maps.
+
+v0.80
+Updated offsets for game version 3.8.0.
+
+v0.79g
+Fixed slow item looting on steam issue.
+Fixed waypoint state detection.
+
+v0.79f
+Updated offsets for game version 3.7.3c.
+Added support for Blood and Sand aura.
+
+v0.79e
+Fixed item in map device not detected.
+Fixed item on cursor not detected.
+
+v0.79d
+Updated offsets for game version 3.7.3.
+Fixed item positions in currency stash tab.
+
+v0.79c
+Updated offsets for game version 3.7.2b.
+
+v0.79b
+Fixed offsets for game version 3.7.1.
+Added Legion monolith handling.
+
+v0.79
+Updated offsets for game version 3.7.0f.
+Added Pride, Precision and Stone and Flesh auras.
+
+v0.78g
+Fixed steam offsets.
+Improved incursions handling. Bot should go back to farmed area after it's finished.
+Fixed random back and forth issue.
+Fixed investigation panel detection.
+Bot won't try to level gem while inventory is open anymore.
+
+v0.78f
+Updated offsets for Tencent version 3.6.3d.
+Gem leveling detection improved.
+Bot now ignores healing totems.
+Fixed bot stucked in memory area.
+Changed how coordinates are handled while picking up items so make sure that you are using coords.ini file from this release.
+
+v0.78e
+Fixed offsets for version 3.6.3b.
+Now bot activates memory stabilizer and leave memory zone instead of staying stucked.
+Minor fixes.
+
+v0.78d
+Fixed monster remaining counter offsets.
+
+v0.78c
+Fixed offsets for Tencent version 3.6.3.
+Fixed offsets for Vanilla version 3.6.3.
+
+v0.78b
+Fixed waypoint state detection.
+Fixed steam offsets.
+Added back dll injection.
+
+v.78
+Fixed offsets for Vanilla and Steam versions 3.6.0.
+Migrated code from x86 to x64.
+Added Zealotry Aura handling.
+
+v0.77g
+Fixed offsets for Vanilla and Steam versions 3.5.2.
+Added Aspect auras skills handling.
+
+v0.77f
+Fixed offsets for Garena TW and Tencent versions 3.5.1.
+
+v0.77e
+Fixed offsets for Vanilla, Steam and Tencent versions 3.5.1.
+
+v0.77d
+Fixed offsets for Vanilla, Steam, Tencent and Garena versions.
+
+v0.77c
+Fixed offsets for Tencent version 3.5.0.
+Improved incursion handling, now bot clears properly the 3 incursions that spawns in area.
+
+v0.77b
+Fixed offsets for steam and Garena TW 3.5.0.
+Fixed crash occuring when bot is in new hideout.
+Fixed some map tier data.
+Fixed Alva NPC name detection for incursion clearing.
+Added War Banner aura skill.
+Fixed Crater map detection.
+Fixed remaining monsters counter.
+
+v0.77
+Fixed offsets for game version 3.5.0.
+
+v0.76j
+Fixed offsets for Tencent version 3.4.5c.
+Added an option to alternate selecting highest tier and lowest tier on each new map run (enable_lowest_highest_tier_map_alternance in config.ini).
+
+v0.76i
+Fixed escape menu detection for garena version.
+
+v0.76h
+Fixed offsets for tencent and garena versions.
+
+v0.76g
+Fixed offsets for game version 3.4.3f.
+Fixed offsets for Garena TW version 3.4.3e.
+Fixed bot getting stucked on door close to burial chambers arena entrance.
+Increased item pickup speed.
+
+v0.76f
+Fixed offsets for game version 3.4.3e.
+
+v0.76e
+Fixed offsets for game version 3.4.3c.
+
+v0.76d
+Fixed offsets for steam version 3.4.3.
+Fixed waypoint detection for game version 3.4.3.
+Fixed friendly entities detection.
+
+v0.76c
+Fixed offsets for Tencent version 3.4.1.
+Herald of Purity and Herald of Agony implemented.
+Reduced delay between aura casting.
+
+v0.76b
+Fixed steam offsets for game version 3.4.1.
+Fixed monster counter.
+
+v0.76
+Fixed offsets for game version 3.4.0.
+
+v0.75i
+Fixed waypoint state detection.
+
+v0.75h
+Fixed offsets for game version 3.3.2.
+
+v0.75g
+Fixed Righteous Fire buff detection.
+Fixed offsets for Garena TW and Tencent versions 3.3.1c.
+
+v0.75f
+Fixed offsets for game version 3.3.1c.
+Removed some useless anti-detection code that was slowing down the bot.
+
+v0.75e
+Fixed bot stucked at login sometimes after chicken.
+Improved performance issues from previous update.
+
+0.75d
+Updated offsets for version 3.3.0c.
+Bot should now talk to Captain Fairgraves after getting the Allflame when auto progression is enable.
+Various progression issues fixed.
+Bot should now restart game properly after game crashed.
+Fixed some issues that could eventually lead to client-side detection.
+Added some anti-detection code that is currently slowing the bot. This will be tweaked on the next versions.
+
+0.75c
+Updated offsets for game version 3.3.0.
+Updated mods data for game version 3.3.0.
+Updated default pickit ipd file (other improvements incoming tho).
+Fixed a lot of progression issues.
+
+0.75b
+Fixed some map navigation issues (bot shouldn't think that map is finished after taking a transition).
+
+0.75
+Fixed waypoint state detection offsets.
+Fixed Necromancer detection so bot attacks them before skeletton.
+Fixed map transition handling on "Burial Chambers", "Ivory Temple", "Ramparts" and in general, all maps should now run without any issue.
+Fixed automatic game restarting.
+Now if bot missclicks on equipped item, it should reequip it immediately.
+Bot will check that inventory has been properly closed before trying to do anything else.
+
+0.74g
+Fixed offset for friendly reaction detection (bot shouldn't ignore some random monsters anymore).
+
+0.74f
+Fixed offset for targetable entity detection (patch 3.2.3b).
+
+v0.74e
+Fixed offsets for Tencent game version 3.2.2.
+
+v0.74d
+Fixed offsets for game version 3.2.2.
+
+v0.74c
+Fixed offsets for game version 3.2.1c.
+Fixed ipd files encoding.
+
+v0.74b
+Fixed issue making bot attack minions while selling items.
+Added the possibility to setup a limit of map count in stash, when its reached bot won't pickup any map until counter get down to the limit.
+Added same counter logic for augmentation and transmutation orbs.
+Fixed chaos recipe (itemlevel & required level) and mirrored item detection.
+
+v0.74
+Fixed offsets for game version 3.2.0.
+
+v0.73k
+Fixed vaal fragments detection.
+Splinter are now considered as currencies.
+Fixed aura being recasted ever and ever issue.
+
+v0.73j
+Fixed mirrored item detection (again).
+Fixed item mods detection.
+Fixed sacrifice fragment detection.
+
+v0.73i
+Fixed mirrored item detection.
+
+v0.73h
+Fixed chaos recipe.
+
+v0.73g
+Fixed offsets for game version 3.1.2.
+
+v0.73f
+Fixed shaped map tier detection.
+
+v0.73e
+Fixed social panel opened and closed in town loop.
+Fixed City Square map.
+
+v0.73d
+Updated most of the maps data, bot shouldn't crash anymore.
+Fix for stash tabs, some issue may still happen, if any thanks for reporting.
+
+v0.73c
+Fixed auras / buff detection issue.
+Fixed most of the maps (except shaped).
+
+v0.73b
+Progression detection fixed.
+Fixed aura and buffs being recasted randomly
+
+v0.73
+Offsets updated for game version 3.1.0d.
+Fixed auras being recasted in hideout after reconnection.
+Fixed bot trying to augment unid maps.
+Delay to reset log file can now be setup in Client tab (never reset by default).
+Item dropped exported in CSV file can be enable/disable in Client tab (disable by default).
+Stash tabs still have some issues, it will be fixed on next version.
+Maps farming need some fixes as well.
+
+v0.72k
+Fixed waypoint detection bug from game update 3.0.3.
+
+v0.72j
+Fixed aura being recasted after logout.
+Fixed issue making monster's invulnerable minions being attacked.
+
+v0.72i
+Fixed offsets for Tencent CN version.
+Bot doesn't use image search anymore to find NPC "Sell Items" sentence. Now it's retrieved from memory.
+Fixed bot trying to attack some friendly minions (issue that appeared post v0.72).
+
+v0.72h
+Fixed Arctic Armour aura detection.
+Fixed Blasphemy auras detection.
+
+v0.72g
+Reworked logic of aura system, now the buff is detected in memory so they are casted and recasted whenever it's needed (Blasphemy not working, gonna be fixed asap).
+
+v0.72f
+Updated mods list.
+
+v0.72e
+Act 4 totally complete.
+
+v0.72d
+Fixed issue on maps with boss areas.
+Act 4 complete until the final boss - you will get stuck on final boss at the moment.
+
+v0.72c
+Fixed some monster being ignored (appeared in v0.72b).
+Progression Act 1 - Act 3 reworked and completed.
+Act 4 The King of Desire Quest has to be done by player.
+Harvest area still not complete.
+
+v0.72b
+Fixed talking to NPC detection for Tencent version.
+
+v0.72
+Fixed stash tab and sell sentence detection issues for tencent poe version.
+Fixed Chaos Orb detection in currency stash tab mtx.
+Currencies in bottom free slots of currency stash tab mtx are now used.
+Bot now can use orbs of binding to upgrade maps ([UpgradeToRareWithBinding] == "true"). Orbs of binding are used before orbs of alchemy (as they are cheaper).
+
+v0.71h
+Updated currencies coordinate in currency stash tab mtx.
+Updated offsets for Tencent PoE version.
+
+v0.71g
+Bot now checks for currencies in regular stash tabs if they aren't found in currency defined stash tab or no currency stash tab is defined.
+Fixed aura caster detection. Now bot will attack again in priority the caster of "Cannot Die" aura.
+
+v0.71f
+Currency store tab doesn't need to be defined in stash tabs anymore for bot to be able to pick currencies from it.
+Fixed recorded coordinates not found for Orbs of Alteration in currency stash tab.
+Fixed bot stucked clicking on Eramir act 7 issue.
+Fixed buff charge detection due to offset change in 3.0.1.
+
+v0.71e
+Now if smart pickit is enable, currencies need to be setup as rules to be taken. BE CAREFUL TO ADD THEM IF YOU ARE REUSING CUSTOM PICKIT (just copy paste them from new default pickit).
+Added quad and currency stash tabs handling. Be careful bot doesn't detect if currency stash tabs is full and will attempt to store every currency items in it (this will be improved in upcoming releases).
+Fixed bot stucked trying to take currency if inventory is full.
+Updated default pickit.
+Added a pickit file that takes all unique and cards by default.
+Fixed a crash that happened randomly after loading area (appeared in 0.71d).
+
+v0.71d
+Fixed crash when bot having progression enable and already finished all supported quests. Bot now simply exit.
+Fixed templar laboratory pathing issue. It is still strongly advised to do the zana quest and use map device from hideout.
+Fixed The Twilight Strand transition detection in Lioneye's Watch Act 6.
+Removed the directX 11 detection check due to false positives reports.
+
+v0.71c
+Offsets updated for steam version 3.0.0b.
+Fixed area handling in act 5.
+
+v0.71b
+Added area of act 9 and 10 to the bot. Some areas that are not shown in the world panel may still be missing, thanks for reporting them.
+Added selling NPC for act 9, 10 and Epilogue.
+Fixed issue making bot not being able to select proper act in world map.
+Added coordinates for every area on world panel.
+Fixed an issue where bot wouldn't create new instance when entering farming area.
+Fixed Templar Laboratory.
+
+v0.71
+Offsets updated for game version 3.0.0.
+Added an alert system. Now bot can send smartphone notification, play sound and wait for player when it finds a master or a trial lab.
+Added all area from act 5 to 8.
+Reworked breakable chests handling : Now user can setup a range to attack them (0 by default so they are all ignored).
+Added the possibility to disable the kill raising undead monsters before killing undead monsters.
+Bot ignores harbinger monsters.
+Laboratory handling and new areas will be added soon in upcoming versions.
+
+v0.70j
+Bot now casts auras in hideout and eternal lab.
+
+v0.70i
+Fixed offsets for steam version.
+
+v0.70h
+Fixed game offsets for 2.6.3.
+
+v0.70g
+Fixed Mana flask not used bug.
+
+v0.70f
+Fixed eternal laboratory loop bug.
+
+v0.70e
+Added 3 keys to item pickit : TotalSpellElementalDamage, TotalFireSpellDamage, TotalColdSpellDamage, TotalLightningSpellDamage.
+When selecting The Harvest zone to farm, bot will kill all three bosses properly.
+Fixed a crash that occurred just after switching area.
+Fixed an issue : when user set to use flask below X life and reserved more life than the bot tried to flask like hell. Fixed the ignore value, was "if under 100", but because it's a double percent value (between 0 and 1) it didn't do anything.
+Now bot won't use a flask if it's configured to use it when mana/life is higher than reserved amount.
+Fixed waypoint state detection for The Crypt, The Chamber of Sins, The Warehouse Sewers and The Lunaris Temple.
+Bot won't exit after map is explored while doing quests.
+If failed to open map portal, bot will retry within 15 seconds #3
+Destroy item window keep button click coordinates changed and verified, this was not included in last update by mistake.
+When out of maps (and running maps) bot will remain in hideout and only leave hideout when going to zone. fix #2
+Fix for bot unable to click new instance.
+Fix for bot sometimes stuck on map device // gerus act 2 town when pathing, it's a general fix for similar conditions #3.
+Eternal laboratory fix.
+Use Hideout with way point fix.
+Fix for stairs, tested on docks for 2 hours, Notice: System.ini was changed --- terrain_passable_value=50
+Changed mouse bottom limit on movements/movement skill for extra 50 pixel.
+Fix attempt for reports of dried lake instance not being reset.
+Added option in config.ini -- stop_bot_when_no_more_maps=false -- as it says, the bot will stop if map farming is enabled and no more maps to farm left.
+Minor fix regarding running dried lake with hideout option on.
+Added (BETA) caption to movement skill, Use at your own risk and don't annoy dynastyo with it.
+Fix for sometimes bot was going for the wrong transition and get stuck #2
+
+v0.70d
+No changes since v0.70c, alkpone failed somewhere and he uploaded files from version 0.70c.
+
+v0.70c
+Updated leaguestones.ipd file.
+Updated default pickit.
+When out of maps (and running maps) bot will remain in hideout and only leave hideout when going to zone.
+Mouse parking spot changed to healthbar - 100,550
+Fixed special chest to not be engaged after they were open.
+Made it so if smart pickit is enabled, "Loot rares/rings/amys" option will be ignored.
+Breakable chest will be open ALWAYS and ONLY under range 5 (extremely close) in order to clear path.
+Fix attempt for bot creating new instances without exploring after several hours of running on zone.
+If failed to open map portal, bot will retry within 10 seconds #2, first attempt messed something up.
+
+v0.70b
+Updated mods list.
+Increased delay in various state, to reduce missclicks.
+Removed TP after transition.
+Fixed Too many login attempts to retry after 5 mins #2.
+Bot will try to open a single chest for up to 30 sec and then skip it.
+Bot selling items fix.
+Fixed bot going to hideout when out of maps and need to run dried lake, will only go to hideout when there are maps available.
+Pickup try count is now in seconds - how long to try to pick a single item.
+Stairs fix attempt #14.
+Changed open chest priority to higher then pickup gogo perandus chest.
+Added max range for special chests in config.ini (special_chest_max_range).
+Removed unstucker logs.
+Improved movement skill and made cooldown on movement skill working.
+Changed the way stashing delay is calculated to use the system.ini stash_delay=400 by default.
+Changed destroy item window "keep" coordinates since they were wrong, still not sure if they are right but should be.
+Added JPS leaguestones ipd from : https://exiled-bot.net/community/index.php/topic/8754-leaguestone-thread-w-ipd/
+
+v0.70
+Added leaguestones handling. Rules are defined in leaguestones.ipd file. By default, the bot will use randomly any leaguestone available.
+Map augmentation is now optional in map ipd (uncomment line : // [Rarity] == "Magic" # [AugmentIfPossible] == "true").
+
+v0.69f
+Areanavigator crash identified - auto tp after transition was the cause and it's disabled for now.
+Added logs to unstucker to identify crash there aswell.
+Fix for upgrade maps attempt.
+Fix attempt for sometimes bot is miss clicking the npc it tries to click.
+Map augmentation is now optional in map ipd (uncomment line : // [Rarity] == "Magic" # [AugmentIfPossible] == "true").
+Fixed a crash while identifying items.
+Fixed flask recovery time computation.
+
+v0.69e
+Bot now right clicks league stones twice with 500ms delay.
+Fixed error_messages_shade_variation default value (set to 92) from system.ini file, to avoid false positives.
+Added logs to identify crash.
+Restored calc corners.
+Added logs to map explorer to identify crash.
+Made login screen and Waypoint mouse clicks more robust (less missclicks).
+
+v0.69d
+Fixed item level and level required detection.
+Fixed Garena TW item pickup.
+Added possibility for the bot to right click league stones before stashing them.
+Fix for gem level when not required to be operated.
+Botstuck recalculating path won't happen when the bot need to stay at place and won't think its stuck.
+Fixed bot going to waypoint when running maps.
+Hard to explain fix for pathfinding.
+Reverted calc corners as suspect for crash.
+Added log to area navigator to understand where crash is coming from if calc corners isn't the reason.
+ 
+v0.69c
+All these changes were made and tested by PhalanxRS <3.
+Calc corners updated - Movement skills while exploring now work even better, Thanks Leonidas.
+Added 2 second delay after clicking map device, Map device activation done differently.
+Added 2 second delay after clicking way point. After clicking stash, mouse will point at 750, 1.
+Changed mouse parking to 750,1 since 100,50 was problematic tell me if that's also a problem.
+Instead of trying to press keep on destroy item window, ESC will be pressed.
+Disabled opening town portal on beach map + Small fix for issue where bot restart game for some reason + merge progression + removed transition ignore (caused many issues).
+Added inventory refresh (unrefreshed = more delay).
+Fixed chicken to not get ESC button stuck.
+
+v0.69b
+Fixed breakable chest detection.
+Image detection default values reduced.
+Added keys in system.ini file to setup the shade variation of image detection (gem_leveling_shade_variation, npc_sentence_shade_variation, frozen_poe_shade_variation, error_messages_shade_variation). Values can be 0-100. Increasing these values will make the bot more accurate but more likely to miss the image, reducing them will make the bot more likely to find the image and more likely to false positives. Even if some of these keys were already there in previous versions, they weren't used by the bot.
+
+v0.69
+Offsets updated for game version 2.6.0b.
+
+v0.68e
+Fixed item pickup for game version 2.5.4.
+Now waypoint states are read directly from the game.
+
+v0.68d
+Fixed FlaskDrinker, now it will use normal flask if the instant flask is set but cannot be used for some reason (eg: no more charges).
+
+0.68c
+Added force close inventory window before using map device (This is to try to avoid the selling items from inventory bug).
+When inventory is open, mouse will be parked at (x=100, y=50) when it's not being used, Thanks killergate for the request.
+Fixed map augmentation.
+Bot was pressing ESC when POE client was closed, will avoid that now.
+Up to maximum 120 sec sleeping period after restarting game client - waiting for game to load due to issues rising.
+Fix for DLL not being recognized.
+Updated default jpick_forcesell.ipd.
+
+0.68b
+Movement skills (Whirling blades , leap slam stuff like that).
+Monster timeout added - bot will stop trying to attack any monster after timeout (30 seconds by default, disable for progression) is reached.
+Seriously improved pathfinding (including ignoring trial of ascendancy).
+While in progression, bot will create new instance only after 5 failed tries with the same instance.
+Run only autoflask is operational.
+Villa map now ignored by default.
+
+0.68
+Added automatic use of augmentation orb with maps (be sure that you enable map upgrading to magic).
+Now bot can use any type of flask (To use utility flasks you have to setup in the override when to use [below Life/ES/Mana %]).
+Override setting logic changed so it will actually override the Basic setting. For example if you have a life flask set to use below 70% in override then the Basic flask system will not use that life flask at all.
+In short any flask you setup in override will be used ONLY (and without any other condition) when the override condition is met. (If you set two life flasks to 70% in override both will be used together).
+For more infos about new flask system checker here : https://exiled-bot.net/community/index.php/topic/8331-tabs-explained/
+Bot also now will use all required flasks together without delay (before if you had low life and had bleeding it would first use life flask then after a while use the dispel flask, now it will use both at the same time).
+Added delay after clicking an NPC to wait for menu to popup.
+Logs are now overwritten every 5 minutes.
+After finishing with inventory handling, bot closes all windows (fixes few bugs this way).
+Improved kill frozen poe window feature.
+Reduced town management delays (new key "custom_added_town_management_delay" added in config.ini).
+
+0.67
+Offsets updated for Tencent China version 2.5.0b.
+Frozen poe window and error login error messages detections fixed (thx PhalanxRS).
+Bot now always picks closest item (thx PhalanxRS <3).
+Items dropped are now logged in a CSV file (thx PhalanxRS <3 <3).
+Bot is now able to handle multiple golem. You'll need to setup again which golem your skill summons and how many do you want for each summon skill in Combat tab.
+Fixed flasks ini file's default values.
+
+0.66l
+Offsets updated for Tencent China version 2.5.0b.
+Chicken out of instant life flask will only happen when the option is on.
+Changed default value for map_store_stash_tabs to "1,2,3".
+
+0.66k
+Offsets updated for Garena TH version 2.5.0b.
+
+0.66j
+Breach currencies aren't stored in currency tab anymore. If you have smart pickit enable, don't forget to add them ( you can copy paste them from default.ipd file).
+Removed town management timeout.
+
+0.66i
+Offsets updated for Garena TW version 2.5.0b.
+Implemented PhalanxRS's improved flask system.
+Flasks will be drinked in order - if 3 life flasks, 1st will be used then 2nd, then 3rd and then the one with highest charge.
+Possible to drink Jade, Basalt, Granite and Taste of Hate flasks using the flask override system.
+Bot will chicken if out of instant life flasks and you are using instant life flask.
+Fixed armoury map.
+
+0.66h
+Added Breach activation handling (activate_breaches in config.ini, true by default, user can modify it through GUI).
+Bot now closes the event and pvp panel.
+
+0.66g
+Optimized environment update code, world update should take about twice less time in timer.log (especially when there are a lot of dead/alive monsters around player, ie in Dunes map).
+Optimized image search code, should be much faster now.
+
+0.66f
+Image search for gem level and npc sentence fixed.
+
+0.66e
+Offsets updated for game version 2.5.0.
+Fixed mirrored items detection.
+Bot doesn't try to identify corrupted and mirrored items anymore.
+
+0.66d
+Offsets updated for Garena TH & TW versions 2.4.3b.
+
+0.66c
+Offsets updated for game version 2.4.3.
+
+0.66b
+Improved significantly backward and forward transitions detection.
+Fixed maps with multiple arenas.
+Improved Accept button click accuracy.
+Improved Open map button click accuracy.
+Reimplemented properly item picker from v0.65c.
+Using new method to detect gem leveling icon and NPC sell sentence. It is much faster and accurate now.
+
+0.66
+Fixed issue making bot leave intermediate areas because of exploration, while trying to navigate toward another area.
+Fixed various bugs of bot not being able to take transition back to map after clearing an arena (and therefore considering map as finished).
+Fixed transition not being taken while farming regular areas or bosses.
+Bot won't leave area because of exploration percent reached if it is traveling toward another area.
+Fixed various issues to make progression smoother.
+Reverted new looting system until we fully debug it.
+
+0.65c
+Fixed transitions detection.
+Now here is how bot should proceed while trying to take an item : First it tries to take it by putting mouse cursor on item label, if label isn't hovered bot will try to go up and down, bot will try to press 'Z' key twice as well. Finally bot will ignore the item if it still couldn't hover it.
+Multiple arenas maps should be now handled properly.
+Fixed an issue making bot randomly ignore some items.
+Added a setting in pickit.ini file (pickup_max_try_count, default value : 40). It is the number of tries to pick an item before ignoring it.
+
+0.65b
+Bot now ignores item that it's unable to pick.
+Fixed bot an issue making bot ignoring items.
+Fixed issue making bot not return in area after chicken.
+
+0.65
+Rewrote whole exploration algorithm to make it much faster (thx Yocttar <3).
+Fixed multiple arenas map (ie. Crystal Ore, thx Yocttar <3).
+Fixed bot idling after finishing regular area issue (non-map).
+Fixed bot considering map finished after cleaning arena for maps : Bog, Mesa, Reef and Atoll.
+Bot now always stashes smallest scroll stack first.
+
+v0.64d
+Added Tencent CN version compatibility. Be careful, you need to find a way to run the CN client in ENGLISH!!
+Shards stashing feature fixed.
+
+v0.64c
+Fixed an issue caused by remaining monster number not being read properly.
+Added all maps to the bot, no more crash on entering unknown map. However bot is still missing some data about some end-game map layouts. Data mining not finished.
+Fixed esc menu detection on non global server versions.
+Changed Ignore settings and added Scroll of Wisdom, Portal Scroll and Glassblower's Bauble to the GUI, Library and AI.
+
+v0.64b
+Offsets updated for Game version 2.4.1.
+
+v0.64
+Map farming mainly rewritten to be more specific and less generic.
+While farming maps, bot now should enter any boss arena it finds, clear it and go back to finish map exploration. This is expected behaviour, but as some maps have a very specific layout, bot doesn't handle them all yet.
+Fixed various stuck issues that were due to old generic farming system.
+Removed the explore whole level before taking transition option because it didn't make sense anymore with the new map farming logic.
+Bot now ignores "Relic" entities (doesn't attack them anymore).
+Fixed ignored waypoints issue.
+
+v0.63e
+Fixed map tier detection error for : Ashen Woods Map, Peninsula Map, Catacombs Map and every Shaped Map.
+Now bot terminates poe process if it is frozen. It will restart poe after if user specified the Path in Client tab.
+Now bot closes any error message on login.
+Added detection for area switching loop between boss Arena and Map. If it is detected, bot will now consider map as finished.
+Added new keys "area_switch_max_tries" and "area_switch_loop_detection_delay" in system.ini.
+Added an attempt counter for login. You can edit the value in system.ini, key : "max_failed_login_attempt" (default value is 15).
+Added new key in system.ini : "frozen_process_timeout" (default value is 60000).
+Renamed "single_level_exploration" to "map_clean_percent" also removed CIS from ini file.
+
+v0.63d
+Offsets updated for Game version 2.4.0f.
+Now if user setup map explore limit to 100%, area explored trigger will only fire up if exploration fails (no position to explore available).
+Fixed wrong stash tab selection issue.
+Panicked Rubble ignored.
+
+v0.63c
+Now bot ignores essences by default if smart pickit is enabled. Be sure to update your pickit with [Type] == "Whispering Essence of Hatred" # [StashItem] == "true" type lines.
+Updated pickit with all essences.
+
+v0.63b
+Fixed an issue that made bot attack invisible monsters.
+Now bot doesn't stash essences in currency tab.
+Fixed some "flask not being used" issues.
+Fixed corpse usable detection, for summoners.
+Updated default maprunner ipd file with the one from jps42 (<3).
+
+v0.63
+Offsets updated for Game version 2.4.0.
+Added Monoliths/Essence handling.
+Fixed hidden monsters issue.
+
+v0.62c
+Offsets updated for Game version 2.3.4c.
+
+v0.62b
+Offsets updated for Game version 2.3.3 (hotfix).
+
+v0.62
+Offsets updated for Game version 2.3.3.
+Improved pathfinding efficiency. Bot shouldn't stuck itself anymore in tight walls / altitude difference, like in ancient pyramid area, vaal pyramid map or overgrown ruins map.
+Fixed a bug that made bot think that a map was finished after exploring first level of multi-level maps (layout B or C).
+Added Sharp and Cruel, The Root of the Problem, Shadow of the Vaal and Lost in Love quests to progression.
+Added ForceSellItem flag to pickit. With this flag, a matching definition will sell an item even if there is a rule to stash the item.
+Added "exploration_delay" key to system.ini, default value is 200ms. It is the delay between each update of the terrain explored.
+Added "monsters_remaining_threshold" key to config.ini, default value is 0. Bot will consider any map that has less monster remaining than the amount specified, as finished.
+Added "select_area_delay" key to system.ini, it's the delay between mouse move and click while selecting area (Useful to fix some low fps issues).
+
+v0.61f
+Offsets updated for Game version 2.3.2.
+
+v0.61e
+Offsets updated for Game version 2.3.1b.
+Updated default pickit to latest one from JPS (https://exiled-bot.net/community/index.php/topic/6329-updated-pickit-additional-lines-chaosregal-recipe-prophecy-23-uniques/).
+
+v0.61d
+Fixed GUI reading / writing in wrong section for the key "enable_map_tier_upgrading" in config.ini.
+Fixed a "stuck in hideout" issue.
+Fixed "bot stucked with Trial panel open" issue (thx to pronoooob for the offset).
+Added some missing wild master's arena to be ignored by the bot.
+
+v0.61c
+Offsets updated for Garena CIS 2.3.0d.
+Fixed a crash due to item under cursor data wrong offsets.
+Updated map runner default ipd file.
+
+0.61b
+Offsets updated for Game version 2.3.0.
+Offsets updated for Steam version 2.3.0.
+
+0.61
+Fixed the issue where bot attacks a monster with proximity shield from outside of the shield. Now if player is outside of the shield of the closest monster, it will move inside the shield.
+Added an option for the user to decide if the scrolls taken should be stored or not (stash_scrolls in pickit.ini, true by default).
+Added the "StashUnid" key to pickit default.ipd. This can be used for any item that should be stashed unidentified.
+Added the "UpgradeMapTier" key to map default.ipd. This is very useful to upgrade some map that can't be runned by the bot and are ignored (ie. [Type] == "Dungeon Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true").
+Fixed a bug related to animated guardian handling.
+
+v0.60c
+Improved authentication handling.
+Bot now exit to login before dropping auth.
+Updated default pickit.
+
+v0.60b
+Fixed back and forth on stash when stash tabs are full. Now bot should simply idle without moving.
+Added Lightning golem skill handling.
+Fixed issue that made bot not come back to instance after creating tp for stashing.
+Added 2 seconds delay before selecting character.
+Now bot casts golem right on player position, to avoid being stuck in loop casting them inside a wall.
+Fixed some authentication issues.
+
+v0.60
+Bot now disconnect if it can't manage to create and take a tp in 30 seconds by default (ie when stucked at cadiro).
+Added key "tp_creation_timeout" in system.ini file to edit the value to something else than 30 seconds.
+User can now define some stash tabs that will be checked first while stashing and selecting maps to run ("map_store_stash_tabs" key in "stashing" section from config.ini file).
+Fixed a bug where bot open a new map in laboratory instead of going back to town to sell items.
+Uncommented Heretic's Veil in default pickit (unique Deicide Mask). Thanks Stef for reporting.
+Bot shouldn't level gem in the middle of combat anymore.
+Fixed a bug where bot get stucked if no id scroll in inventory and stash tab content not refreshed.
+Bot now stop if it doesn't find any id scroll in inventory while stashing.
+If cport isn't in the bot folder, bot will use ESC+click method to chicken.
+Fixed some random crashes.
+Fixed some authentication issues.
+
+v0.59d
+Updated stash tabs offsets for Garena TW and Garena SEA.
+Fixed stash tabs issue.
+Fixed tp on wp bug due to area set as explored before area layout is loaded from memory.
+
+v0.59c
+Bot won't try to put a new map in map device if there is already another one, it will directly click activate instead (fix for map device loop).
+Fixed a crash due to mod used in pickit not found.
+
+v0.59b
+Offsets updated for Garena CIS 2.2.1d.
+Offsets updated for Garena TH 2.2.1d.
+User can now configure min and max values of endurance/frenzy/power charge to enable or disable a skill.
+Bot should no more try to use currency on mirrored/corrupted items.
+Bot now uses ctrl + click to transfert map from inventory to map device.
+Fixed a bug where bot would use a 6S item in chaos recipe.
+Stone golem is now detected properly.
+Orb of chance are now directly used from stash.
+Disabled the item drop log in GUI because it could produce some annoying random crashes.
+Profiles fixed.
+
+v0.59
+Offsets updated for Game version version 2.2.1.
+Offsets updated for Steam version version 2.2.1.
+Offsets updated for Garena CIS 2.2.0h.
+Offsets updated for Garena TH 2.2.0h.
+Offsets updated for Garena SEA 2.2.0h.
+Offsets updated for Garena TW 2.2.0h.
+Bot should now ignore invisble / not spawned monsters.
+Perandus chests handled.
+Fixed doors handling, now bot shouldn't fail exploring without any reason in areas with a lot of doors like the prison anymore. 
+Bot now only use two-handed items for chaos recipe (much more efficient, and one-handed made it buggy).
+
+v0.58
+Added chaos recipe handling.
+Added an option for the bot to pickup missing chaos recipe rare items (Remember to disable rare item pickup everywhere else in the bot).
+Current area is now considered as cleared when idle timer is triggered.
+If stash tabs are full, bot exits.
+
+v0.57f
+Offsets updated for Game version version 2.1.2c (again).
+Added an option for user to decide if he wants the bot to stash maps identified or unid.
+Removed Ignore cartographer strongbox option.
+Bot automatically exit to login if it enters Sarn Arena by mistake.
+Fixed back and forth happening in town while bot going to sell items.
+
+v0.57e
+Offsets updated for Steam version version 2.1.2c.
+Offsets fixed for Garena TW 2.1.2c.
+Offsets fixed for Garena SEA 2.1.2c.
+Fixed stash tabs reading bug.
+Fixed crash upon entering master's area.
+Use shift to move works while exploring now.
+Added "Card" category to pickit engine.
+Updated default pickit file. (<3 jps42 <3)
+
+v0.57d
+Fixed stash tabs reading offsets.
+
+v0.57c
+Offsets updated for Game version version 2.1.2c.
+Bug shouldn't try to select a map or a currency from wrong tab anymore.
+Fixed map profile system.
+Fixed map systematic identification.
+Added the possibility for user to make bot enter login and password for specific profile each time it logs in. This feature is not yet implemented in GUI, check config.ini file keys : "enable_account_credentials", "login_credential" and "password_credential" in general section.
+Added the possibility for user to specific tab to stash currencies (best setup is last tab on stash tab lis, 4 by default). This feature is not yet implemented in GUI, check config.ini file keys : "currency_store_stash_tabs" in stashing section.
+
+v0.57b
+Offsets fixed for Garena TW 2.1.2b.
+Fixed aura not being casted in Crypt area.
+
+v0.57
+Offsets fixed for Garena TH 2.1.2b.
+Offsets fixed for Garena CIS 2.1.2b.
+Bot now leaves any master's area it enters by mistake.
+Map is now reseted when bot chicken on sight.
+Added an option to setup if bot should stash or not shards / fragments.
+Fixed bot unable to use tempest shield and blood rage as always recast buff together.
+
+v0.56m
+Offsets fixed for Garena TH 2.1.2.
+Offsets fixed for Garena CIS 2.1.2.
+
+v0.56l
+Fixed various crashes.
+
+v0.56k
+Priority for a no monster kill timeout chicken is now higher than item pickup priority.
+Bot able again to select character on higher position than 6.
+Auras should now be recasted properly after exiting to login manually.
+Always recast buffs like Righteous Fire, Blood Rage or Tempest Shield shouldn't be specified as aura anymore.
+Updated pickit and map runner default ipd files from jps42 topics.
+
+v0.56j
+Offsets updated for Game version version 2.1.2.
+Offsets updated for Steam version 2.1.2.
+Offsets fixed for Garena TW 2.1.1d.
+
+v0.56i
+Offsets fixed for Garena CIS 2.1.1d.
+Bot now identifies any unid map before stashing it.
+
+v0.56h
+Offsets fixed for Garena TH 2.1.1d.
+
+v0.56g
+Offsets fixed for Garena SEA 2.1.1d.
+Fixed a bug making bot farming regular zone instead of map, if it stashed a map before selecting map to farm.
+User can now set as many skill setting as wanted in combat tab.
+
+v0.56f
+Reverted login method because it created the "bot stucked with chat opened issue". We'll reimplement it better later, sorry about that.
+Fixed bug that made bot loop between hideout and town while running map and being out of map.
+Bot stashes shards, since game now auto-complete orbs / scroll stacks properly.
+When a zone is explored, bot now still fight monsters under attack range before leaving.
+Fixed crash when user entered 0 as random value in auto profile changer.
+
+v0.56e
+Offsets updated for Steam version 2.1.1d.
+
+v0.56d
+Offsets updated for Game version version 2.1.1d.
+Quicksilver flask can now be used while attacking and looting.
+Use can now choose in flask tab, in which case bot should use quicksilver flasks.
+
+v0.56c
+Offsets fixed for Garena TW 2.1.1c.
+Updated cards data from default pickit (thx to jps42).
+
+v0.56b
+Offsets fixed for Garena SEA 2.1.1c.
+Fixed crash after entering map.
+
+v0.56
+Bot now check that shift is released before writing in chat.
+Changed login method to be able to work with any number of characters on an account.
+Fixed a random bug making the bot run in one direction after reaching an area.
+Bot should now leave any corrupted area it enters by mistake.
+
+v0.55h
+Offsets fixed for Garena TW 2.1.1b.
+ModsList.html updated.
+Fixed a crash on menu due when using Idle settings.
+
+v0.55g
+Offsets fixed for Garena TW 2.1.1.
+Offsets fixed for Garena SEA 2.1.1.
+Offsets fixed for Garena TH 2.1.1.
+
+v0.55f
+Offsets updated for Game version version 2.1.1b.
+Offsets updated for Steam version 2.1.1b.
+
+v0.55e
+Offsets fixed for Garena CIS 2.1.1.
+Bot now always pickup 6S and 5L items if smart pickit is disable.
+User can now define if he wants the bot to take talismans or not when smart pickit is disable.
+
+v0.55d
+Offsets updated for Game version version 2.1.1.
+Offsets updated for Steam version 2.1.1.
+Offsets fixed for Garena TW 2.1.0d.
+Added a key in coordinates.ini for Garena TH users to define the y coordinate of the first button while clicking at New instance. (If default value isn't the right one, feel free to send a pm to alk).
+Fixed "Breaking Some Eggs" quest in crual and merciless.
+
+v0.55c
+Offsets updated for Garena TH version 2.1.0c.
+Added Tempest Shield as buff handled with option "Always Recast". (Currently work with Righteous Fire, Blood Rage and Tempest Shield).
+Fixed transition between sarn encampment and the slums.
+Fixed a memory read bug due to offsets change that made bot fail exploration and reset map after walking on the door.
+
+v0.55b
+Offsets updated for Garena SEA version 2.1.0c (again).
+Fixed progression until act 2.
+Added the possibility to use the data from progress tab to navigate between areas and reach destination. Takes any non-owned wp.
+Added an option for the bot to take any quest item it finds.
+
+v0.55
+Offsets updated for Game version version 2.1.0c.
+Offsets updated for Steam version 2.1.0c.
+Offsets updated for Garena SEA version 2.1.0c.
+Offsets updated for Garena CIS version 2.1.0c.
+Updated game data for new league update.
+Added "Talisman" for pickit. (ie. [Category] == "Talisman" # [StashItem] == "true" // Keep all talismans).
+Talismans are picked automatically if smart pickit is disable.
+
+v0.54k
+Offsets updated for Garena TW 2.0.5d.
+If bot missclick and pop destroy item window, now it clicks on "Keep" and put back item in inventory.
+User now can setup a delay for the client restarter, bot will wait X seconds before re-launching the game.
+
+v0.54j
+Offsets updated for Garena TH version 2.0.5c.
+
+v0.54i
+Offsets updated for Game version version 2.0.5c.
+Offsets updated for Steam version 2.0.5c.
+/DND mode now available.
+
+v0.54h
+Offsets updated for Garena SEA version 2.0.5b.
+Fixed Sacrifice Fragment farming.
+
+v0.54g
+Offsets updated for Garena TH version 2.0.5b.
+Offsets updated for Steam version 2.0.5b (again).
+
+v0.54f
+Offsets fixed for Garena TW 2.0.5b.
+Fixed sell sentence image detection for Garena TH.
+
+v0.54e
+Offsets updated for Garena TH version 2.0.5.
+Offsets updated for Garena TW version 2.0.5.
+Bot should now use hideout properly even while farming normal areas.
+
+v0.54d
+Offsets updated for Garena CIS version 2.0.5 (again).
+Fixed profile changer bug that made bot idle in town.
+Fixed idling in Highgate when trying to go to Dried Lake random bug. (FOR REAL THIS TIME x).
+
+0.54c
+Offsets updated for Game version version 2.0.5b.
+Offsets updated for Steam version 2.0.5b.
+Fixed idling in Highgate when trying to go to Dried Lake random bug.
+
+v0.54b
+Fixed bot stucked idling in town when it should sell items.
+
+v0.54
+Offsets updated for Garena CIS version 2.0.5.
+Offsets updated for Garena SEA version 2.0.4.
+"Always Recast" option in skill configuration now works for Blood Rage as well.
+Added a new option in skill configuration to make a skill target corpses only (skillX_target_corpses in skills.ini).
+
+v0.53i
+Offsets updated for Garena TH version 2.0.4b.
+Added eight new cards from 2.0.5 to default pickit.
+Gem leveling should be fixed (if still having trouble, try to increase the shade variation value in system.ini).
+
+v0.53h
+Offsets updated for Game version version 2.0.5.
+Offsets updated for Steam version 2.0.5.
+
+v0.53g
+Offsets updated for Garena TH version 2.0.4.
+Fixed crash after entering a corrupted area.
+Fixed another random crash.
+Bot verifies that the item has been moved to vendor's inventory while vendoring.
+Fixed flask under cursor re-equip fail issue.
+
+v0.53f
+Fixed issue with unwalkable door that could prevent area exploration (happened very often in "The Crematorium").
+Fixed idling issue after exploration fails.
+Fixed idling in town after stashing if "Always Reset Instance" is enable.
+Fixed idling issue while farming corrupted areas.
+
+v0.53e
+Offsets updated for Garena CIS version 2.0.4b.
+Offsets updated for Garena TW version 2.0.4b.
+Bot now detects properly The Belly of the Beast transitions.
+
+v0.53d
+Offsets updated for Game version version 2.0.4c.
+
+v0.53c
+Offsets updated for Garena SEA version 2.0.4b.
+Fixed Voll boss farming.
+Bot now clicks on "Resurrect at Checkpoint" instead of "Resurrect in Town". You still can make it resurrect in town by editing "resurrect_button_y" key in coordinates.ini.
+Added an option in Map tab (Always reset instance) to make the bot reset instance everytime it goes back to town.
+TCP Drop chicken method called three time to avoid failed chicken.
+Fixed Key to press on fail chest opening.
+
+v0.53b
+Offsets updated for Game version version 2.0.4b.
+Offsets updated for Garena CIS version 2.0.4.
+Added Voll boss farming.
+Fixed an issue when bot failed returning to map instance after going back to town / chickening.
+
+v0.53
+Offsets updated for Garena SEA version 2.0.4.
+Bot is now able to farm any single area from the game. Be careful, for the moment bot considers that you own every waypoint when trying to reach an area (except in Progression mode ofc).
+Bot now goes back to instance after tp back to town to sell items, while farming any area (not only bosses and maps).
+Hideout now only work with map farming.
+Changed PoE version selector to drop down list and moved the hideout setting under map setup.
+Bot now waits 5 to 20 seconds before resurrecting.
+
+v0.52h
+Offsets updated for Game version version 2.0.4 (be careful won't work with any anterior version, if you are playing on Garena, use 0.52g).
+Offsets updated for Steam version 2.0.4.
+Maps are now handled with their tier instead of their level. In ipd files, key "MapLevel" has been replaced by key "MapTier".
+
+v0.52g
+Fixed hideout + dried lake farming bug.
+Removed a lot useless unique from default pickit (in the case user wants to comment the line that takes all unique item).
+Fixed character selection bug.
+Fixed aura not casted bug in Crypt map.
+
+v0.52f
+Offsets updated for Garena CIS version 2.0.3 (again).
+Added all map names to the default map cfg file. Thanks to LeHeupOfSoup.
+
+v0.52e
+Offsets updated for Garena TH version 2.0.3.
+Fixed various annoying crashes.
+
+v0.52d
+Offsets updated for Garena CIS version 2.0.3.
+
+v0.52c
+Offsets updated for Garena TW version 2.0.3.
+Fixed and updated some default pickit definitions.
+Fixed lightning warp obelisk detection (bloodline), now they are ignored properly.
+
+v0.52b
+Offsets updated for Garena SEA version 2.0.3.
+Fixed annoying crash occuring randomly just after entering an area.
+Fixed and updated mod list for items and map.
+Fixed defense stats and dps computation for item.
+Updated default pickit with data from https://exiled-bot.net/community/index.php/topic/5139-updated-pickit/. Thanks a lot to Cowding for the awesome contribution.
+
+v0.52
+Fixed Brutus quest state detection.
+Fixed bot stucked on Escape menu bug.
+Fixed bot stucked with cursor on transition bug.
+Fixed auras not recasted after a chicken using TCP disconnect method.
+Added quests "Intruders in Black" and "Sharp and Cruel" from Act II to auto-progression.
+Added new cards from patch 2.0.3 (Big thanks to gazroe).
+
+v0.51e
+Offsets updated for Game version version 2.0.2d.
+Offsets updated for Steam version 2.0.2d.
+Offsets updated for Garena TH version 2.0.2b.
+Offsets updated for Garena TW version 2.0.2b.
+
+v0.51d
+Offsets updated for Garena SEA version 2.0.2b.
+Offsets updated for Garena CIS version 2.0.2b.
+
+v0.51c
+Offsets updated for Steam version 2.0.2b.
+
+v0.51b
+Offsets updated for Game version version 2.0.2b.
+
+v0.51
+Added auto-progression. It's still very early beta phase and only works for Act I atm.
+Fixed crashes.
+Stash tab choosing now will be faster. You can tweak the speed in system.ini.
+
+v0.50j
+Offsets updated for Garena SEA version 2.0.0l.
+Fixed a bug that made bot idling in town (from v0.50i update).
+Fixed bot having trouble to come back from Eternal Laboratory (from v0.50i update).
+
+v0.50i
+Offsets updated for Steam version 2.0.1b.
+Offsets updated for Garena TW version 2.0.0l.
+Added TCP Disconnect method to replace the unsafe memory write. Bot will automatically download a small program named cports.exe if you select the TCP Disconnect chicken option. It is a required to perform the TCP drop.
+Fixed weird movement while opening stash.
+
+v0.50h
+Offsets updated for Game version version 2.0.1.
+Offsets updated for Steam version 2.0.1.
+Offsets updated for Garena CIS version 2.0.0l.
+Bot now ignores the clones of Mirage of Bones boss in Desert Map.
+
+v0.50g
+Offsets updated for Game version version 2.0.0i.
+Offsets updated for Steam version 2.0.0i.
+Bot focus again necro mob when there are undead around.
+Bot focus Bearers of the Guardian first when facing an Animated Guardian.
+Bot should now always come back to take remaining items while farming map / boss.
+
+v0.50f
+Offsets updated for Garena CIS version 2.0.0f.
+Aura cannot Die caster detection fixed.
+
+v0.50e
+Offsets updated for Game version version 2.0.0g.
+Offsets updated for Steam version 2.0.0g.
+Offsets updated for Garena TW version 2.0.0f.
+
+v0.50d
+Fixed loop while selling items to NPC.
+Fixed character stucked while looting item.
+Added back The Wetlands to the zone selection.
+
+v0.50c
+Offsets updated for Game version version 2.0.0f.
+Offsets updated for Steam version 2.0.0f.
+Offsets updated for Garena SEA version 2.0.0e.
+
+v0.50b
+Offsets updated for Steam version 2.0.0e.
+Offsets updated for Garena CIS version 2.0.0d.
+Added "The Dried Lake" to available botting areas in act 4.
+Fixed golem not summoned after exit to character selection.
+Fixed Corrupted Area detection.
+Fixed item pickup bug (if persisting, try to adjust the mouse_item_offset key in coordinates.ini, reducing it will make cursor go to the left, increasing it will make cursor go to the right).
+Added key "item_vendor_delay" to system.ini, it's used to define the time for bot to wait between each click on item while selling to vendor.
+Disabled memory writing chicken method. We want to be sure it's 100% safe before updating the offsets. 
+
+v0.50
+Offsets updated for Game version 2.0.0d.
+Offsets updated for Steam version 2.0.0d.
+Offsets updated for Garena SEA version 2.0.0c.
+Offsets updated for Garena TW version 2.0.0d.
+Coordinates used by the bot are now relative to the active window's client area, which excludes the window's title bar, menu (if it has a standard one) and borders. Client coordinates are less dependent on OS version and theme.
+Added Cards in default pickit file. Bot will take every type if smart pickit is disabled.
+Added act 4 handling.
+Added Kaom farming.
+Added new category for pickit : "Jewel".
+Bot can now use "golem" skills properly, just tick the option in combat settings.
+Fixed custom npc selling.
+
+v0.41d
+Fixed crash that appeared in previous version.
+
+v0.41c
+Offsets updated for Garena TH version 1.5.1G.
+Improved looting logic.
+Now bot bot detects last unlocked act and difficulty all by itself.
+Fixed combat settings GUI crash (Recast arctic armor).
+
+v0.41b
+Offsets updated for Garena TH.
+Offsets updated for Garena SEA.
+Offsets updated for Garena CIS.
+Fixed instant flasks handling bug.
+
+v0.41
+Fixed bot not using "key to use on fail" while opening chest.
+Added support for Garena TH version (only for client in english language, see : https://exiled-bot.net/community/index.php/topic/4901-pls-add-poe-thai-server-to-list/#entry27977).
+Now bot handles instant flask and use them only after non-instant flask, unless life/mana is under percent value specified in use_instant_life_flask_percent/use_instant_mana_flask_percent keys from flasks.ini file.
+Dispell debuff with flask should now work properly.
+Replaced "Use tp instead of logout" function by "Set map cleared on logout". If enabled and bot chicken because of no monster timeout, bot is gonna run another map instead of going back to current one.
+
+v0.40f
+Offsets updated for Garena CIS version 1.3.1g.
+Bot can use tp to town in max instead of log out when after a "no monster kill" timeout.
+
+v0.40e
+Fixed exploration path reset after drinking a quicksilver flask. Exploration path was recomputed each time bot drank a quicksilver flask resulting in a lot of "thinking" time loss.
+
+v0.40d
+Added an option to reset map and start another if bot detects that it entered a master quest area.
+Fixed Arctic Armour and Righteous Fire recasting.
+Added a max range setting for scroll pickup. This is to avoid back and forth that happens sometimes when bot returns to the area.
+
+v0.40c
+Fixed stash tab bug from v0.40b.
+
+v0.40b
+Fixed a bug that made bot getting stucked due to absurd pathfinding computation (ie, A* from P(234, 1291)->Pos(296, 1225) took: 27641 ms, cost: 0.000000 WEIRD !!!)
+Fixed an error while reading buff from monsters resulting in bot attacking invulnerable monsters.
+Bot can recast arctic armour automatically (in Combat tab, false by default).
+
+v0.40
+The scale of the distances used to define skill ranges changed. Old values need to be divided by approximately 10 (ie if old value was 400 now it needs to be 40).
+In this version we strongly advise the user to redo the configuration from default files.
+Back and forth issue should now be 95% eradicated !
+Improved flask system, it should be much more efficent and reactive now.
+Bot can now uses flask to dispel ailments like ignited, frozen, chilled, shocked and bleeding. Just enable dispel debuffs in flasks tab.
+Fixed weird bug making bot slow and attacking ghost monsters (thinking distance toward them is equal to 0).
+
+v0.30k
+Now when an item is stucked on cursor, bot should : 1) reequip item if it was equipped, 2) put flask back to flask bar if needed or 3) put item back in inventory.
+Now bot drinks Granite and Jade flasks, they are used whenever a life flask need to be used.
+
+v0.30j
+Fixed bug occuring when bot took a map to put it in the map device ("Fixing item under cursor..").
+Now bot stops to do anything while game is loading an area.
+
+v0.30i
+If bot detects flask under cursor, it put it back in first free flask slot found on bar.
+Added memory writing chicken method.
+Fixed a bug making the bot ignore monster out of all skill range, max_range_multiplier key should now work properly.
+Flask system has been reworked and key ini files changed. Be sure that you redo flask configuration after this update.
+
+v0.30h
+Offsets updated for Garena SEA version 1.3.1h.
+Kite mode improved.
+Nav mesh navigation improved.
+Minor fixes.
+
+v0.30g
+Offsets updated for Steam version 1.3.1h.
+Offsets updated for Garena TW version G1.5.1G.
+Fixed pickit definition bug with nested parenthesis.
+Now if bot enter in wrong area by mistake, like an area created by forsaken masters it quit and start a new map to avoid getting stucked.
+Fixed some of the NavMesh bugs, should work better.
+Added kite mode, this is an alpha version still very bugged, gonna be improved soon.
+
+v0.30f
+Garena TW now working.
+Added CIS version compatibility. Be careful, you need to find a way to run the CIS client in ENGLISH!!
+
+v0.30e
+Fixed bot placing / taking map from stash infinite loop.
+Increased UI offset size to avoid bot grabbing flask by error.
+Sacrifice fragments are now considered as equivalent level map (instead of level 66) when they are setup to run.
+
+v0.30d
+Fixed a memory leak and a potential crash.
+
+v0.30c
+Fixed a pathfinding bug (yeah distance computation again :p).
+
+v0.30b
+Offsets updated for Game version 1.3.1h.
+Fixed a distance computation bug.
+
+v0.30
+Now bot uses exact computed path distance instead of using flying distance. That should result in a lot less back and forth bugs happening.
+Offsets updated for Garena SEA version 1.3.1g.
+Garena TW offsets fixed.
+Fixed custom NPC selling. Now the case doesn't matter.
+Default values for keys "chest_range" and shrines_range" in config.ini file changed!!!
+New nav-mesh pathfinding being tested, you can enable it in the Main tab. Feel free to report any bug you find. The advantage of this pathfinding is that it consistently reduces A* computation.
+
+v0.29e
+Bot now uses Quicksilver Flasks (finally \o/).
+Bot can now ignore Cartographer's strongbox, so no more mirrored maps in stash.
+Bot can now ignore breakable chests.
+
+v0.29d
+Bot now ignores herald of obelisk ghost mobs.
+Reverted code from v0.28i that tried to fix item on cursor bug.
+
+v0.29c
+Use for specific NPC to sell items is now working properly (you can enter full name or part of it as bot is doing a search and not a full comparison).
+Use for custom coordinate for NPC sell sentence is now working properly (in case you are having trouble with detection).
+
+v0.29b
+Bot now ignores mobs having necrovigil and phylacteral buffs.
+Fixed issue of bot infinite looping while vendoring in hideout.
+
+v0.29
+Bot now ignores "Baroque Round Shield", you can revert it by setting "ignore_baroque_round_shield" to false in pickit.ini file.
+Moved smart_scroll_picking key from system.ini to pickit.ini. Set it to false if the bot don't takes enough id scroll to identify your items.
+Fixed crash occuring sometimes just after character entered in a map.
+Fixed a bug that occured when an item on ground was appearing on screen and the label with its name was out of screen. This resulted in the bot spamming alt key without doing anything else.
+"smart_scroll_picking" key from pickit.ini is working now properly when set to false.
+
+v0.28i
+Bot will now loot a little less scrolls but will also back and forth less. (Should still take more than enough scroll to id all the stuff).
+Added a new key to enable/disable smart scroll picking (smart_scroll_picking) in system.ini.
+When Item on cursor detected, now bot tries to put it in last slot of inventory (waiting for a better solution).
+If there is no more id scroll in inventory when trying to identify an item, bot takes some from stash.
+
+v0.28h
+Offsets updated for Garena TW version G1.5.1 (again).
+
+v0.28g
+Offsets updated for Garena SEA version 1.3.1d.
+
+v0.28f
+Offsets updated for Game version 1.3.1d.
+Fixed a bug where the bot was trying to switch area after finishing a map.
+Bot will now loot more scrolls..
+
+v0.28e
+Added auto unstuck feature, by using movement skill (Leap Slam or Lightning Warp only) when bot detects that we are stucked in a wall / stairs.
+Added two new keys to configs, "key_on_fail_movement" and "fail_movement_check_interval".
+
+v0.28d
+Offsets updated for Game version 1.3.1c.
+
+v0.28c
+Offsets updated for Garena SEA version 1.3.1b.
+Fixed computations that used wrong coordinates for the scroll back and forth fix from 0.28b.
+Added same back and forth fix for chest opening.
+
+v0.28b
+Fixed bot taking sacrifice fragment and then putting it back to stash.
+Fast-looting (click on item labels) is now the one and only looting method used by the bot.
+Bot now compares flying distance to path computed distance when going to loot scrolls and won't go if they are too different, mostly to avoid back and forth when coming back to an area and going to take scrolls.
+Added "scroll_flying_distance_multipler" to system.ini file, this multiplier is used for comparation between flying distance and path computed distance.
+Bot now uses currencies directly from stash while crafting map and using chance orb.
+
+v0.28
+Offsets updated for Garena TW version G1.5.1 (again).
+Bot won't use any other item than map or sacrifice fragment in map device.
+
+v0.27i
+Fixed item label detection while looting.
+Added new super fast looting method (still experimental).
+
+v0.27h
+Fixed character selection.
+
+v0.27g
+Offsets updated for Game version 1.3.1b.
+
+v0.27f
+Offsets updated for Garena TW version G1.5.1 (again).
+Changed 1 sec delay to 100 MS delay in the auto-afk for better in-town detection.
+
+v0.27e
+Offsets updated for Garena TW version G1.5.1.
+
+v0.27d
+Offsets updated for Garena SEA version 1.3.1.
+
+v0.27c
+Offsets updated for Game version 1.3.1.
+
+v0.27b
+Fixed Garena TW.
+Fixed processes not found on x86 windows.
+Bot won't get stucked picking up item anymore.
+
+v0.27
+Offsets updated for Game version 1.3.0l.
+Offsets updated for Garena SEA version 1.3.0k.
+Offsets updated for Garena TW version G1.5.0e.
+New launching method implemented.
+Pickit minor bug fixed.
+
+v0.26b
+Offsets updated for Game version 1.3.0j.
+Offsets updated for Garena SEA version 1.3.0j.
+Fixed Item selling issue on Garena TW.
+
+v0.26
+Offsets updated for Game version 1.3.0i.
+Loot system updated to be faster and more accurate.
+Added the idling function to the bot.
+Idle timer can be checked real time in the Status tab.
+Bot now can start the client.
+Added 6 new config and a new section to the config.ini: [Client] (Note: Read the  ini file for further informations).
+Added new Tab called Client.
+"Main settings" renamed to "Main" because there was not enough space for the "Client" tab.
+"Map settings" renamed to "Map" because there was not enough space for the "Client" tab.
+"GetProfileChanger" renamed to more obvious name: "ChickenInTown".
+Idle timer is displayed in the Status tab, it is second based. Counting down is only running while the bot is not paused. When the counter reaches 0 it will send the chicken in town info to the bot and will wait until the bot chicken out. Then it will pause the bot for X amount of time. If the user decides to continue the bot he/she can unpause the bot (F12) any time to continue it's work. Auto profile changer will be delayed until unpause (by user or by the counting down). There is no settings reload on idle because it's just a pause.
+
+v0.25i
+Offsets updated for Garena TW version G1.5.0d.
+
+v0.25h
+Offsets updated for Garena TW version G1.5.0b.
+Mod list updated.
+
+v0.25g
+Offsets updated for Garena SEA version 1.3.0e.
+
+v0.25f
+Offsets updated for Game version 1.3.0e..
+Fixed map device offsets
+
+v0.25e
+Offsets updated for Game version 1.3.0d.
+Offsets updated for Garena TW version G1.5.0.
+Offsets updated for Garena SEA version 1.3.0d.
+
+v0.25d
+Offsets updated for Garena SEA version 1.3.0b.
+
+v0.25c
+Offsets updated for Game version 1.3.0b.
+
+v0.25b
+Reverted new loot system, waiting for some improvement.
+
+v0.25
+Offsets updated for Garena TW version G1.4.1 minor update.
+Updated looting system to check for closest UI labels from item position. Bot shouldn't get stucked looting anymore.. (Big thanks to Druzil for this fix !!)
+
+v0.24j
+Offsets updated for Garena SEA minor update.
+
+v0.24i
+Offsets updated for Garena TW version G1.4.1 (new update).
+Offsets updated for Game version 1.2.4e.
+Offsets updated for Garena SEA version 1.2.4e.
+Added back "hideout_access_method" setting to the GUI.
+NPC settings moved to the Pick settings tab
+Added new dropdown box for selecting how to go to the hideout.
+
+v0.24h
+Fixed wrong sell offsets in Garena TW.
+
+v0.24g
+Offsets updated for Garena TW version G1.4.1.
+
+v0.24f
+Offsets updated for Garena version 1.2.4d.
+
+v0.24e
+Offsets updated for Game version 1.2.4d.
+Offsets updated for Garena TW version G1.4.0.
+Added the Advanced NPC Settings form to the GUI.
+
+v0.24d
+Fixed aura not recasted sometimes after chicken.
+Bot now waits 3 sec after having opened the vaal vessel of a corrupted area, before leaving (to have the time to detect drops and take them).
+
+v0.24c
+Offsets update for Garena TW version G1.4.0.
+Fixed bot not casting aura after dying if life chicken is set to 0.
+Fixed chat window opened and quest tracker detection.
+
+v0.24b
+Offsets updated for Game version 1.2.4.
+Offsets updated for Garena version 1.2.4.
+Added key to setup the delay to wait between each scan for gem leveling (gem_check_delay in system.ini).
+
+v0.24
+Now bot goes back to Lunaris Temple level 2 if it took by mistake Lunaris Temple level 1 transition.
+If the bot takes a TP to an already explored map by error, it comes back to town instead of exploring again the zone.
+Flask tab reworked
+Flask settings moved to "flasks.ini" from "config.ini" "flasks" section.
+If user doesnt have "flasks.ini" it doesnt count as valid profil and will not be displayed in the profile selection (Old profiles must be updated by moving the flasks.ini or by re-creating it from the default.
+Bot now level gems at the time they level up.
+New setting in system.ini file to adjust shade variation while searching for gem level up image (group :  image_search, key : gem_leveling_shade_variation).
+Updated and made more clear the gems section in default.ipd file (thanks to sparamados!!).
+Updated and made more clear the map farming default.ipd file (thanks to XeroKill!!).
+
+v0.23c
+Offsets updated for Garena TW version G1.3.1.
+
+v0.23b
+Fixed gem leveling while Quest Tracking is open.
+Fixed hideout map farming.
+Fixed hideout NPC selection.
+Added hideout_chat_delay in system.ini file to adjust the time bot is waiting after writing /hideout in chat.
+
+v0.23
+Hideout support (still experimental).
+Now NPC sell sentence coordinates are automatically found by image search.
+User can select the hideout access method by clicking on advanced button in front of Use Hideout tick box.
+Fixed a bug where bot is getting stucked in a tp loop on multi-level maps (when current level is clear).
+Fixed a bug in corrupted area where bot would leave before opening the Vaal Vessel.
+
+v0.22f
+Offsets updated for Garena version 1.2.3b.
+
+v0.22e
+Offsets updated for Game version 1.2.3b.
+
+v0.22d
+Offsets updated for Garena TW version G1.3.1.
+
+v0.22c
+Offsets updated for Garena version 1.2.3.
+
+v0.22b
+Fixed default pickit file.
+
+v0.22
+Offsets updated for Game version 1.2.3.
+Updated mods index for Forsaken Masters expansion. Be careful, if you already set up some index of mods in the pickit, they may not work anymore.
+Added gems from 1.1.5 to default pickit file. (thx to  Solypsys!).
+Added new good rare items to default pickit file (thx to immo!).
+Fixed defensive stats computation bug (see https://exiled-bot.net/community/index.php/topic/3606-pickit-computed-armorevasiones-issues/ thx to Daenon).
+Now bot starts always in admin mode.
+
+v0.21j
+Offsets updated for Garena TW version G1.3.0.
+Authenfication drop should now be fixed.
+
+v0.21i
+Offsets updated for Garena version 1.2.2.
+Fixed flasks not detected (offsets issue).
+
+v0.21h
+Offsets updated for Game version 1.2.2.
+
+v0.21g
+Fixed item identification issues.
+Fixed chancing.
+
+v0.21f
+Offsets updated for Garena TW version 1.2.0d.
+
+v0.21e
+Offsets updated for Game version 1.2.1b.
+
+v0.21d
+Offsets updated for Garena version 1.2.1.
+
+v0.21c
+Offsets updated for Game version 1.2.1.
+
+v0.21b
+Offsets updated for Garena TW version 1.2.0c.
+
+v0.21
+Offsets updated for Game version 1.2.0c.
+Offsets updated for Garena version 1.2.0c.
+Added support for Garena TW version (only for client in english language, see : https://exiled-bot.net/community/index.php/topic/3329-%E5%A6%82%E4%BD%95%E6%8A%8A-poe-%E6%94%B9%E7%82%BA%E8%8B%B1%E6%96%87%E7%89%88/).
+Now bot click on button resurrect if it dies and life chicken is set to 0.
+Fixed crash that occured sometimes while trying to read entities.
+Improved waypoint traveling.
+
+v0.20f
+Now bot uses space instead of esc to close panels (to avoid getting stuck with menu open).
+
+v0.20e
+Offsets updated for Game version 1.1.5e.
+Offsets updated for Garena version 1.1.5e.
+Now bot is not stucked anymore in an infinite loop after finishing to clear a corrupted area.
+User can choose if you want the bot to explore each level before taking transition in map (still experimental).
+User can define a % of the map to explore before leaving after killing the boss (still experimental).
+
+v0.20d
+Offsets updated for Garena version 1.1.5d.
+
+v0.20c
+Offsets updated for Game version 1.1.5d.
+Fixed map farming (bot idling in town after one run).
+
+v0.20b
+Setting chicken on low life to 0 will now really disable chicken.
+If bot fails exploring an area, it will go back to town automatically and won't idle until timer is up.
+Bot handles Corrupted Area properly.
+
+v0.20
+Fixed char stucked in town issue while pathing to chest.
+Added newest uniques to default pickit file.
+You can now disable chicken on low life by setting it to 0.
+Now bot identifies all items at once before closing inventory.
+Now bot sells all items at once when vendoring.
+
+v0.19j
+Offsets updated for Garena version 1.1.5.
+Bot now detects Catacombs transition (and any other) properly.
+Map farming fixed.
+
+v0.19i
+Offsets updated for Game version 1.1.5.
+
+v0.19h
+Offsets updated for Garena version 1.1.4c.
+
+v0.19g
+Offsets updated for Game version 1.1.4c.
+
+v0.19f
+Bot is now able to use Chaos Orb to reroll rare map mods.
+Fixed bug where bot get stucked with Social window opened in town.
+
+v0.19e
+Bot will now open in priority any Vaal Vessel it can detect.
+Fixed non-map items selecting and opening in laboratory.
+
+v0.19d
+Offsets updated for Garena version 1.1.4b.
+Fixed quality gems sell bug.
+Fixed a bug where sometimes bot would get stucked after finishing a map (trying to take the transition from the other side).
+Added a button to Elite Features Activator: now user can activate all profiles at once.
+
+v0.19c
+Fixed chromatic items detection.
+Now bot can run any item, not only map (ie: [Type] == "Sacrifice at Dusk").
+Bot will sell an item if it doesn't match any definition in the pickit. Remember to ALWAYS clean your inventory before running the bot !!!
+Added a delay after pressing alt key while looting item.
+Replaced "Scepter" to "Sceptre" in default pickup.ipd file.
+Added a checkbox to the Main tab called "Relog", it will force a chicken every auto profile changing.
+Fixed a bug with float reading from the config in SettingsLoader.
+
+v0.19b
+Offsets updated for Garena version 1.1.4.
+Fixed crash on start if game is not launched.
+Improved item picking.
+
+v0.19
+Offsets updated for game version 1.1.4.
+Added Boss Farming (Not working 100%, Still being tested!!).
+Looting system has been greatly improved to make it quicker and much more efficient (be careful some default value of system.ini and pickit.ini files changed).
+Bot can now farm corrupted areas if desired (Still being tested!!).
+Added Chromatic item Pickup and Selling option.
+If bot need to go back to town and there are still items on the ground, it will come back to take them even if map is explored or boss is killed.
+Bot is now able to maintain key / mouse button while attacking and make sure all attack speed potential is used (see Maintain key / button new option in skill configuration).
+Now bot opens close door instead of trying to attack monster behind it. (to edit open distance, see key "door_range" from system.ini).
+Improved door opening, bot shouldn't stuck himself making love with a door anymore.
+Improved uniques monster detection (General Gravicus is now detected, chicken on sight should work better as well).
+Removed Eternal Laboratory, added "Piety" and "Dominus" to the zone selector.
+Auto profile changer now working.
+
+v0.18c
+Skill settings tree view no longer expand/collapse on double click
+Mouse scroll will no longer scroll the Profile Changer (now will scroll it only when selected)
+Added profile changer
+Updated town portal position handling (to fix open tp loop once and for all!!).
+Bot now can reroll Magic maps (key : [RerollMods] == "true"). For now it only uses Orb of Alteration and Chaos Orb is not yet implemented.
+Now item and monster's name reading should work 100% of the time.
+
+v0.18b
+Offsets updated for Garena version 1.1.3.
+Fixed issue making the bot using all tp scroll without taking any portal created.
+
+v0.18
+Offsets updated for game version 1.1.3.
+Bot has now the ability to chance items. To do so, edit your pickit default.ipd file and add for instance: [Type] == "Glorious Plate" # [ChanceItem] == "true". Bot will take any glorious plate it find and use an orb of chance on it.
+Bot has now the ability to upgrade maps. To do so, edit your map default.ipd file and use the keywords [UpgradeQuality], [UpgradeToMagic] or [UpgradeToRare]. Bot will always upgrade only the map that has been selectionned to be farmed.
+Added Elemental DPS and Physical DPS to compute resp. elemental and physical dps of any weapon.
+Now Gavel item is properly recognized and picked up.
+Position offsets when bot clicks on map device are now editable (map_device_offset_x, map_device_offset_y from coordinates.ini file).
+Fixed bug when bot kept trying to take a town portal that wasn't reachable.
+Updated pickit default.ipd file with best items to chance (commented).
+Updated map default.ipd file with example of maps upgrading.
+
+v0.17f
+Bot don't try to go to previously opened map on start anymore. If you want the bot to run a map already open, just start it directly from inside.
+Fixed a bug where user couldn't use more than 15 names into the Chicken on Sight list.
+
+v0.17e
+Added chicken delay key in system.ini file, to specify the delay you want your bot to wait after clicking exit to login.
+Now Bot picks up currencies correctly if smart pickit disable.
+Fixed bot stucked switching tab bug.
+Identifying process is now less likely to have the item stucked on cursor bug.
+First version of the IPD Editor (File->IPD Editor, or map/pickit profile->Open).
+Bot now will not reset the Status tab each "Start" button press, else user can reset it by the "Clear" button.
+Fixed syntax errors in the default pickit.
+
+v0.17d
+Bot detects if a monster has the "No drop or experience" mod and ignore it if it's the case.
+Armourer Scraps, Blacksmith's Whetstone and Glassblower's Bauble are now picked up by default if smart pickit is disabled.
+Now F11 reload pickit and map ipd files.
+
+v0.17c
+Fixed low performances issue.
+Now bot attacks a monster/totem that has Cannot Die aura only if it's the source.
+Fixed bot idling in map instead of going back to town after cleaning a map.
+Now Stash Inventory coordinates can be edited in coordinates.ini file.
+Now Map device, inventory and open map button positions are editable in coordinates.ini file.
+"Ghost monster/item" and wrong memory cleaning bug fixed.
+
+v0.17b
+F11 is now working again.
+Fixed crash on map loading.
+
+v0.17
+Offsets updated for game version 1.1.2.
+Offsets updated for Garena version 1.1.2.
+Map farming implemented (still being tested though).
+Bot chooses map to run according to Configuration/Maps/default.ipd file. It will always run highest map level as possible.
+Back and forth loop in stairs bug fixed.
+Pathfinding improved (now it has correct Z value for any position).
+Auras are now casted before gem leveling.
+Added an option "Recast aura for each run" in skill config for special aura that get disabled on any zone transition (ie Arctic Armor).
+Fixed the chicken on sight saving bug (limited string size).
+Added three new key for pickit: [Computed Armor], [Computed Evasion] and [Computed Energy Shield], each keys will check final value for each defensive stats. If you press F7 to dump inventory you'll see these computed stats.
+Updated default pickit file.
+
+v0.16g
+Offsets updated for Garena version 1.1.1c.
+
+v0.16f
+Offsets updated for game version 1.1.1c.
+Added two usable keys for the mods ([TotalResistances] and [DPS]) and two usable keys for item category ([Category] == "1Handed" and [Category] == "2Handed") in the pickit.
+Now bot is able to compute weapon's dps and item's total resistance score, and to compare them to the pickit file.
+Standard pickit improved.
+Bot is now detecting if a weapon is 1Handed or 2Handed.
+Bot now ignore id scroll/tp scroll/shard/currency while selling.
+Chicken on unique changed to Chicken on sight.
+Tooltips added to Chicken on sight.
+Authentification system improved.
+
+v0.16e
+Fixed wrong stash tab selected issue.
+Fixed bot stucked on stash.
+Fixed wrong mods index (if index >= 582).
+Commented 3L and 4L pickup in default pickit.
+Added a "mouse hovered entity check" when trying to enter catacombs from market on Area Transition tile.
+Added a check if bot overshoot wp. 
+
+v0.16d
+Now all mods from ModsList.html file are working perfectly (ie. if you set attack_speed_+% it will REALLY consider  the % Increased Attack Speed of the item). Be careful!!! local_ mod name means that the mods is applied on the stats of the items rather than the stats of your char.
+Fixed mutiple tab stashing. Just don't use it if you have some Remove-only tabs, remove them before botting. 
+If bot opens Guild Stash while stashing now it detects it and close it.
+Added a check if any window is open while Exiting to login (ie: Stash, Guild Stash, Waypoint, etc).
+Fixed a crash that occured while reading stash tabs.
+Now bot take Empower and Enhance gems properly if you set [Type] == "Empower" and [Type] == "Enhance" in pickit file.
+Bot do not try to stash Quest item anymore.
+
+v0.16c
+Offsets updated for Garena version 1.1.1b.
+Added new check after casting Aura.
+Improved Auth system to avoid issues.
+If you are experiencing trouble with multiple stash tab, try to set ONLY ONE tab, it should work waiting for a better fix.
+
+v0.16b
+Offsets updated for game version 1.1.1b.
+Reimplemented multiple stash tabs in a better way.
+Multi-stashtab enabled in the GUI.
+Added the possibility for the user to define some monsters name he wants the bot to avoid and chicken on sight.
+Updated standard pickit, thanks to Phaukt for helping and sharing his work!
+Fixed some pickit bugs (bot identifying every item even when not needed).
+Fix bot not opening some chest when Open StrongBox was enable.
+Found a memory leak due to bad cleaning while parsing map. Fixed now.
+New tab added: Main settings, old Main settings renamed to Map settings (settings moved to the right tabs).
+
+v0.16
+Offsets updated for Garena version 1.1.1.
+ilvl is now detected properly.
+Now bot won't take any 5S items anymore (ffs!) !!
+Updated auth system to work with Singapore connections.
+Fixed arctic armour aura not detected by the bot.
+Bot now can open stronboxes if user desire (Main Config).
+Chest detecting a bit changed, now the "Open Strongbox" and "Open Chest" settings working separately, so user can set up to open only one of them or both of them or none of them (before user had to enable Chest opening).
+Now the the skill tree will show the keys in parenthesis for better visibility. (Note: If the user change the key then the parenthesis will be changed too.)
+Act & Difficulty coordinates fixed.
+Now before activating the key it will trim spaces from left and right.
+
+v0.15m
+Fixed broken pickit.
+
+v0.15l
+Updated offsets for game version 1.1.1.
+
+v0.15k
+Updated offsets for Garena version 1.1.0f.
+
+v0.15j
+Updated offsets for game version 1.1.0.
+
+v0.15i
+Removed multiple tab stashing to wait for a better implementation.
+
+v0.15h
+Fixed bot being stucked sometimes clicking on stash even after it opened.
+Bot now pickup unique items by default if smart pickit is disabled.
+
+v0.15g
+Fixed crash caused by bot trying to load stash tabs when entering in an area.
+Now bot switch stash tab correctly if the one we are using to stash get full.
+
+v0.15f
+Multi-Tab stashing implemented.
+Fixed wrong item link bug (no more fake 5/6L in your stash!!).
+Fixed stuck while stashing bug.
+Added new file "ModsList.html" instead of "ModsList.txt. it's a full list of every item mods in the game (and even more).
+
+v0.15e
+Updated offsets for Garena version 1.0.6b.
+Changed stash tab navigation, to prepare update with multi-tab stashing.
+Added aura_delay key in system.ini file. This is the delay used after casting an aura.
+Added shift_when_moving key in config.ini file. This can be used to set a skill to move instead of only right clicking while going toward monsters.
+Fixed item name reading that was broken.
+Armourer Scrap, Glassblower Bubble and Whetstone are picked again if set in pickit file.
+Increased delays while selling and stashing.
+Default startup profile for each computer name.
+Clear button added for last dropped items.
+Fixed target selection settings bug in the GUI.
+
+v0.15d
+Fixed catacombs bug.
+Now max_range_multiplier will work properly.
+
+v0.15c
+Offsets updated for game version 1.0.6b.
+SettingsLoader now have default values on load, so no more blank settings if the config of the selected profile is outdated.
+Bot should crash less.
+
+v0.15b
+Fixed Catacombs bug (wrong offset).
+Now the bot will attack monsters only within a specific range. This range is the result from the highest attack distance defined in skilled, multiplied by a percent multiplicator defined by the user in GUI (key: "max_range_multiplier" in config.ini file).
+=> Back and fourth loop bug frequency reduced ?
+Profile manager reworked.
+
+v0.15
+Offsets updated for game version 1.0.6 (Vanilla & Garena).
+Now item are rechecked all the time when bot tries to pick them (to avoid trash pickup).
+Bot now checks if scroll has been clicked properly before trying to identify item (to avoid item stucked on cursor).
+Bot now checks that inventory window is not opened while trying to pickup an item.
+Bot now sleeps 1500ms instead of 1000ms after casting aura (to avoid lag issues).
+Bot should crash less.
+Bot now clicks on Play button in Garena version.
+
+v0.14h
+Fixed scroll looting (bug introduced in 0.14g).
+
+v0.14g
+Fixed bug when bot tries to pick an item while inventory is full (resulting in an annoying boring f*****g infinite loop/crash).
+Now bot stashs every item after each run (except scrolls and shards).
+Skill tab reworked to TreeView.
+ToolTip added to ExpandedLastItem window.
+
+v0.14f
+Now Blacksmith's Whetstone, Armourer's Scrap and Glassblower's Bauble are only handled in the pickit file (if you take out the lines from pickit file, bot will stop taking them).
+Fixed bot not selecting act when botting in lower difficulty than last one unlocked.
+Improved scroll pickup : now user just needs to set up the number of each scroll he wants to keep in inventory, and in the pickit file if he wants to stash them.
+Optimized area switching between Marketplace and Catacombs.
+Fixed infinite loop ocuring when char tries to go from one chest to another (due to abusive use of Manhattan distance, for speed optimization).
+Char won't get stucked anymore trying to open the same chest for hours, now it will ignore it after a fixed amount of unsuccesful tries.
+
+v0.14e
+Now maps pickup has to be configured in the pickit file (takes any map by default).
+Added "The Catacombs" area support.
+
+v0.14d
+Offsets updated for Garena version 1.0.5.
+
+v0.14c
+Fixed some auth issues.
+Now bot stop in town when lvl 60 is reached for non-elite.
+
+v0.14b
+Offsets updated for game version 1.0.5.
+Bot is now compatible with both Vanilla and Garena versions of the game.
+Non-elite can now use smart pickit.
+Added Jarvis101's pickit file to the bot by default (http://exiled-bot.net/community/index.php/topic/1274-the-1-ex-minimum-pickit/)
+Added a level restriction for non-elite (60 max).
+
+v0.14
+Auth system implemented.
+Now elite users have to login with their user name and a key provided by the website.
+
+v0.13f
+Offsets updated for game version 1.0.4.
+Fixed smart pickit. (path issue).
+Bot doesn't attack friendly monsters anymore.
+
+v0.13e
+User can now specify a key to cast a skill when bot can't open a breakable chest (to avoid bot being stucked). "open_chest_fail_key" from config.ini file.
+Fixed a random crash due to pickit.
+Added profile system.
+Status Tab now working.
+Added new window (resizable) for last picked items.
+Now bot is reading item name directly from memory instead of translating it to metadata. It means that any item set in pickit should now work (and not exclusively the ones from ItemNameList.txt).
+
+v0.13d
+Fixed a random crash due to pickit.
+
+v0.13c
+Offsets update for game version 1.0.2.
+Bot now ignores id, alt, transmut and alchemy shards while stashing.
+Increased delays while identifying items.
+Fixed bug of Warehouse, Scepter of god and Imperial Garden not selected properly.
+Added a Status Tab to the gui (not working yet!!).
+
+v0.13b
+Offsets update for game version 1.0.1c.
+Parenthesis and || (OR statement) are now working in pickit.
+/!\ Read Again carefuly Pickit Documentation from default.ipd Before Editing It. Some Better Examples Has Been Added. /!\
+Bot shouldn't sell anymore items we don't want.
+Now user can use a mod by its index in the pickit (if it is not in the ModsList.txt file) this way [modindex] == "value", ie. [587] == "30" for +30 int mod.
+Fixed bug : "Bot opens guild stash instead of its own stash".
+
+v0.13
+Offsets updated for game version 1.0.1b.
+Fixed the (*******) stucked in Sarn Encampment making love with Haramoa / wandering around. Now bot stays focus on what he should do.
+Pickit fully configurable, see /Configuration/Pickit/Standard.ipd (open it with text editor). Only for Elite users atm.
+Old pickit is still working, even if you activate smart pickit (they both will work in parallel, but they don't "know anything" of each other).
+Bot is now identifying and vendoring items.
+Fixed gems leveling issues (bot doesn't right click anymore).
+Added the possibility for the user the define the min amount of scroll he wants to keep in inventory (keys "keep_id_scroll_number" and "keep_tp_scroll_number" from pickit.ini).
+Bot now picks again 5L items.
+TP To Town feature is now available for everybody.
+Bot is now doing stuff in this order: identifying, selling, stashing.
+Changed Act3 NPC for Clarissa.
+Bot is now stashing items every run.
+Area selection improved.
+Press F7 while bot is paused to dump your character's inventory in (/Log/Dump.log). If your item is not recognized by the pickit, send us it's type and ingame name. If your item has a mods that is not in the modslist, send us the mod's index and ingame name. (Thanks)
+
+v0.12
+Our brand new GUI just arrived!
+No more re-setup, you asked it, we made it, from now you can Import settings from previous versions.
+You don't understand how something works? Hover your mouse over it and you'll get some informations!
+Added "Load old settings" to File menu.
+Added "Informations" to the Help menu (I know it's ugly, but I'm working on something else so it will remain like this).
+<3 BlackSun
+Bot should now handle Shrines properly.
+Added two key in config.ini files: activate_shrines and shrines_range.
+New game release zones added.
+
+v0.11c
+Offsets updated for game version 1.0.0e.
+Character stucked in town clicking on top should now be fixed.
+Character stucked picking item while inventory is opened should now be fixed.
+Character stucked in Town/Main Menu should be fixed.
+Bot now checks life and mana reserved to know if an aura has been casted or not.
+Bot shouldn't attack NPC anymore while farming.
+
+v0.11b
+Offsets updated for game version 0.11.6g.
+Gem leveling and aura working now properly with the tp to town feature.
+Tp to town feature should now work properly.
+Pause issue fixed.
+Stuck in town, trying to go up / clicking on NPC should be fixed as well.
+Now user can set the number of actions (or clicks) per seconds in system.ini file.
+
+v0.11
+Implemented "TP back to town" feature to improve bot humanization (Only for elite users Beta-Testing atm).
+Now when map is explored or inventory is full, bot will come back to town using a TP if any in inventory (or it will chicken like a b!tch).
+Added possibility for the user to set up a number of monsters around the closest target to cast a skill or not.
+User can now set if he wants the bot to use shift while casting a skill.
+Bot is insanely fast now (thank you mister optimization).
+Fixed a crash ocuring when trying to run to stash if it's not in memory.
+Fixed a crash ocuring after cleaning an entity while pathfinding.
+Now no monster kill counter is based on the experience value (If experience increase, reset monster_no_kill_timeout).
+Small fix for CPU usage while paused.
+Added Elite Features Activator.
+
+v0.10e
+Implemented Special Monster handling.
+Fixed a crash happening in a few areas (Battlefront, Marketplace, ...) where some entities were considered as doors when they shouldn't.
+Fixed a bug making the bot randomly unable to explore when sitting close to a wall.
+
+v0.10d
+Offsets updated for game version 0.11.6f.
+
+v0.10c
+Bot is now opening doors!!
+Improved pathfinding wrong positions handling.
+Bot opens now sarcophages in Church Dungeon.
+Improved bot fighting when close to wall and corners.
+Correct character size handled by pathfinding (no more City of Sarn stucked between two houses).
+Added a delay while bot is walking to stash or wp to avoid miss clicks.
+
+v0.10b
+Offsets updated for game version 0.11.6c.
+Stashing implemented and working.
+Some minor bugs fixed.
+
+v0.10
+Bot doesn't stuck itself anymore on WP selection.
+Bot shouldn't get stucked in pathing loop anymore.
+
+v0.9d
+Offsets updated for game version 0.11.6b.
+
+v0.9c
+Offsets updated for game version 0.11.6
+AI_loop_delay default value changed from 10 to 40.
+
+v0.9b
+Offsets updated for game version 0.11.5e.
+Improved bot clicks speed (you can still control it via the AI_loop_delay key from system.ini file).
+Bot should properly chicken when stucked in town.
+Fixed one more "stucked in computation bug".
+Gem leveling fixed.
+
+v0.9
+Bot is now raycasting to monsters and chest to know if there is a wall between their positions.
+Added key "raycast_width" in system.ini file to set up the width of the ray casted.
+Bot is now killing monsters in safe range and taking items before chickening because of map cleared.
+Crash occuring when detecting if an item is a ring or an amulet should be fixed.
+Gem leveling priority is now less than aura casting.
+Bot can now pickup 6S, 5L and 6L items.
+Fixed gem leveling not working.
+Added new key (pickup_5L_items) in pickit.ini file.
+Added new key (pickup_6S_items) in pickit.ini file.
+Pathfinding greatly optimized.
+
+v0.8i
+Fixed bot crash due to a memory zone deleted by the game.
+Added reason of chicken in lastrun.log file.
+Changed exploration_distance default value to 90, it should work good in any big opened areas.
+Minor fix: Now bot handle properly moves priorities.
+
+v0.8h
+Bot can now take rare rings and amys (default true).
+Fixed safe range not working properly.
+Took out MessageBox when user press F11 (to avoid F12 pause stop working).
+Config key "run_max_time" default value is now 600.
+
+v0.8g
+Infinite loop caused by wrong pathfinding computations should be fixed.
+Bot now checks if directx end-user is installed.
+
+v0.8f
+Offsets updated for game version 0.11.5c.
+No more injection nor memory writing, bot is now fully passive.
+Fixed aura's checkbox in gui.
+
+v0.8e
+Offsets updated for game version 0.11.5b.
+Added GUI to the bot.
+Improved BFS pathfinding to make use of cached path instead of recomputing every AI iteration.
+
+v0.8d
+Fixed gem_level to now work properly again.
+Fixed "stuck-in-town" bug.
+
+v0.8b/0.8c
+Bot is now reseting entities properly on area change.
+
+v0.8
+Pathfinding and exploration implemented.
+Changed hotkeys delay from 100ms to 500ms.
+Added key in config.ini file (area_clean_percent) to configure the % of the map we want to explore before creating next instance.
+
+v0.7f
+Fixed bot not drinking mana pot and not energy shield chickening issues.
+Bot can now pick rare items, see pickup_rare_items key in pickit.ini files (forgot to mention it in v0.7e patchnote).
+
+v0.7e
+Offsets updated for game version 0.11.4.
+Level_gems is now false by default.
+Pickit improved. Now you can define various pickup options in the pickit.ini file. Basically the bot "tries" others screen positions after a certain amount of unsuccessful tries.
+Bot is no more reseting bot timer when in town.
+Fixed a hardcoded value (20000) which was making the configuration key "absurd_monster_hp_value" from system.ini file not working properly. Maybe Exile are now detectable if you increase this value, not sure of the result yet.
+Pathfinding is probably ready for the next release !!!
+
+v0.7d
+Offsets updated for game version 0.11.3c.
+Changed exit menu y default coordinate (240 now instead of 235).
+Removed buff handling from ini file.
+Added cooldown and priority to skills.
+skillx_cooldown and skillx_priority keys added in skills.ini file. The first is a timer to tell the bot when to recast the skill, the second one is a basic priority (highest value hast the priority).
+Added totem detection, the bot won't attack totems anymore.
+
+v0.7c
+Bug fix : When exiting to logging, sometimes the bot was closing the game as well.
+
+v0.7b
+Added option to enable or disable scroll picking (key pickup_scrolls from file pickit.ini).
+Bug fix : Now when character die, bot exits properly.
+Right clicking gem upgrading button when it can't be upgraded.
+Bot is now checking that the game is running before doing any action.
+
+v0.7
+Offsets updated for game version 0.11.3b.
+Auras are now working, to set an aura use key skillx_is_aura=true from skills.ini file.
+Greatly improved Item Looting accuracy (using the mousehovered pointer).
+Added automatic gem leveling, use key level_gems=true from config.ini file (default) to activate it.
+Added configurable pickup delay ("pickup_delay" key from system.ini file, default value: 200).
+
+v0.6h
+Revert: Bot was getting stuck in an infinite loop because the workaround to avoid using function IsBadreadptr is not working 100% of the time. So IsBadReadPtr is temporarily back to make the bot usable again.
+
+v0.6g
+Offsets updated for game version 0.11.2e.
+
+v0.6f
+Offsets updated for game version 0.11.2d.
+
+v0.6e
+Offsets updated for game version 0.11.2c.
+start_bot_paused and enable_autologin key were removed from ini files as they are pretty useless.
+mouse_wheel key is now working.
+Improved pickup accuracy, may still not be perfect but a lot better, waiting for automatic inventory cleaning.
+Bug fix : Maps are now picked up properly.
+Added chicken for energy shield (chicken_energy_shield_percent).
+
+v0.6d
+User can now define the delay he wants between each click during waypoint selection in file system.ini, area_selection_click_delay key (default 500ms).
+Added file pickit.ini.
+Added key gem_quality_min to define the minimum quality required for a gem to be picked.
+
+v0.6c
+Bot is now taking unique items.
+open_chest key is now working.
+Fixed act and difficulty tabs selection, now it should work as expected.
+
+v0.6b
+Offsets updated for game version 0.11.1e.
+Bot is now opening chests.
+User can now define looting range in the config.ini file : chest_range (only for chests atm).
+User can now define a a safe range : char will attack any monster under this range before picking items or opening chests.
+coordinates.ini file fixed.
+skilled.ini : "A" and "Z" default skill key changed to "Q" and "W" as most users seem to have qwerty keyboard.
+Skills min distance are now working, the bot will use this skill against the monsters only if the distance between them exceed this value.
+Skill should be handled properly according to the monster's distance from the character, you can verify it in the log file created in the "Log" folder.
+Simple logfile system added (folder "Log" in the bot folder).
+
+v0.6
+Offsets updated for game version 0.11.1c
+Act tabs coordinates updated
+Feature "Alt To Loot" added
+"Monster_no_kill_timeout" is back
+Pause/Unpause is now F12 key
+Read ini key is now F11 key
+Max attack distance set to 0 means now infinite
+Big internal changes, about how stuff was handled internally, everything should run smoother now
+
+v0.5f
+Offsets updated for game version 0.11.0f.
+User can now set a percent of life limit that if reached, the bot will exit to login. (var chicken_life_percent in config.ini file)
+User can now define a max time for a run (bot exit to login on timeout).
+Bug fix : Now character should always detect and click on character on character selection screen.
+Bug fix : Now character should handle waypoint selection properly.
+Now bot should reset properly entities vector when in town.
+Took out E key from default settings.
+Took out monster_no_kill_timeout as it was bugger, use run_max_time instead.
+
+
+v0.5e
+Instance Selection Mouse Offsets fixed.
+Player absurd value added to system config file.
+Flasks Offsets fixed.
+Bot now exit to login when player is dead.
+
+v0.5d
+Fix autoflask issue (not working)
+Fix "stuck in character selection screen issue" (see: http://www.exiled-bot.net/forum/viewtopic.php?f=7&t=116)
+
+
+v0.5c
+THE SHORTCUT TO PAUSE AND UNPAUSE THE BOT CHANGED : SHIFT+SPACE
+Automatic instance reset working !!
+Added possibility to enable or not automatic game restart (false by default now)
+Added possibility to enable or not automatic login (true by default)
+Added possibility to start bot paused or not (false by default)
+Now monster no kill timeout is in seconds (300 by default)
+Now bot is exiting to login instead of closing the game when timeout
+Fix some keyboard handling issues
+
+
+v0.5b
+Offsets updated for game version 0.11.0e.
+
+
+v0.5a
+Bug fix : When the user wanted to bot in lower difficulty than the last unlocked one, it crashed.
+
+
+v0.5
+Added monster no kill timer which is basically a timer reseting each time the character is killing a monster. If timer value is reached, the game is automatically closed and relaunched
+Coordinates ini file added
+Auto relaunch, login, go to portal, select area, go hack monster !!
+User inputs handling improved
+
+
+v0.4
+New hotkey (CTRL + N) to reload ini files on runtime (Requested by Rts420)
+Bug fix : monster_max_attack_distance_value is now working properly
+
+
+v0.3d
+0.11.0c game version support
+
+
+v0.3c
+Bug fix (Life flasks not taken)
+
+
+v0.3b
+0.11.0b game version support
+Skills customization in skills.ini
+
+
+v0.3a
+Added pause/unpause function on space bar
