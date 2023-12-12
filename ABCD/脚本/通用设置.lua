@@ -1047,7 +1047,7 @@ SetGoodsCaoZuo(nil,"0|2","束縛石碎片","Metadata/Items/Currency/CurrencyUpgradeTo
 SetJiaoYiGoods(nil,"束縛石","Metadata/Items/Currency/CurrencyUpgradeToRareAndSetSockets",nil,nil,nil,nil)
 SetNeedFengYinYeShou(nil,"Metadata/Monsters/LeagueBestiary/TigerBestiary")--費爾羅猛虎幻獸
 SetNeedFengYinYeShou(nil,"Metadata/Monsters/LeagueBestiary/LynxBestiary")--費爾羅山貓幻獸
-
+SetJiaoYiGoods(nil,nil,nil,nil,"Wraithlord")--"憤靈郡主"
 
 --小號要留的東西
 --SetJiaoYiGoods(nil,nil,nil,nil,"Daresso's Courage")--"德瑞索的勇者之盾 古代圓盾"
@@ -2062,10 +2062,18 @@ SetNeedShiLianReward(nil,nil,nil,"Machina Mitts")--"詭計魔手"
 SetNeedShiLianReward(nil,nil,nil,"Farrul's Fur")--"費爾羅羽衣"
 SetNeedShiLianReward(nil,nil,nil,"Shroud of the Lightless")--"晦暗的屍布"
 SetNeedShiLianReward(nil,nil,nil,"The Halcyon")--"太平"
+SetNeedShiLianReward(nil,nil,nil,"Tanu Ahi")--"埋火"
+SetNeedShiLianReward(nil,nil,nil,"Hyrri's Truth")--"西里的真理"
+SetNeedShiLianReward(nil,nil,nil,"Hyrri's Ire")--"西里的戰衣"
+SetNeedShiLianReward(nil,nil,nil,"Yoke of Suffering")--"磨難之軛"
+SetNeedShiLianReward(nil,nil,nil,"The Halcyon")--"太平"
+SetNeedShiLianReward(nil,nil,nil,"The Halcyon")--"太平"
 SetNeedShiLianReward(nil,nil,nil,"Arakaali's Fang")--"艾爾卡莉之牙"
 SetNeedShiLianReward(nil,nil,nil,"Unending Hunger")--"無盡渴望"
 SetNeedShiLianReward(nil,nil,nil,"Inspired Learning")--"求知的熱情"
 SetNeedShiLianReward(nil,nil,nil,"Berek's Respite")--"貝雷克的火與雷之樂"
+SetNeedShiLianReward(nil,nil,nil,"Berek's Pass")--"貝雷克的冰與火之歌"
+SetNeedShiLianReward(nil,nil,nil,"Berek's Grip")--"貝雷克的冰與雷之曲"
 SetNeedShiLianReward(nil,nil,nil,"AtzirisMirrorFated")--"女王獻祭"
 SetNeedShiLianReward(nil,nil,nil,"ItemAbleToBecomesUniqueWhenChanceOrbApplied")--"麻雀變鳳凰"
 SetNeedShiLianReward(nil,nil,nil,"RollingSixSocketBodyArmourLinksAllSockets")--"命運連結"
