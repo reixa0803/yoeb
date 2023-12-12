@@ -833,7 +833,29 @@
 																							
 	[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 稀有	拾取且存倉																						
 	[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 魔法	拾取且存倉																						
-	[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 普通	拾取且存倉																																													
+	[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 普通	拾取且存倉	
+//	// 12F 星團珠寶			設定天賦數																								
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "8" && [StashItem] == "true" //	//巨星團珠寶		存倉	8																								
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "12" && [StashItem] == "true" //	//巨星團珠寶		存倉	12																								
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "4" && [StashItem] == "true" //	//中星團珠寶		存倉	4																								
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "5" && [StashItem] == "true" //	//中星團珠寶		存倉	5																								
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "6" && [StashItem] == "true" //	//中星團珠寶		存倉	6																								
+[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//小星團珠寶		存倉	2																								
+[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//小星團珠寶		存倉	3																								
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "8" && [StashItem] == "true" //	//請勿更動//																											
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "12" && [StashItem] == "true" //	//請勿更動//																											
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "4" && [StashItem] == "true" //	//請勿更動//																											
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "5" && [StashItem] == "true" //	//請勿更動//																											
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "6" && [StashItem] == "true" //	//請勿更動//																											
+[Type] == "Small Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//請勿更動//																											
+[Type] == "Small Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//請勿更動//																											
+[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "8" && [StashItem] == "true" //	//請勿更動//																											
+[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "12" && [StashItem] == "true" //	//請勿更動//																											
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "4" && [StashItem] == "true" //	//請勿更動//																											
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "5" && [StashItem] == "true" //	//請勿更動//																											
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "6" && [StashItem] == "true" //	//請勿更動//																											
+[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//請勿更動//																											
+[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//請勿更動//		
 //[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] = "8" && [StashItem] == "true" //	//巨星團珠寶		存倉	8																								
 //[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] = "12" && [StashItem] == "true" //	//巨星團珠寶		存倉	12																																																																										
 	// 13F 輿圖																										
