@@ -2243,3 +2243,7 @@
 //[Type] == "Replica Dragonfang's Flight"              # [StashItem] == "true" //  19x Mirror Shard
 [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Dragonfang's Flight" && [StashItem] == "true"	//Replica Dragonfang's Flight Onyx Amulet
 [Type] == "Hinekora's Lock" # [StashItem] == "true" // //悉妮蔻拉的髮絲
+[Type] == "I See Brothers" # [StashItem] == "true" //	來了兄弟
+[Type] == "Eldritch Perfection" # [StashItem] == "true" //	完美異能
+[Type] == "Assassin's Gift" # [StashItem] == "true" //	刺客的餽贈
+
