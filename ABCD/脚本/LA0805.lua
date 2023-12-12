@@ -33,10 +33,10 @@ g_needMinimizeGame=nil		    --最小化遊戲窗口 true为最小化 false或nil为不最小化
 --nType 有效场景 nil为无论何时都有效 0为没在刷异界才有效 1为只在刷异界才有效
 
 SetNeedSkillLineData(93,"燃燒箭矢,nil|氣勢輔助,nil",2,nil,nil)
-SetNeedSkillLineData(94,"魔改箭矢輔助,nil|暴風雷雨,nil|龍捲射擊,nil",nil,nil,nil)
+SetNeedSkillLineData(94,"魔改箭矢輔助,nil|暴風雷雨,nil|幻影射手輔助,nil",nil,nil,nil)
 SetNeedSkillLineData(95,"魔改箭矢輔助,nil|狂怒,nil|暴擊獲得暴擊球輔助,nil|爆裂箭雨,nil|冰霜射擊,nil",nil,nil,nil)
 SetNeedSkillLineData(96,"鋼筋鐵骨,nil|元素淨化,nil|優雅,nil",nil,nil,nil)
-SetNeedSkillLineData(97,"狙擊者印記,nil|召喚寒冰魔像,nil|擊中時印記輔助,nil",nil,nil,nil)
+SetNeedSkillLineData(97,"狙擊者印記,nil|擊中時印記輔助,nil|召喚寒冰魔像,nil",nil,nil,nil)
 SetNeedSkillLineData(98,"彈片砲塔,nil|快速攻擊輔助,nil|猛毒投射物輔助,nil|齊射輔助,nil",30,nil,nil)
 SetNeedSkillLineData(99,"電流箭矢,nil|附加冰冷傷害輔助,nil|元素攻擊傷害輔助,nil|幻影射手輔助,nil|附加火焰傷害輔助,nil",16,nil,nil)
 SetNeedSkillLineData(100,"閃電箭矢,nil,1|投射物返回輔助,nil|幻影射手輔助,nil|啟發輔助,nil|元素攻擊傷害輔助,nil|三體輔助,nil|元素攻擊傷害輔助,nil",nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,12)
