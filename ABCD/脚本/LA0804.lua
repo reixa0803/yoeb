@@ -39,7 +39,7 @@ SetNeedSkillLineData(96,"鋼筋鐵骨,nil|元素淨化,nil|優雅,nil",nil,nil,nil)
 SetNeedSkillLineData(97,"狙擊者印記,nil|召喚寒冰魔像,nil|擊中時印記輔助,nil",nil,nil,nil)
 SetNeedSkillLineData(98,"彈片砲塔,nil|快速攻擊輔助,nil|猛毒投射物輔助,nil|齊射輔助,nil",30,nil,nil)
 SetNeedSkillLineData(99,"電流箭矢,nil|附加冰冷傷害輔助,nil|元素攻擊傷害輔助,nil|幻影射手輔助,nil|附加火焰傷害輔助,nil",16,nil,nil)
-SetNeedSkillLineData(100,"閃電箭矢,nil,1|投射物返回輔助,nil|元素攻擊傷害輔助,nil|三體輔助,nil|啟發輔助,nil|幻影射手輔助,nil|附加火焰傷害輔助,nil",nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,12)
+SetNeedSkillLineData(100,"閃電箭矢,nil,1|投射物返回輔助,nil|幻影射手輔助,nil|啟發輔助,nil|元素攻擊傷害輔助,nil|三體輔助,nil|元素攻擊傷害輔助,nil",nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,12)
 
 
 --添加攻击技能 name=技能名 className=技能类名 noLine=不在直线就能攻击 挑选攻击技能会从上到下寻找，要把厉害的技能加在前面
@@ -98,16 +98,16 @@ SetAtuoChangeEquipData("游侠","弓","local_maximum_added_lightning_damage",5)--
 
 --游侠--孔色
 SetZhengTiColorVarData(2,2,3,1,nil,800,true)
-SetZhengTiColorVarData(2,2,2,1,nil,700,true)
+--SetZhengTiColorVarData(2,2,2,1,nil,700,true)
 SetZhengTiColorVarData(2,1,3,1,nil,600,true)
-SetZhengTiColorVarData(2,1,2,1,nil,500,true)
+--SetZhengTiColorVarData(2,1,3,1,nil,500,true)
 SetZhengTiColorVarData(2,1,3,0,nil,400,true)
-SetZhengTiColorVarData(2,1,2,0,nil,300,true)
-SetZhengTiColorVarData(2,0,3,0,nil,250,true)
+--SetZhengTiColorVarData(2,1,3,0,nil,300,true)
+SetZhengTiColorVarData(2,1,2,0,nil,250,true)
 SetZhengTiColorVarData(2,0,2,0,nil,200,true)
 SetZhengTiColorVarData(2,1,1,0,nil,150,true)
 SetZhengTiColorVarData(2,0,1,0,nil,100)
-SetZhengTiColorVarData(2,1,0,0,nil,60)
+SetZhengTiColorVarData(2,0,0,0,nil,60)
 SetZhengTiColorVarData(2,0,0,1,nil,50)
 
 SetZhengTiColorVarData(3,0,5,1,nil,600,true)
