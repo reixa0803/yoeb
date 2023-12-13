@@ -1299,7 +1299,7 @@
 //[Type] == "Ranger Bow" && [Rarity] == "Unique" # [UniqueName] == "Hopeshredder" && [ForceSellItem] == "true"	//破滅之希 漫遊之弓		賣出																									
 //[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Chin Sol" && [ForceSellItem] == "true"	//亂矢之弦 暗殺弓		賣出																									
 [Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Darkscorn" && [ForceSellItem] == "true"	//夜吟 暗殺弓		存倉																									
-//[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Arborix" && [ForceSellItem] == "true"	//阿布里斯 暗殺弓		賣出																									
+[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Arborix" && [StashItem] == "true"	//阿布里斯 暗殺弓		賣出																									
 [Type] == "Spine Bow" && [Rarity] == "Unique" # [UniqueName] == "Voltaxic Rift" && [StashItem] == "true"	//魔暴之痕 脊弓		存倉																									
 //[Type] == "Spine Bow" && [Rarity] == "Unique" # [UniqueName] == "Reach of the Council" && [ForceSellItem] == "true"	//議會之觸 脊弓		賣出																									
 [Type] == "Imperial Bow" && [Rarity] == "Unique" # [UniqueName] == "Lioneye's Glare" && [StashItem] == "true"	//獅眼的戰弓 帝國之弓		存倉																									
@@ -1513,7 +1513,7 @@
 //[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Galesight" && [ForceSellItem] == "true"	//風視		賣出																									
 //[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Thundersight" && [ForceSellItem] == "true"	//雷視		賣出																									
 //[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Cowl of the Ceraunophile" && [ForceSellItem] == "true"	//狂雷斗篷		賣出																									
-[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wilma's Requital" && [ForceSellItem] == "true"	//威爾瑪的報復		存倉																									
+[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wilma's Requital" && [StashItem] == "true"	//威爾瑪的報復		存倉																									
 //[Type] == "Mind Cage" && [Rarity] == "Unique" # [UniqueName] == "Rime Gaze" && [ForceSellItem] == "true"	//酷寒的凝視		賣出																									
 //[Type] == "Mind Cage" && [Rarity] == "Unique" # [UniqueName] == "Scold's Bridle" && [ForceSellItem] == "true"	//禁語		賣出																									
 //[Type] == "Mind Cage" && [Rarity] == "Unique" # [UniqueName] == "Hale Negator" && [ForceSellItem] == "true"	//強彈辯駁		賣出																									
@@ -2040,7 +2040,7 @@
 //[Type] == "Studded Belt" && [Rarity] == "Unique" # [UniqueName] == "The Nomad" && [ForceSellItem] == "true"	//游牧		賣出																									
 //[Type] == "Vanguard Belt" && [Rarity] == "Unique" # [UniqueName] == "Perseverance" && [ForceSellItem] == "true"	//恆毅意志		賣出																									
 //[Type] == "Crystal Belt" && [Rarity] == "Unique" # [UniqueName] == "Auxium" && [ForceSellItem] == "true"	//奧術之符		賣出																									
-//[Type] == "Crystal Belt" && [Rarity] == "Unique" # [UniqueName] == "The Burden of Truth" && [ForceSellItem] == "true"	//真理負擔		賣出																									
+[Type] == "Crystal Belt" && [Rarity] == "Unique" # [UniqueName] == "The Burden of Truth" && [StashItem] == "true"	//真理負擔		賣出																									
 //[Type] == "Stygian Vise" && [Rarity] == "Unique" # [UniqueName] == "Darkness Enthroned" && [ForceSellItem] == "true"	//夜惡降臨		賣出																									
 	//藥劑		賣出																									
 //[Type] == "Sanctified Life Flask" && [Rarity] == "Unique" # [UniqueName] == "Blood of the Karui" && [ForceSellItem] == "true"	//卡魯之血		賣出																									
