@@ -20,7 +20,7 @@
 [Type] == "Synthesised Map" # [lgnoreMap] == "true" // Synthesised maps 
 
 [Type] == "Crimson Temple Map" # [ExitAfterBossKill] == "true"
-[Type] == "City Square Map" # [ExitAfterBossKill] == "true"
+[Type] == "Temple Map" # [ExitAfterBossKill] == "true"
 	
 	//避開王房地圖//(預設)				//中文判斷																				
 	[Type]=="Graveyard Map" #	[SkipBossArena]	=="true"	//墮影墓場	不打這張圖的王																				
