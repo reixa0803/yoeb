@@ -1912,7 +1912,8 @@
 [Type] == "Ring" && [Rarity] == "Unique" #  [StashItem]  == "true" //																									
 	//項鍊		賣出																									
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Atziri's Foible" && [ForceSellItem] == "true"	//阿茲里聖徽		賣出																									
-//[Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Sidhebreath" && [ForceSellItem] == "true"	//魔靈之符		賣出																									
+//[Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Sidhebreath" && [ForceSellItem] == "true"	//魔靈之符		賣出
+[Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Defiance of Destiny" && [StashItem] == "true"	//拒絕命運		存倉																									
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Zerphi's Heart" && [ForceSellItem] == "true"	//澤佛伊之心		賣出																									
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Sacrificial Heart" && [ForceSellItem] == "true"	//犧牲之心		賣出																									
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Atziri's Foible" && [ForceSellItem] == "true"	//贗品．阿茲里聖徽		賣出																									
