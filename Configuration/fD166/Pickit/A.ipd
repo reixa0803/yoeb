@@ -859,80 +859,14 @@
 //[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] = "8" && [StashItem] == "true" //	//巨星團珠寶		存倉	8																								
 //[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] = "12" && [StashItem] == "true" //	//巨星團珠寶		存倉	12																																																																										
 	// 13F 輿圖																										
-[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉																									
 //[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Unique" # [ForceSellItem] == "true"	//傳奇地圖		賣出
 																									
 //	//以下可以設定多少Tier（含）以下的地圖自動賣掉	輸入Tier	//若不賣，可以設定存倉																									
 //新增賣出緋紅+奪魂之殿周圍地圖賣出 冥神|熔岩之室|大決鬥|荊棘谷|象牙|炙陽
-[Type] == "City Square Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//危城賣稀有
 
-[Type] == "Lava Chamber Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//熔岩之室
-[Type] == "Lava Chamber Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//熔岩之室
-
-[Type] == "Maze Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//冥神之域
-[Type] == "Maze Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//冥神之域
-
-[Type] == "Colosseum Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//大決鬥場
-[Type] == "Colosseum Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//大決鬥場
-
-[Type] == "Bramble Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//荊棘谷
-[Type] == "Bramble Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//荊棘谷
-
-[Type] == "Ivory Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//象牙神殿
-[Type] == "Ivory Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//象牙神殿
-
-[Type] == "Canyon Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//炙陽峽谷
-[Type] == "Canyon Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//炙陽峽谷
-
-[Type] == "Racecourse Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//古競速場
-[Type] == "Racecourse Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//古競速場
-
-[Type] == "Orchard Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//密林果園
-[Type] == "Orchard Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//密林果園
-
-[Type] == "Summit Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//寒頂之巔
-[Type] == "Summit Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//寒頂之巔
-
-[Type] == "Haunted Mansion Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//幽魂宅邸
-[Type] == "Haunted Mansion Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//幽魂宅邸
-
-[Type] == "Fungal Hollow Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//毒菌魔域
-[Type] == "Fungal Hollow Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//毒菌魔域
-
-[Type] == "Flooded Mine Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//洪災礦坑
-[Type] == "Flooded Mine Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//洪災礦坑
-
-[Type] == "Underground Sea Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//濱海幽穴
-[Type] == "Underground Sea Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//濱海幽穴
-
-[Type] == "Arachnid Nest Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//異蛛巢穴
-[Type] == "Arachnid Nest Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//異蛛巢穴
-
-[Type] == "Infested Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//病疫林谷
-[Type] == "Infested Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//病疫林谷
-
-[Type] == "Siege Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//禁斷圍城
-[Type] == "Siege Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//禁斷圍城
-
-[Type] == "Dungeon Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//禁魂炎獄
-[Type] == "Dungeon Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//禁魂炎獄
-
-[Type] == "Channel Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//秘密通道
-[Type] == "Channel Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//秘密通道
-
-[Type] == "Basilica Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//聖殿
-[Type] == "Basilica Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//聖殿
-
-[Type] == "Ivory Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//象牙神殿
-[Type] == "Ivory Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//象牙神殿
-
-[Type] == "Tower Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//闇獄尖塔
-[Type] == "Tower Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//闇獄尖塔
-
-[Type] == "Silo Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//儲物倉
-[Type] == "Silo Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//儲物倉	
 																							
 //	// 14F 碎片																											
 [Type] == "Sacrifice at Dawn" # [ForceSellItem] == "true" //	//黎明的奉獻		存倉																									
