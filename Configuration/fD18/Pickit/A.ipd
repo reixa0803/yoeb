@@ -880,8 +880,8 @@
 [Type] == "Bramble Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//荊棘谷
 [Type] == "Bramble Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//荊棘谷
 
-[Type] == "Ivory Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//象牙神殿
-[Type] == "Ivory Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//象牙神殿
+//[Type] == "Ivory Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//象牙神殿
+//[Type] == "Ivory Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//象牙神殿
 
 [Type] == "Canyon Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//炙陽峽谷
 [Type] == "Canyon Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//炙陽峽谷
