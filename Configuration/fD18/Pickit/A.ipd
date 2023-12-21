@@ -2269,4 +2269,5 @@
 [Type] == "I See Brothers" # [StashItem] == "true" //	來了兄弟
 [Type] == "Eldritch Perfection" # [StashItem] == "true" //	完美異能
 [Type] == "Assassin's Gift" # [StashItem] == "true" //	刺客的餽贈
+[Type] == "Two-Toned Boots" && [ItemLevel] >= "82" # [StashItem] == "true" // 82等異色
 
