@@ -863,6 +863,17 @@
 [Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉																									
 //[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Unique" # [ForceSellItem] == "true"	//傳奇地圖		賣出
+[Type] == "Infested Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//病疫林谷
+[Type] == "Infested Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//病疫林谷
+[Type] == "Infested Valley Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//病疫林谷
+
+[Type] == "Core Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//核心
+[Type] == "Core Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//核心
+[Type] == "Core Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//核心
+
+[Type] == "Relic Chambers Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//古典密室
+[Type] == "Relic Chambers Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//古典密室
+[Type] == "Relic Chambers Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//古典密室
 																									
 //	//以下可以設定多少Tier（含）以下的地圖自動賣掉	輸入Tier	//若不賣，可以設定存倉																									
 //新增賣出緋紅+奪魂之殿周圍地圖賣出 冥神|熔岩之室|大決鬥|荊棘谷|象牙|炙陽
