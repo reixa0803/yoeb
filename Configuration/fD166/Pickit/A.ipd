@@ -874,6 +874,10 @@
 [Type] == "Relic Chambers Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//古典密室
 [Type] == "Relic Chambers Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//古典密室
 [Type] == "Relic Chambers Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//古典密室
+
+[Type] == "Vaal Pyramid Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//瓦爾金字塔
+[Type] == "Vaal Pyramid Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//瓦爾金字塔
+[Type] == "Vaal Pyramid Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//瓦爾金字塔
 																									
 //	//以下可以設定多少Tier（含）以下的地圖自動賣掉	輸入Tier	//若不賣，可以設定存倉																									
 //新增賣出緋紅+奪魂之殿周圍地圖賣出 冥神|熔岩之室|大決鬥|荊棘谷|象牙|炙陽
