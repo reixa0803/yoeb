@@ -92,7 +92,7 @@
 	[Type]=="Burial Chambers Map" #	[IgnoreMap]	=="true"	//旱地墓室	打這張圖																				
 	[Type]=="Cells Map" #	[IgnoreMap]	=="true"	//幽魂監牢	打這張圖																				
 	[Type]=="Arcade Map" #	[IgnoreMap]	=="true"	//崩壞長廊	打這張圖																				
-	[Type]=="City Square Map" #	[RunMap]	=="true"	//危城廣場	打這張圖																				
+	[Type]=="City Square Map" #	[IgnoreMap]	=="true"	//危城廣場	打這張圖																				
 	[Type]=="Relic Chambers Map" #	[IgnoreMap]	=="true"	//古典密室	不打這張圖																				
 	[Type]=="Courthouse Map" #	[IgnoreMap]	=="true"	//失序教院	打這張圖																				
 	[Type]=="Strand Map" #	[IgnoreMap]	=="true"	//致命岩灘	打這張圖																				
@@ -120,7 +120,7 @@
 	[Type]=="Barrows Map" #	[IgnoreMap]	=="true"	//熱林塚墓	打這張圖																				
 	[Type]=="Mausoleum Map" #	[IgnoreMap]	=="true"	//靜縊陵墓	打這張圖																				
 	[Type]=="Fields Map" #	[IgnoreMap]	=="true"	//無疆田野	打這張圖																				
-	[Type]=="Jungle Valley Map" #	[IgnoreMap]	=="true"	//劇毒林谷	打這張圖																				
+	[Type]=="Jungle Valley Map" #	[RunMap]	=="true"	//劇毒林谷	打這張圖																				
 	[Type]=="Phantasmagoria Map" #	[IgnoreMap]	=="true"	//魔靈幻獄	打這張圖																				
 	[Type]=="Academy Map" #	[IgnoreMap]	=="true"	//惡靈學院	打這張圖																				
 	[Type]=="Thicket Map" #	[IgnoreMap]	=="true"	//驚懼樹叢	打這張圖																				
@@ -180,7 +180,7 @@
 	[Type]=="Coves Map" #	[IgnoreMap]	=="true"	//疾風峽灣	打這張圖																				
 	[Type]=="Waterways Map" #	[IgnoreMap]	=="true"	//危機水道	打這張圖																				
 	[Type]=="Factory Map" #	[IgnoreMap]	=="true"	//鐵鏽工廠	打這張圖																				
-	[Type]=="Mesa Map" #	[IgnoreMap]	=="true"	//平頂荒漠	打這張圖																				
+	[Type]=="Mesa Map" #	[RunMap]	=="true"	//平頂荒漠	打這張圖																				
 	[Type]=="Pit Map" #	[IgnoreMap]	=="true"	//巨坑	不打這張圖																				
 	[Type]=="Dry Sea Map" #	[IgnoreMap]	=="true"	//乾海	打這張圖																				
 	[Type]=="Defiled Cathedral Map" #	[RunMap]	=="true"	//不潔教堂	打這張圖																				
@@ -204,7 +204,7 @@
 	[Type]=="Colosseum Map" #	[IgnoreMap]	=="true"	//大決鬥場	打這張圖																				
 	[Type]=="Acid Caverns Map" #	[IgnoreMap]	=="true"	//酸岩酸嶼	打這張圖																				
 	[Type]=="Dark Forest Map" #	[IgnoreMap]	=="true"	//夜語幽林	打這張圖																				
-	[Type]=="Crimson Temple Map" #	[RunMap]	=="true"	//緋紅神殿	打這張圖																				
+	[Type]=="Crimson Temple Map" #	[IgnoreMap]	=="true"	//緋紅神殿	打這張圖																				
 	[Type]=="Plaza Map" #	[IgnoreMap]	=="true"	//廣場	打這張圖																				
 	[Type]=="Dig Map" #	[IgnoreMap]	=="true"	//違禁掘坑	打這張圖																				
 	[Type]=="Palace Map" #	[IgnoreMap]	=="true"	//神域之殿	打這張圖																				
