@@ -959,7 +959,7 @@
 [Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉																									
 //																												
 //	// 15F 六連裝 (目前有無法正常賣出的語法錯誤，但是我找不到問題點)			//																								
-[Sockets] == "6" && [Linked] >= "6" # [StashItem] ="true" //	//六連裝		存倉	//																								
+[Sockets] == "6" && [Linked] >= "6" # [SellUnid] ="true" //	//六連裝		存倉	//																								
 //[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Normal" # [ForceSellItem] =="true"	//普通六連裝			//																								
 //[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Magic" # [ForceSellItem] =="true"	//魔法六連裝			//																								
 //[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Rare" # [ForceSellItem] =="true"	//稀有六連裝			//																								
@@ -2272,5 +2272,5 @@
 [Type] == "I See Brothers" # [StashItem] == "true" //	來了兄弟
 [Type] == "Eldritch Perfection" # [ForceSellItem] == "true" //	完美異能
 [Type] == "Assassin's Gift" # [StashItem] == "true" //	刺客的餽贈
-[Type] == "Two-Toned Boots" && [ItemLevel] >= "82" # [StashItem] == "true" // 82等異色
+//[Type] == "Two-Toned Boots" && [ItemLevel] >= "82" # [StashItem] == "true" // 82等異色
 
