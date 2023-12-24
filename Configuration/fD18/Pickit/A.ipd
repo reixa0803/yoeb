@@ -866,76 +866,80 @@
 																									
 //	//以下可以設定多少Tier（含）以下的地圖自動賣掉	輸入Tier	//若不賣，可以設定存倉																									
 //新增賣出緋紅+奪魂之殿周圍地圖賣出 冥神|熔岩之室|大決鬥|荊棘谷|象牙|炙陽
-[Type] == "City Square Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//危城賣稀有
-
-[Type] == "Lava Chamber Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//熔岩之室
-[Type] == "Lava Chamber Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//熔岩之室
-
-[Type] == "Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//奪魂之殿
-[Type] == "Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//奪魂之殿
-
 [Type] == "Maze Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//冥神之域
 [Type] == "Maze Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//冥神之域
 
-[Type] == "Colosseum Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//大決鬥場
-[Type] == "Colosseum Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//大決鬥場
+[Type] == "Reef Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//危機
+[Type] == "Reef Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//危機
 
-[Type] == "Bramble Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//荊棘谷
-[Type] == "Bramble Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//荊棘谷
+[Type] == "Racecourse Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//古競
+[Type] == "Racecourse Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//古競
 
-//[Type] == "Ivory Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//象牙神殿
-//[Type] == "Ivory Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//象牙神殿
+[Type] == "Park Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//園林
+[Type] == "Park Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//園林
 
-[Type] == "Canyon Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//炙陽峽谷
-[Type] == "Canyon Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//炙陽峽谷
+[Type] == "Underground River Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//地底
+[Type] == "Underground River Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//地底
 
-[Type] == "Racecourse Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//古競速場
-[Type] == "Racecourse Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//古競速場
 
-[Type] == "Orchard Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//密林果園
-[Type] == "Orchard Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//密林果園
+[Type] == "Spider Lair Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//巨蛛巢
+[Type] == "Spider Lair Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//巨蛛巢
 
-[Type] == "Summit Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//寒頂之巔
-[Type] == "Summit Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//寒頂之巔
 
-[Type] == "Haunted Mansion Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//幽魂宅邸
-[Type] == "Haunted Mansion Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//幽魂宅邸
+[Type] == "Plaza Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//廣場
+[Type] == "Plaza Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//廣場
 
-[Type] == "Fungal Hollow Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//毒菌魔域
-[Type] == "Fungal Hollow Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//毒菌魔域
+[Type] == "Carcass Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//惡臭屍域
+[Type] == "Carcass Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//惡臭屍域
 
-[Type] == "Flooded Mine Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//洪災礦坑
-[Type] == "Flooded Mine Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//洪災礦坑
+[Type] == "Iceberg Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//冰帽
+[Type] == "Iceberg Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//冰帽
 
-[Type] == "Underground Sea Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//濱海幽穴
-[Type] == "Underground Sea Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//濱海幽穴
+[Type] == "Crater Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//殘破
+[Type] == "Crater Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//殘破
 
-[Type] == "Arachnid Nest Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//異蛛巢穴
-[Type] == "Arachnid Nest Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//異蛛巢穴
+[Type] == "Wharf Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//毒牙
+[Type] == "Wharf Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//毒牙
 
-[Type] == "Infested Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//病疫林谷
-[Type] == "Infested Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//病疫林谷
+[Type] == "Stagnation Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//塞水道
+[Type] == "Stagnation Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//塞水道
 
-[Type] == "Siege Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//禁斷圍城
-[Type] == "Siege Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//禁斷圍城
+[Type] == "Underground Sea Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//海幽穴
+[Type] == "Underground Sea Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//海幽穴
 
-[Type] == "Dungeon Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//禁魂炎獄
-[Type] == "Dungeon Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//禁魂炎獄
+[Type] == "Volcano Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//火山炎域
+[Type] == "Volcano Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//火山炎域
 
-[Type] == "Channel Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//秘密通道
-[Type] == "Channel Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//秘密通道
+[Type] == "Residence Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//神主
+[Type] == "Residence Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//神主
 
-[Type] == "Basilica Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//聖殿
-[Type] == "Basilica Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//聖殿
+[Type] == "Channel Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//秘密通
+[Type] == "Channel Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//秘密通
 
-//[Type] == "Ivory Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//象牙神殿
-//[Type] == "Ivory Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//象牙神殿
+[Type] == "Arena Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//競技場
+[Type] == "Arena Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//競技場
 
-[Type] == "Tower Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//闇獄尖塔
-[Type] == "Tower Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//闇獄尖塔
 
-[Type] == "Silo Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//儲物倉
-[Type] == "Silo Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//儲物倉	
+[Type] == "Ivory Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//象牙
+[Type] == "Ivory Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//象牙
+
+[Type] == "Desert Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//貧瘠之地
+[Type] == "Desert Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//貧瘠之地
+
+[Type] == "Bazaar Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//遠古市集
+[Type] == "Bazaar Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//遠古市集
+
+[Type] == "Foundry Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//金房
+[Type] == "Foundry Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//金房
+
+[Type] == "Sepulchre Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//陰暗墓塚
+[Type] == "Sepulchre Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//陰暗墓塚
+
+[Type] == "Necropolis Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//魔影
+[Type] == "Necropolis Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//魔影
+
+[Type] == "Vault Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//金寶
+[Type] == "Vault Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//金寶
 																							
 //	// 14F 碎片																											
 [Type] == "Sacrifice at Dawn" # [ForceSellItem] == "true" //	//黎明的奉獻		存倉																									
