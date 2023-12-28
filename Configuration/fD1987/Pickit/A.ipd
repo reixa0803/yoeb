@@ -1449,7 +1449,7 @@
 //[Type] == "Vaal Spirit Shield" && [Rarity] == "Unique" # [UniqueName] == "Apep's Slumber" && [ForceSellItem] == "true"	//艾普之眠		賣出																									
 //[Type] == "Vaal Spirit Shield" && [Rarity] == "Unique" # [UniqueName] == "Apep's Supremacy" && [ForceSellItem] == "true"	//艾普霸權		賣出																									
 //[Type] == "Harmonic Spirit Shield" && [Rarity] == "Unique" # [UniqueName] == "Malachai's Loop" && [ForceSellItem] == "true"	//輪迴		賣出																									
-//[Type] == "Titanium Spirit Shield" && [Rarity] == "Unique" # [UniqueName] == "Rathpith Globe" && [ForceSellItem] == "true"	//獻祭之心		賣出																									
+[Type] == "Titanium Spirit Shield" && [Rarity] == "Unique" # [UniqueName] == "Rathpith Globe" && [StashItem] == "true"	//獻祭之心		賣出																									
 //[Type] == "Titanium Spirit Shield" && [Rarity] == "Unique" # [UniqueName] == "Bitterbind Point" && [ForceSellItem] == "true"	//苦綑畸點		賣出																									
 //[Type] == "Rotted Round Shield" && [Rarity] == "Unique" # [UniqueName] == "Wheel of the Stormsail" && [ForceSellItem] == "true"	//暴雨之舵		賣出																									
 //[Type] == "Studded Round Shield" && [Rarity] == "Unique" # [UniqueName] == "The Deep One's Hide" && [ForceSellItem] == "true"	//深淵絕壁		賣出																									
@@ -1666,7 +1666,7 @@
 //[Type] == "Blood Raiment" && [Rarity] == "Unique" # [UniqueName] == "The Eternity Shroud" && [ForceSellItem] == "true"	//永恆屍布		賣出																									
 //[Type] == "Blood Raiment" && [Rarity] == "Unique" # [UniqueName] == "Replica Eternity Shroud" && [ForceSellItem] == "true"	//贗品．永恆屍布		賣出																									
 //[Type] == "Sadist Garb" && [Rarity] == "Unique" # [UniqueName] == "Tinkerskin" && [ForceSellItem] == "true"	//焊匠之膚		賣出																									
-[Type] == "Sadist Garb" && [Rarity] == "Unique" # [UniqueName] == "Inpulsa's Broken Heart" && [ForceSellItem] == "true"	//印卜薩的心碎		存倉																									
+[Type] == "Sadist Garb" && [Rarity] == "Unique" # [UniqueName] == "Inpulsa's Broken Heart" && [StashItem] == "true"	//印卜薩的心碎		存倉																									
 //[Type] == "Sadist Garb" && [Rarity] == "Unique" # [UniqueName] == "Doppelganger Guise" && [ForceSellItem] == "true"	//達佩爾甘格偽裝		賣出																									
 //[Type] == "Carnal Armour" && [Rarity] == "Unique" # [UniqueName] == "The Restless Ward" && [ForceSellItem] == "true"	//無盡之衛		賣出																									
 [Type] == "Carnal Armour" && [Rarity] == "Unique" # [UniqueName] == "Shroud of the Lightless" && [StashItem] == "true"	//晦暗的屍布		存倉																									
