@@ -644,7 +644,7 @@
 [Type] == "The Mountain" # [ForceSellItem] == "true" //	神山 (6)	5	賣出																									
 [Type] == "The Oath" # [ForceSellItem] == "true" //	誓言 (6)	5	賣出																									
 [Type] == "The One With All" # [ForceSellItem] == "true" //	完人 (6)	4	賣出																									
-[Type] == "The Pack Leader" # [StashItem] == "true" //	群聚之首 (6)	5	存倉																									
+[Type] == "The Pack Leader" # [ForceSellItem] == "true" //	群聚之首 (6)	5	存倉																									
 [Type] == "The Porcupine" # [ForceSellItem] == "true" //	刺蝟 (6)	3	賣出																									
 [Type] == "The Prince of Darkness" # [ForceSellItem] == "true" //	黑暗王子 (6)	6	賣出																									
 [Type] == "The Skeleton" # [ForceSellItem] == "true" //	骷髏頭 (6)	5	賣出																									
