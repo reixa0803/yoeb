@@ -962,22 +962,17 @@
 [Type] == "Maven's Invitation: The Formed" # [StashItem] == "true" //	//釋界之邀：塑型		存倉																									
 [Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉																									
 //																												
-//	// 15F 六連裝 (目前有無法正常賣出的語法錯誤，但是我找不到問題點)			//																								
-[Sockets] == "6" && [Linked] >= "6" # [SellUnid] ="true" //	//六連裝		存倉	//																								
-//[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Normal" # [ForceSellItem] =="true"	//普通六連裝			//																								
-//[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Magic" # [ForceSellItem] =="true"	//魔法六連裝			//																								
-//[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Rare" # [ForceSellItem] =="true"	//稀有六連裝			//																								
-//	// 16F 六洞裝 																											
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal" # [SellUnid] == "true"	//六洞裝		賣出	//																								
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" # [SellUnid] == "true"	//魔法六洞裝			//																								
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare" # [SellUnid] == "true"	//稀有六洞裝			//																								
-//	// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）																											
-//	//獵首		關閉																									
-//	//魔血		關閉																									
-//	//生機之記 朽木法杖		關閉																									
+	// 16F 六洞裝 																											
+//	//六洞裝		不撿	//																								
+//	//魔法六洞裝			//																								
+//	//稀有六洞裝			//																								
+	// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）																											
+//	//獵首 皮革腰帶		關閉																									
+//	//魔血 重革腰帶		關閉																									
+//	//大地主權貴圓盾		關閉																									
 //	//幻芒聖盾鬥士鳶盾		關閉																									
 //			關閉																									
-//			關閉																									
+			關閉																									
 //	// 18F 藥水（預設關閉）			//																				
 //					下面這行可以預設物等																							
 //已設定不存倉	//水銀藥劑		賣出		85	85物品等級包含以上賣出																						
@@ -1127,7 +1122,7 @@
 //[Type] == "Driftwood Wand" && [Rarity] == "Unique" # [UniqueName] == "Lifesprig" && [ForceSellItem] == "true"	//生機之記 朽木法杖	->請修改賣出或存倉	賣出																									
 //[Type] == "Goat's Horn" && [Rarity] == "Unique" # [UniqueName] == "Abberath's Horn" && [ForceSellItem] == "true"	//艾貝拉斯之角 羊角法杖		賣出																									
 //[Type] == "Carved Wand" && [Rarity] == "Unique" # [UniqueName] == "Ashcaller" && [ForceSellItem] == "true"	//灰燼行者 粗紋法杖		賣出																									
-[Type] == "Carved Wand" && [Rarity] == "Unique" # [UniqueName] == "The Poet's Pen" && [StashItem] == "true"	//學富之筆 粗紋法杖		存倉																									
+[Type] == "Carved Wand" && [Rarity] == "Unique" # [UniqueName] == "The Poet's Pen" && [ForceSellItem] == "true"	//學富之筆 粗紋法杖		存倉																									
 //[Type] == "Spiraled Wand" && [Rarity] == "Unique" # [UniqueName] == "Reverberation Rod" && [ForceSellItem] == "true"	//混響 螺紋法杖		賣出																									
 //[Type] == "Spiraled Wand" && [Rarity] == "Unique" # [UniqueName] == "Storm Prison" && [ForceSellItem] == "true"	//禁錮暴風 螺紋法杖		賣出																									
 //[Type] == "Spiraled Wand" && [Rarity] == "Unique" # [UniqueName] == "Amplification Rod" && [ForceSellItem] == "true"	//增幅杖 螺紋法杖		賣出																									
@@ -1616,13 +1611,13 @@
 [Type] == "Scholar's Robe" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Flame" && [ForceSellItem] == "true"	//烈炎之袍		賣出																									
 //[Type] == "Sage's Robe" && [Rarity] == "Unique" # [UniqueName] == "Zahndethus' Cassock" && [ForceSellItem] == "true"	//札德圖斯的聖衣		賣出																									
 [Type] == "Sage's Robe" && [Rarity] == "Unique" # [UniqueName] == "Dialla's Malefaction" && [StashItem] == "true"	//達拉的罪刑		存倉																									
-[Type] == "Spidersilk Robe" && [Rarity] == "Unique" # [UniqueName] == "The Covenant" && [StashItem] == "true"	//血誓		存倉																									
+[Type] == "Spidersilk Robe" && [Rarity] == "Unique" # [UniqueName] == "The Covenant" && [ForceSellItem] == "true"	//血誓		存倉																									
 //[Type] == "Spidersilk Robe" && [Rarity] == "Unique" # [UniqueName] == "Soul Mantle" && [ForceSellItem] == "true"	//祖靈之約		賣出																									
 //[Type] == "Destroyer Regalia" && [Rarity] == "Unique" # [UniqueName] == "The Coming Calamity" && [ForceSellItem] == "true"	//災難臨頭		賣出																									
 //[Type] == "Savant's Robe" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Tawm'r Isley" && [ForceSellItem] == "true"	//陶米兒艾斯理之袍		賣出																									
 [Type] == "Savant's Robe" && [Rarity] == "Unique" # [UniqueName] == "Garb of the Ephemeral" && [StashItem] == "true"	//無常禮袍		存倉																									
 //[Type] == "Necromancer Silks" && [Rarity] == "Unique" # [UniqueName] == "Vis Mortis" && [ForceSellItem] == "true"	//兀鳴		賣出																									
-[Type] == "Necromancer Silks" && [Rarity] == "Unique" # [UniqueName] == "Fleshcrafter" && [StashItem] == "true"	//人體匠師		存倉																									
+[Type] == "Necromancer Silks" && [Rarity] == "Unique" # [UniqueName] == "Fleshcrafter" && [ForceSellItem] == "true"	//人體匠師		存倉																									
 [Type] == "Occultist's Vestment" && [Rarity] == "Unique" # [UniqueName] == "Shavronne's Wrappings" && [ForceSellItem] == "true"	//薛朗的護身長袍		存倉																									
 //[Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [UniqueName] == "Infernal Mantle" && [ForceSellItem] == "true"	//煉獄之心		賣出																									
 //[Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [UniqueName] == "Doedre's Skin" && [ForceSellItem] == "true"	//德瑞之膚		賣出																									
@@ -1631,7 +1626,7 @@
 //[Type] == "Vaal Regalia" && [Rarity] == "Unique" # [UniqueName] == "The Queen's Hunger" && [ForceSellItem] == "true"	//女王的渴望		賣出																									
 //[Type] == "Wyrmscale Doublet" && [Rarity] == "Unique" # [UniqueName] == "Gruthkul's Pelt" && [ForceSellItem] == "true"	//葛魯斯寇真皮		賣出																									
 //[Type] == "Full Wyrmscale" && [Rarity] == "Unique" # [UniqueName] == "Belly of the Beast" && [ForceSellItem] == "true"	//獸腹		賣出																									
-[Type] == "Desert Brigandine" && [Rarity] == "Unique" # [UniqueName] == "Lightning Coil" && [StashItem] == "true"	//雷語		賣出																									
+[Type] == "Desert Brigandine" && [Rarity] == "Unique" # [UniqueName] == "Lightning Coil" && [ForceSellItem] == "true"	//雷語		賣出																									
 [Type] == "Full Dragonscale" && [Rarity] == "Unique" # [UniqueName] == "Daresso's Defiance" && [ForceSellItem] == "true"	//德瑞索的衛衣		存倉																									
 //[Type] == "Triumphant Lamellar" && [Rarity] == "Unique" # [UniqueName] == "Cherrubim's Maleficence" && [ForceSellItem] == "true"	//薛魯賓的惡作劇		賣出																									
 [Type] == "Triumphant Lamellar" && [Rarity] == "Unique" # [UniqueName] == "Farrul's Fur" && [StashItem] == "true"	//費爾羅羽衣		存倉																									
@@ -1662,7 +1657,7 @@
 //[Type] == "Blood Raiment" && [Rarity] == "Unique" # [UniqueName] == "The Eternity Shroud" && [ForceSellItem] == "true"	//永恆屍布		賣出																									
 //[Type] == "Blood Raiment" && [Rarity] == "Unique" # [UniqueName] == "Replica Eternity Shroud" && [ForceSellItem] == "true"	//贗品．永恆屍布		賣出																									
 //[Type] == "Sadist Garb" && [Rarity] == "Unique" # [UniqueName] == "Tinkerskin" && [ForceSellItem] == "true"	//焊匠之膚		賣出																									
-[Type] == "Sadist Garb" && [Rarity] == "Unique" # [UniqueName] == "Inpulsa's Broken Heart" && [StashItem] == "true"	//印卜薩的心碎		存倉																									
+[Type] == "Sadist Garb" && [Rarity] == "Unique" # [UniqueName] == "Inpulsa's Broken Heart" && [ForceSellItem] == "true"	//印卜薩的心碎		存倉																									
 //[Type] == "Sadist Garb" && [Rarity] == "Unique" # [UniqueName] == "Doppelganger Guise" && [ForceSellItem] == "true"	//達佩爾甘格偽裝		賣出																									
 //[Type] == "Carnal Armour" && [Rarity] == "Unique" # [UniqueName] == "The Restless Ward" && [ForceSellItem] == "true"	//無盡之衛		賣出																									
 [Type] == "Carnal Armour" && [Rarity] == "Unique" # [UniqueName] == "Shroud of the Lightless" && [StashItem] == "true"	//晦暗的屍布		存倉																									
@@ -1781,7 +1776,7 @@
 //[Type] == "Steelscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Tombfist" && [ForceSellItem] == "true"	//陵拳		賣出																									
 //[Type] == "Serpentscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Haemophilia" && [ForceSellItem] == "true"	//逆凝之血		賣出																									
 //[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Wyrmsign" && [ForceSellItem] == "true"	//龍族印記		賣出																									
-[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Tanu Ahi" && [StashItem] == "true"	//埋火		存倉																									
+[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Tanu Ahi" && [ForceSellItem] == "true"	//埋火		存倉																									
 //[Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Farrul's Pounce" && [ForceSellItem] == "true"	//費爾羅鋒爪		賣出																									
 [Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Breathstealer" && [ForceSellItem] == "true"	//偷息		存倉																									
 [Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Gravebind" && [ForceSellItem] == "true"	//幽墓束縛		存倉																									
@@ -1856,7 +1851,7 @@
 //[Type] == "Sapphire Ring" && [Rarity] == "Unique" # [UniqueName] == "Dream Fragments" && [ForceSellItem] == "true"	//夢語之痕		賣出																									
 //[Type] == "Sapphire Ring" && [Rarity] == "Unique" # [UniqueName] == "Pyre" && [ForceSellItem] == "true"	//燃焰		賣出																									
 //[Type] == "Sapphire Ring" && [Rarity] == "Unique" # [UniqueName] == "Tasalio's Sign" && [ForceSellItem] == "true"	//塔薩里之印		賣出																									
-[Type] == "Sapphire Ring" && [Rarity] == "Unique" # [UniqueName] == "Snakepit" && [StashItem] == "true"	//蛇巢		賣出																									
+[Type] == "Sapphire Ring" && [Rarity] == "Unique" # [UniqueName] == "Snakepit" && [ForceSellItem] == "true"	//蛇巢		賣出																									
 //[Type] == "Sapphire Ring" && [Rarity] == "Unique" # [UniqueName] == "Uzaza's Meadow" && [ForceSellItem] == "true"	//尤莎莎的草原		賣出																									
 //[Type] == "Sapphire Ring" && [Rarity] == "Unique" # [UniqueName] == "Uzaza's Mountain" && [ForceSellItem] == "true"	//尤莎莎的山巒		賣出																									
 //[Type] == "Sapphire Ring" && [Rarity] == "Unique" # [UniqueName] == "Uzaza's Valley" && [ForceSellItem] == "true"	//尤莎莎的峽谷		賣出																									
@@ -1995,7 +1990,7 @@
 //[Type] == "Rotfeather Talisman" && [Rarity] == "Unique" # [UniqueName] == "Natural Hierarchy" && [ForceSellItem] == "true"	//自然組織		賣出																									
 [Type] == "Greatwolf Talisman" && [Rarity] == "Unique" # [UniqueName] == "Eyes of the Greatwolf" && [StashItem] == "true"	//巨狼之眼		賣出																									
 	//腰帶		賣出																									
-[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Prismweave" && [StashItem] == "true"	//幻彩菱織		存倉																									
+[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Prismweave" && [ForceSellItem] == "true"	//幻彩菱織		存倉																									
 //[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Feastbind" && [ForceSellItem] == "true"	//盛宴之結		賣出																									
 //[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Faminebind" && [ForceSellItem] == "true"	//饑荒之結		賣出																									
 //[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "The Retch" && [ForceSellItem] == "true"	//嘔吐		賣出																									
@@ -2032,7 +2027,7 @@
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Mageblood" && [StashItem] == "true"	//魔血		存倉																									
 [Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Perandus Blazon" && [ForceSellItem] == "true"	//普蘭德斯之印		存倉																									
 [Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Sunblast" && [StashItem] == "true"	//日炎		賣出																									
-[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Soulthirst" && [StashItem] == "true"	//嗜魂		賣出																									
+[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Soulthirst" && [ForceSellItem] == "true"	//嗜魂		賣出																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Soul Tether" && [ForceSellItem] == "true"	//靈魂束縛		賣出																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "The Flow Untethered" && [ForceSellItem] == "true"	//潺流不息		賣出																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "The Torrent's Reclamation" && [ForceSellItem] == "true"	//奔流之開拓		賣出																									
@@ -2106,7 +2101,7 @@
 //[Type] == "Vile Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Maloney's Nightfall" && [ForceSellItem] == "true"	//馬洛尼的暮光		賣出																									
 //[Type] == "Heavy Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Scorpion's Call" && [ForceSellItem] == "true"	//毒蠍之喚		賣出																									
 //[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Voidfletcher" && [ForceSellItem] == "true"	//虛眼箭矢		賣出																									
-[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"	//優雅迷鏡		存倉																									
+[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [ForceSellItem] == "true"	//優雅迷鏡		存倉																									
 	//赤紅珠寶		存倉																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Inertia" && [StashItem] == "true"	//慣性		存倉																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Inspired Learning" && [StashItem] == "true"	//求知的熱情		存倉																									
