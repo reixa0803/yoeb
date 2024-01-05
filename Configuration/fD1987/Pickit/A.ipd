@@ -866,7 +866,7 @@
 																									
 //	//以下可以設定多少Tier（含）以下的地圖自動賣掉	輸入Tier	//若不賣，可以設定存倉																									
 //新增賣出緋紅+奪魂之殿周圍地圖賣出 冥神|熔岩之室|大決鬥|荊棘谷|象牙|炙陽
-[Type] == "Jungle Valley Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//劇毒林谷賣稀有
+//[Type] == "Jungle Valley Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//劇毒林谷賣稀有
 [Type] == "Maze Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//冥神之域
 [Type] == "Maze Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//冥神之域
 
