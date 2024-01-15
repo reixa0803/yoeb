@@ -1714,7 +1714,7 @@
 [Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Darkray Vectors" && [ForceSellItem] == "true"	//暗雷		存倉																									
 [Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Annihilation's Approach" && [StashItem] == "true"	//殲滅的方法		存倉																									
 //[Type] == "Mesh Boots" && [Rarity] == "Unique" # [UniqueName] == "Wake of Destruction" && [ForceSellItem] == "true"	//覆滅之兆		賣出																									
-//[Type] == "Riveted Boots" && [Rarity] == "Unique" # [UniqueName] == "Ralakesh's Impatience" && [ForceSellItem] == "true"	//芮勒蓋許的急躁		賣出																									
+[Type] == "Riveted Boots" && [Rarity] == "Unique" # [UniqueName] == "Ralakesh's Impatience" && [StashItem] == "true"	//芮勒蓋許的急躁		賣出																									
 //[Type] == "Soldier Boots" && [Rarity] == "Unique" # [UniqueName] == "Alberon's Warpath" && [ForceSellItem] == "true"	//阿爾貝隆的征途		賣出																									
 //[Type] == "Soldier Boots" && [Rarity] == "Unique" # [UniqueName] == "Replica Alberon's Warpath" && [ForceSellItem] == "true"	//贗品．阿爾貝隆的征途		賣出																									
 //[Type] == "Legion Boots" && [Rarity] == "Unique" # [UniqueName] == "Gang's Momentum" && [ForceSellItem] == "true"	//剛勇		賣出																									
