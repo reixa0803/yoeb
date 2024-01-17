@@ -1153,7 +1153,7 @@
 //[Type] == "Royal Skean" && [Rarity] == "Unique" # [UniqueName] == "Heartbreaker" && [ForceSellItem] == "true"	//裂心刃 皇家雙刃匕		賣出																									
 //[Type] == "Royal Skean" && [Rarity] == "Unique" # [UniqueName] == "Replica Heartbreaker" && [ForceSellItem] == "true"	//贗品．裂心刃 皇家雙刃匕		賣出																									
 //[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [UniqueName] == "The Consuming Dark" && [ForceSellItem] == "true"	//蠶食之闇 妖魔短匕		賣出																									
-[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [UniqueName] == "Arakaali's Fang" && [StashItem] == "true"	//艾爾卡莉之牙 妖魔短匕		存倉																									
+[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [UniqueName] == "Arakaali's Fang" && [ForceSellItem] == "true"	//艾爾卡莉之牙 妖魔短匕		存倉																									
 //[Type] == "Slaughter Knife" && [Rarity] == "Unique" # [UniqueName] == "Bino's Kitchen Knife" && [ForceSellItem] == "true"	//比諾的廚刀 殘暴短匕		賣出																									
 //[Type] == "Ambusher" && [Rarity] == "Unique" # [UniqueName] == "Taproot" && [ForceSellItem] == "true"	//砥礪深根 伏擊刺刃		賣出																									
 //[Type] == "Ambusher" && [Rarity] == "Unique" # [UniqueName] == "The Hidden Blade" && [ForceSellItem] == "true"	//隱藏之劍 伏擊刺刃		賣出																									
@@ -1239,7 +1239,7 @@
 //[Type] == "Estoc" && [Rarity] == "Unique" # [UniqueName] == "Daresso's Passion" && [ForceSellItem] == "true"	//德瑞索的熱情 穿甲刺劍		賣出																									
 [Type] == "Vaal Rapier" && [Rarity] == "Unique" # [UniqueName] == "Paradoxica" && [StashItem] == "true"	//矛盾對決 瓦爾細劍		存倉																									
 //[Type] == "Vaal Rapier" && [Rarity] == "Unique" # [UniqueName] == "Replica Paradoxica" && [ForceSellItem] == "true"	//贗品．矛盾對決 瓦爾細劍		賣出																									
-[Type] == "Jewelled Foil" && [Rarity] == "Unique" # [UniqueName] == "Cospri's Malice" && [StashItem] == "true"	//卡斯普里的怨恨 寶飾細劍		存倉																									
+[Type] == "Jewelled Foil" && [Rarity] == "Unique" # [UniqueName] == "Cospri's Malice" && [ForceSellItem] == "true"	//卡斯普里的怨恨 寶飾細劍		存倉																									
 	//單手錘																											
 //[Type] == "Spiked Club" && [Rarity] == "Unique" # [UniqueName] == "Gorebreaker" && [ForceSellItem] == "true"	//血裂 鈍釘木棒		賣出																									
 //[Type] == "War Hammer" && [Rarity] == "Unique" # [UniqueName] == "Brightbeak" && [ForceSellItem] == "true"	//光耀之錘 戰錘		賣出																									
@@ -1884,9 +1884,9 @@
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Gifts from Above" && [ForceSellItem] == "true"	//神賜		存倉																									
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Romira's Banquet" && [ForceSellItem] == "true"	//羅米拉的潛力之環		賣出																									
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && [StashItem] == "true"	//貝雷克的火與雷之樂		存倉																									
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && [StashItem] == "true"	//貝雷克的冰與雷之曲		存倉																									
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && [ForceSellItem] == "true"	//貝雷克的冰與雷之曲		存倉																									
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Call of the Brotherhood Two-" && [StashItem] == "true"	//意志呼喚		存倉																									
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && [StashItem] == "true"	//貝雷克的冰與火之歌		存倉																									
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && [ForceSellItem] == "true"	//貝雷克的冰與火之歌		存倉																									
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Rigwald's Crest Two-" && [ForceSellItem] == "true"	//瑞佛之冠		賣出																									
 //[Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Voideye" && [ForceSellItem] == "true"	//虛空慧眼		賣出																									
 //[Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Malachai's Artifice" && [ForceSellItem] == "true"	//瑪拉凱的巧技		賣出																									
@@ -1932,7 +1932,7 @@
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Rashkaldor's Patience" && [ForceSellItem] == "true"	//拉什卡德的耐心		賣出																									
 [Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "The Halcyon" && [StashItem] == "true"	//太平		存倉																									
 [Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "The Pandemonius" && [StashItem] == "true"	//群魔殿		存倉																									
-[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Truth" && [StashItem] == "true"	//西里的真理		存倉																									
+[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Truth" && [ForceSellItem] == "true"	//西里的真理		存倉																									
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Willowgift" && [ForceSellItem] == "true"	//柳木之禮		賣出																									
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Karui Ward" && [ForceSellItem] == "true"	//贗品．卡魯的戰徽		賣出																									
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Hyrri's Truth" && [ForceSellItem] == "true"	//贗品．西里的真理		賣出																									
