@@ -2137,10 +2137,10 @@
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Immutable Force" && [StashItem] == "true"	//不變之力		存倉																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Bloodnotch" && [StashItem] == "true"	//缺血症		存倉																									
 	//翠綠珠寶		存倉																									
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Fluid Motion" && [StashItem] == "true"	//流暢行動		存倉																									
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Fluid Motion" && [ForceSellItem] == "true"	//流暢行動		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Intuitive Leap" && [StashItem] == "true"	//直覺之躍		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Lioneye's Fall" && [StashItem] == "true"	//獅眼的隕落		存倉																									
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Careful Planning" && [StashItem] == "true"	//審慎計畫		存倉																									
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Careful Planning" && [ForceSellItem] == "true"	//審慎計畫		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Hidden Potential" && [StashItem] == "true"	//深藏的潛能		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Self-Flagellation" && [StashItem] == "true"	//殘虐之歡愉		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Chill of Corruption" && [StashItem] == "true"	//腐化寒息		存倉																									
@@ -2167,12 +2167,12 @@
 	//鈷藍珠寶		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "To Dust" && [StashItem] == "true"	//塵埃落定		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Fertile Mind" && [StashItem] == "true"	//豐富心靈		存倉																									
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Brute Force Solution" && [StashItem] == "true"	//蠻力衝撞		存倉																									
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Brute Force Solution" && [ForceSellItem] == "true"	//蠻力衝撞		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Fevered Mind" && [StashItem] == "true"	//狂熱之心		存倉																									
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Powerlessness" && [StashItem] == "true"	//無力		存倉																									
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Powerlessness" && [ForceSellItem] == "true"	//無力		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Energy From Within" && [StashItem] == "true"	//潛能防護		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Healthy Mind" && [StashItem] == "true"	//靈體轉換		存倉																									
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Dead Reckoning" && [StashItem] == "true"	//死亡清算		存倉																									
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Dead Reckoning" && [ForceSellItem] == "true"	//死亡清算		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Reckless Defence" && [StashItem] == "true"	//魯莽防禦		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Emperor's Wit" && [StashItem] == "true"	//帝王的智慧		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Unending Hunger" && [StashItem] == "true"	//無盡飢餓		存倉																									
