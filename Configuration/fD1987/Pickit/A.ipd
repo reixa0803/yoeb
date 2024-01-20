@@ -2278,6 +2278,6 @@
 [Type] == "Assassin's Gift" # [StashItem] == "true" //	刺客的餽贈
 [Type] == "Portal" # [StashItem] == "true" // //時空之門  存倉
 //[Type] == "Two-Toned Boots" && [ItemLevel] >= "82" # [StashItem] == "true" // 82等異色
-[Type] == "Cobalt Jewel" && [ItemLevel] >= "1" # [StashItem] == "true" // 鈷藍珠寶
-[Type] == "Viridian Jewel" && [ItemLevel] >= "1" # [StashItem] == "true" // 翠綠珠寶
+//[Type] == "Cobalt Jewel" && [ItemLevel] >= "1" # [StashItem] == "true" // 鈷藍珠寶
+//[Type] == "Viridian Jewel" && [ItemLevel] >= "1" # [StashItem] == "true" // 翠綠珠寶
 
