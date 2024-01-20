@@ -2056,7 +2056,7 @@
 //[Type] == "Grand Mana Flask" && [Rarity] == "Unique" # [UniqueName] == "Zerphi's Last Breath" && [ForceSellItem] == "true"	//澤佛伊的終息		賣出																									
 //[Type] == "Sanctified Mana Flask" && [Rarity] == "Unique" # [UniqueName] == "Lavianga's Spirit" && [ForceSellItem] == "true"	//拉維安加之泉		賣出																									
 //[Type] == "Sanctified Mana Flask" && [Rarity] == "Unique" # [UniqueName] == "Replica Lavianga's Spirit" && [ForceSellItem] == "true"	//贗品．拉維安加之泉		賣出																									
-//[Type] == "Large Hybrid Flask" && [Rarity] == "Unique" # [UniqueName] == "Divination Distillate" && [StashItem] == "true"	//寶視精華		賣出																									
+[Type] == "Large Hybrid Flask" && [Rarity] == "Unique" # [UniqueName] == "Divination Distillate" && [StashItem] == "true"	//寶視精華		賣出																									
 //[Type] == "Hallowed Hybrid Flask" && [Rarity] == "Unique" # [UniqueName] == "The Writhing Jar" && [ForceSellItem] == "true"	//扭曲之罐		賣出																									
 //[Type] == "Diamond Flask" && [Rarity] == "Unique" # [UniqueName] == "Coralito's Signature" && [ForceSellItem] == "true"	//克拉里多的名印		賣出																									
 //[Type] == "Ruby Flask" && [Rarity] == "Unique" # [UniqueName] == "Coruscating Elixir" && [ForceSellItem] == "true"	//閃耀精華		賣出																									
