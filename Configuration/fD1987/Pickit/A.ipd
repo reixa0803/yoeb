@@ -2282,5 +2282,9 @@
 [Type] == "Cobalt Jewel" && [ItemLevel] >= "1" # [StashItem] == "true" // 鈷藍珠寶
 [Type] == "Viridian Jewel" && [ItemLevel] >= "1" # [StashItem] == "true" // 翠綠珠寶
 [Type] == "Crimson Jewel" && [ItemLevel] >= "1" # [StashItem] == "true" // 赤紅珠寶
+[Type] == "Murderous Eye Jewel" && [ItemLevel] >= "82" # [StashItem] == "true" // 赤紅珠寶
+[Type] == "Searching Eye Jewel" && [ItemLevel] >= "82" # [StashItem] == "true" // 赤紅珠寶
+[Type] == "Hypnotic Eye Jewel" && [ItemLevel] >= "82" # [StashItem] == "true" // 赤紅珠寶
+[Type] == "Ghastly Eye Jewel" && [ItemLevel] >= "82" # [StashItem] == "true" // 赤紅珠寶
 
 
