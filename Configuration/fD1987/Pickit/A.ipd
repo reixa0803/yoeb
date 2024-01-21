@@ -41,7 +41,8 @@
 //	//搬磚用武器																											
 //	//搬磚用盾牌																											
 //	// 2F 基礎通貨																											
-//	// 高級通貨																											
+//	// 高級通貨	
+[Type] == "Alteration Shard" 	# [StashItem] == "true"//改造 
 [Type] == "Divine Orb" # [StashItem] == "true" //	//神聖石		存倉																									
 [Type] == "Exalted Orb" # [StashItem] == "true" //	//崇高石		存倉																									
 [Type] == "Mirror of Kalandra" # [StashItem] == "true" //	//卡蘭德的魔鏡		存倉																									
