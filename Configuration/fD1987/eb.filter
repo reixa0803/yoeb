@@ -5212,17 +5212,17 @@ Hide # 裝備 - 飾品裝備 - 1~59
 
 # 【裝備-一般珠寶】
 
-Show # 裝備 - 稀有珠寶
+Hide # 裝備 - 稀有珠寶
     Rarity = Rare
     Class "Jewel"
     SetFontSize 40
 
-Show # 裝備 - 魔法珠寶
+Hide # 裝備 - 魔法珠寶
     Rarity = Magic
     Class "Jewel"
     SetFontSize 40
 
-Show # 裝備 - 普通珠寶
+Hide # 裝備 - 普通珠寶
     Rarity = Normal
     Class "Jewel"
     SetTextColor 255 255 255
