@@ -2264,7 +2264,7 @@
 [Type] == "Tawhanuku's Timing Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//塔瓦庫努的時機 月光石戒指		存倉																									
 [Type] == "Utula's Hunger Majestic Plate" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//奇塔弗的飢餓 莊嚴之鎧		存倉																									
 [Type] == "Warrior's Tale Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//戰士之訴 赤紅珠寶		存倉																									
-[Type] == "Forbidden Tome" # [StashItem] == "true" // //禁忌之書
+//[Type] == "Forbidden Tome" # [StashItem] == "true" // //禁忌之書
 //[Type] == "Replica Dragonfang's Flight"              # [StashItem] == "true" //  19x Mirror Shard
 [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Dragonfang's Flight" && [StashItem] == "true"	//Replica Dragonfang's Flight Onyx Amulet
 [Type] == "Hinekora's Lock" # [StashItem] == "true" // //悉妮蔻拉的髮絲
