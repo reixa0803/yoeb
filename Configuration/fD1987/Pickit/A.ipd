@@ -1686,11 +1686,11 @@
 //[Type] == "Titan Greaves" && [Rarity] == "Unique" # [UniqueName] == "The Red Trail" && [ForceSellItem] == "true"	//赤紅蹤跡		賣出																									
 //[Type] == "Titan Greaves" && [Rarity] == "Unique" # [UniqueName] == "Doryani's Delusion" && [ForceSellItem] == "true"	//多里亞尼的幻想		賣出																									
 //[Type] == "Titan Greaves" && [Rarity] == "Unique" # [UniqueName] == "Replica Red Trail" && [ForceSellItem] == "true"	//贗品．赤紅蹤跡		賣出																									
-[Type] == "Rawhide Boots" && [Rarity] == "Unique" # [UniqueName] == "Seven-League Step" && [StashItem] == "true"	//盟誓之跡		存倉																									
+[Type] == "Rawhide Boots" && [Rarity] == "Unique" # [UniqueName] == "Seven-League Step" && [ForceSellItem] == "true"	//盟誓之跡		存倉																									
 //[Type] == "Goathide Boots" && [Rarity] == "Unique" # [UniqueName] == "Victario's Flight" && [ForceSellItem] == "true"	//維多里奧的飛昇		賣出																									
 //[Type] == "Goathide Boots" && [Rarity] == "Unique" # [UniqueName] == "Abberath's Hooves" && [ForceSellItem] == "true"	//艾貝拉斯之蹄		賣出																									
 //[Type] == "Deerskin Boots" && [Rarity] == "Unique" # [UniqueName] == "Deerstalker" && [ForceSellItem] == "true"	//獵蹤		賣出																									
-[Type] == "Nubuck Boots" && [Rarity] == "Unique" # [UniqueName] == "Goldwyrm" && [StashItem] == "true"	//龍炎足跡		存倉																									
+[Type] == "Nubuck Boots" && [Rarity] == "Unique" # [UniqueName] == "Goldwyrm" && [ForceSellItem] == "true"	//龍炎足跡		存倉																									
 //[Type] == "Eelskin Boots" && [Rarity] == "Unique" # [UniqueName] == "Orbala's Stand" && [ForceSellItem] == "true"	//奧爾巴拉的姿態		賣出																									
 //[Type] == "Sharkskin Boots" && [Rarity] == "Unique" # [UniqueName] == "The Blood Dance" && [ForceSellItem] == "true"	//血影		賣出																									
 //[Type] == "Shagreen Boots" && [Rarity] == "Unique" # [UniqueName] == "Three-step Assault" && [ForceSellItem] == "true"	//三步突擊		賣出																									
@@ -1816,7 +1816,7 @@
 //[Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [UniqueName] == "Blasphemer's Grasp" && [ForceSellItem] == "true"	//褻瀆者之握		賣出																									
 //[Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [UniqueName] == "Storm's Gift" && [ForceSellItem] == "true"	//風暴之贈		賣出																									
 //[Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [UniqueName] == "Entropic Devastation" && [ForceSellItem] == "true"	//熵毀滅		賣出																									
-[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Thunderfist" && [StashItem] == "true"	//轟天雷		存倉																									
+[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Thunderfist" && [ForceSellItem] == "true"	//轟天雷		存倉																									
 //[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Malachai's Mark" && [ForceSellItem] == "true"	//瑪拉凱之面		賣出																									
 //[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Machina Mitts" && [ForceSellItem] == "true"	//詭計魔手		賣出																									
 //[Type] == "Spiked Gloves" && [Rarity] == "Unique" # [UniqueName] == "Ceaseless Feast" && [ForceSellItem] == "true"	//無盡盛宴		賣出																									
