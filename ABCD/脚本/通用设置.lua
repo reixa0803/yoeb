@@ -49,7 +49,12 @@ g_youXianMapLv=78      --超过等级优先取高级图
 g_needZaFenLv= 89      --多少级开始炸坟
 g_needSuDiLv=89        --满85级打强袭宿敌内容
 g_needMengYanLv=89     --多少级开始打梦魇
-g_useMoveSkillType=0   --使用位移技能赶路场景 
+g_useMoveSkillType=0   --使用位移技能赶路场景
+g_changeHunDunLv=65--多少级前不换C 
+SetChangeLimitCnt("武器|衣服|头盔|手套|鞋子",3)
+SetChangeLimitCnt("腰带",6)
+SetChangeLimitCnt("项链|戒指",20)
+
 
 --SetAtlasRegionsUseShouWangShiCnt("0|1|2|3|4|5|6|7",2)--设置异界区域放几个守望石
 
