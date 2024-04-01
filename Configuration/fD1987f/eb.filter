@@ -235,7 +235,7 @@ Show # 通貨 - 高級 - 神聖石
 
 Show # 通貨 - 高級 - 隱匿混沌石
     Class "Currency"
-    BaseType "Veiled Chaos Orb"
+    BaseType "Veiled Orb"
     SetTextColor 0 0 0 255
     SetBackgroundColor 210 0 220
     SetBorderColor 255 94 255
@@ -3989,7 +3989,7 @@ Hide # 藥劑 - 生命藥劑 - 中階(高階/聖語/祝福)
     SetBorderColor 153 0 0
     SetFontSize 40
 
-Show # 藥劑 - 生命藥劑 - 高階(聖化/不朽/永恆)
+Hide # 藥劑 - 生命藥劑 - 高階(聖化/不朽/永恆)
     Class "Life Flasks"
     BaseType "Sanctified Life Flask" "Divine Life Flask" "Eternal Life Flask"
     SetTextColor 153 0 0
