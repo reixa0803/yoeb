@@ -235,7 +235,7 @@ Show # 通貨 - 高級 - 神聖石
 
 Show # 通貨 - 高級 - 隱匿混沌石
     Class "Currency"
-    BaseType "Veiled Chaos Orb"
+    BaseType "Veiled Orb"
     SetTextColor 0 0 0 255
     SetBackgroundColor 210 0 220
     SetBorderColor 255 94 255
