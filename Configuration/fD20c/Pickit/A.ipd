@@ -2054,7 +2054,7 @@
 //[Type] == "Ruby Ring" && [Rarity] == "Unique" # [UniqueName] == "Replica Emberwake" && [ForceSellItem] == "true"	//贗品．餘燼之痕		賣出																									
 //[Type] == "Prismatic Ring" && [Rarity] == "Unique" # [UniqueName] == "Lori's Lantern" && [ForceSellItem] == "true"	//羅里的幸運之燈		賣出																									
 [Type] == "Prismatic Ring" && [Rarity] == "Unique" # [UniqueName] == "The Taming" && [StashItem] == "true"	//元素之章		存倉																									
-//[Type] == "Prismatic Ring" && [Rarity] == "Unique" # [UniqueName] == "Thief's Torment" && [ForceSellItem] == "true"	//竊罪		存倉																									
+[Type] == "Prismatic Ring" && [Rarity] == "Unique" # [UniqueName] == "Thief's Torment" && [StashItem] == "true"	//竊罪		存倉																									
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Shavronne's Revelation" && [ForceSellItem] == "true"	//薛朗的啟示之環		賣出																									
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Timeclasp" && [ForceSellItem] == "true"	//時光之握		賣出																									
 [Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Heartbound Loop" && [ForceSellItem] == "true"	//結魂之環		存倉																									
