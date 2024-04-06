@@ -2134,7 +2134,7 @@
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Perquil's Toe" && [ForceSellItem] == "true"	//珀奎爾的指頭		賣出																									
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Winterheart" && [ForceSellItem] == "true"	//贗品．冬之心		賣出																									
 [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Astramentis" && [ForceSellItem] == "true"	//均衡之符		存倉																									
-//[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [ForceSellItem] == "true"	//屠戮之心		存倉																									
+//[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [StashItem] == "true"	//屠戮之心		存倉																									
 [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Eye of Chayula" && [ForceSellItem] == "true"	//夏烏拉之眼		存倉																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hinekora's Sight" && [ForceSellItem] == "true"	//悉妮蔻拉之眼		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Presence of Chayula" && [ForceSellItem] == "true"	//夏烏拉之印		賣出																									
@@ -2455,4 +2455,12 @@
 [Type] == "I See Brothers" # [StashItem] == "true" //	來了兄弟
 [Type] == "Eldritch Perfection" # [StashItem] == "true" //	完美異能
 [Type] == "Assassin's Gift" # [StashItem] == "true" //	刺客的餽贈
-
+[Type] == "Portal" # [StashItem] == "true" // //時空之門  存倉
+[Type] == "Two-Toned Boots" && [ItemLevel] >= "68" # [StashItem] == "true" // 82等異色
+[Type] == "Cobalt Jewel" && [ItemLevel] >= "1" # [StashItem] == "true" // 鈷藍珠寶
+[Type] == "Viridian Jewel" && [ItemLevel] >= "1" # [StashItem] == "true" // 翠綠珠寶
+[Type] == "Crimson Jewel" && [ItemLevel] >= "1" # [StashItem] == "true" // 赤紅珠寶
+[Type] == "Murderous Eye Jewel" && [ItemLevel] >= "82" # [StashItem] == "true" // 赤紅珠寶
+[Type] == "Searching Eye Jewel" && [ItemLevel] >= "82" # [StashItem] == "true" // 赤紅珠寶
+[Type] == "Hypnotic Eye Jewel" && [ItemLevel] >= "82" # [StashItem] == "true" // 赤紅珠寶
+[Type] == "Ghastly Eye Jewel" && [ItemLevel] >= "82" # [StashItem] == "true" // 赤紅珠寶
