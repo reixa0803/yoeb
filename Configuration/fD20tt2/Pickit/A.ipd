@@ -1,16 +1,7 @@
 //水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區//
 //水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區//
 //水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區////水道仔區//
-[Category] == "Helm" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true" //	頭盔	拾取且售出
-[Category] == "Chest" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true" //	胸甲	拾取且售出
-[Category] == "Amulet" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true" //	護身符	拾取且售出
-[Category] == "Ring" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true" //	戒指	拾取且售出
-[Category] == "Belt" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true" //	腰帶	拾取且售出
-//[Category] == "Gloves" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true" //	手套	拾取且售出
-[Category] == "Boots" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [base_movement_velocity_+%] >= "999" && [StashItem] == "true" //	鞋子	拾取且售出
-
-//[Category] == "Weapon" 	&& [Rarity] 	== "Rare" # [DPS] > "999" && [StashItem] == "true" //	武器	拾取且售出
-[Category] == "Shield" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"	//	盾牌	拾取且售出												
+//	// 1F 黃裝鑑定售出	// 21F 傳奇													
 			
 
 //	[Type] == "Quicksilver Flask" # 	[StashItem]	 == "true" 	//	//水銀藥劑	拾取且存倉																						
@@ -2391,10 +2382,3 @@
 [Type] == "Assassin's Gift" # [StashItem] == "true" //	刺客的餽贈
 [Type] == "Portal" # [StashItem] == "true" // //時空之門  存倉
 [Type] == "Two-Toned Boots" && [ItemLevel] >= "68" # [StashItem] == "true" // 82等異色
-[Type] == "Cobalt Jewel" && [ItemLevel] >= "1" # [StashItem] == "true" // 鈷藍珠寶
-[Type] == "Viridian Jewel" && [ItemLevel] >= "1" # [StashItem] == "true" // 翠綠珠寶
-[Type] == "Crimson Jewel" && [ItemLevel] >= "1" # [StashItem] == "true" // 赤紅珠寶
-[Type] == "Murderous Eye Jewel" && [ItemLevel] >= "82" # [StashItem] == "true" // 赤紅珠寶
-[Type] == "Searching Eye Jewel" && [ItemLevel] >= "82" # [StashItem] == "true" // 赤紅珠寶
-[Type] == "Hypnotic Eye Jewel" && [ItemLevel] >= "82" # [StashItem] == "true" // 赤紅珠寶
-[Type] == "Ghastly Eye Jewel" && [ItemLevel] >= "82" # [StashItem] == "true" // 赤紅珠寶
