@@ -162,7 +162,7 @@ AddShengJiZhuangBeiGoodsData("富豪石","Metadata/Items/Currency/CurrencyUpgradeMa
 SetTaskShengJiData("a5q7",nil,"1_5_5",46,true)--做 到奇塔弗的受难 的时候刷纯净圣地到50级再进行下一任务
 SetTaskShengJiData("a9q3",nil,"2_9_1",67,true)--做 到風暴飛刃 的时候刷滲血水道到68级再进行下一任务
 
-SetTaskMiGongData("a8q7",nil,1)--大于等于a9q1级 做迷宫1
+SetTaskMiGongDataByLv(40,1)--大于等于80级 做迷宫2
 SetTaskMiGongDataByLv(70,2)--大于等于80级 做迷宫2
 SetTaskMiGongDataByLv(72,3)--大于等于80级 做迷宫3
 
