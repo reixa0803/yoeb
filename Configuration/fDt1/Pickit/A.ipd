@@ -1759,7 +1759,7 @@
 //[Type] == "Bone Armour" && [Rarity] == "Unique" # [UniqueName] == "Bloodbond" && [ForceSellItem] == "true"	//血肉結合		賣出																									
 //[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Defiance" && [ForceSellItem] == "true"	//衛道之袍		賣出																									
 //[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Victario's Influence" && [ForceSellItem] == "true"	//維多里奧之絕響		賣出																									
-[Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [UniqueName] == "Dendrobate" && [StashItem] == "true"	//箭毒蛙		存倉																									
+[Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [UniqueName] == "Dendrobate" && [ForceSellItem] == "true"	//箭毒蛙		存倉																									
 //[Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [UniqueName] == "Expedition's End" && [ForceSellItem] == "true"	//遠征之盡		賣出																									
 [Type] == "Varnished Coat" && [Rarity] == "Unique" # [UniqueName] == "Carcass Jack" && [ForceSellItem] == "true"	//致命之體		存倉																									
 //[Type] == "Varnished Coat" && [Rarity] == "Unique" # [UniqueName] == "The Admiral" && [ForceSellItem] == "true"	//上將		賣出																									
@@ -1797,7 +1797,7 @@
 //[Type] == "Nubuck Boots" && [Rarity] == "Unique" # [UniqueName] == "Goldwyrm" && [ForceSellItem] == "true"	//龍炎足跡		存倉																									
 //[Type] == "Eelskin Boots" && [Rarity] == "Unique" # [UniqueName] == "Orbala's Stand" && [ForceSellItem] == "true"	//奧爾巴拉的姿態		賣出																									
 //[Type] == "Sharkskin Boots" && [Rarity] == "Unique" # [UniqueName] == "The Blood Dance" && [ForceSellItem] == "true"	//血影		賣出																									
-//[Type] == "Shagreen Boots" && [Rarity] == "Unique" # [UniqueName] == "Three-step Assault" && [ForceSellItem] == "true"	//三步突擊		賣出																									
+[Type] == "Shagreen Boots" && [Rarity] == "Unique" # [UniqueName] == "Three-step Assault" && [StashItem] == "true"	//三步突擊		賣出																									
 //[Type] == "Shagreen Boots" && [Rarity] == "Unique" # [UniqueName] == "Replica Three-step Assault" && [ForceSellItem] == "true"	//贗品．三步突擊		賣出																									
 //[Type] == "Shagreen Boots" && [Rarity] == "Unique" # [UniqueName] == "Temptation Step" && [ForceSellItem] == "true"	//誘惑步伐		賣出																									
 //[Type] == "Stealth Boots" && [Rarity] == "Unique" # [UniqueName] == "Sin Trek" && [ForceSellItem] == "true"	//敏銳思維		賣出																									
@@ -1821,7 +1821,7 @@
 //[Type] == "Serpentscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Mutewind Whispersteps" && [ForceSellItem] == "true"	//啞風輕步		賣出																									
 //[Type] == "Wyrmscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Legacy of Fury" && [ForceSellItem] == "true"	//傳承憤怒		賣出																									
 //[Type] == "Hydrascale Boots" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Talons" && [ForceSellItem] == "true"	//斯卡沃鷹爪		賣出																									
-[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Darkray Vectors" && [StashItem] == "true"	//暗雷		存倉																									
+[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Darkray Vectors" && [ForceSellItem] == "true"	//暗雷		存倉																									
 [Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Annihilation's Approach" && [StashItem] == "true"	//殲滅的方法		存倉																									
 //[Type] == "Mesh Boots" && [Rarity] == "Unique" # [UniqueName] == "Wake of Destruction" && [ForceSellItem] == "true"	//覆滅之兆		賣出																									
 //[Type] == "Riveted Boots" && [Rarity] == "Unique" # [UniqueName] == "Ralakesh's Impatience" && [ForceSellItem] == "true"	//芮勒蓋許的急躁		賣出																									
@@ -1859,7 +1859,7 @@
 //[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Veruso's Battering Rams" && [ForceSellItem] == "true"	//維盧梭攻城槌		賣出																									
 //[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Craiceann's Pincers" && [ForceSellItem] == "true"	//奎爾珊堅鉗		賣出																									
 [Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Spirit" && [StashItem] == "true"	//岡姆之魂		存倉																									
-[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hrimsorrow" && [StashItem] == "true"	//冰冷之眼		存倉																									
+[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hrimsorrow" && [ForceSellItem] == "true"	//冰冷之眼		存倉																									
 //[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hrimburn" && [ForceSellItem] == "true"	//李姆本		賣出																									
 //[Type] == "Deerskin Gloves" && [Rarity] == "Unique" # [UniqueName] == "Maligaro's Virtuosity" && [ForceSellItem] == "true"	//馬雷葛蘿的血染手套		賣出																									
 //[Type] == "Nubuck Gloves" && [Rarity] == "Unique" # [UniqueName] == "Oskarm" && [ForceSellItem] == "true"	//厄斯根		賣出																									
@@ -1897,7 +1897,7 @@
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Volkuur's Guidance" && [ForceSellItem] == "true"	//福庫爾的指引		賣出																									
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Replica Volkuur's Guidance" && [ForceSellItem] == "true"	//贗品．福庫爾的指引		賣出																									
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hand of the Fervent" && [ForceSellItem] == "true"	//熱情之手		賣出																									
-[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Southbound" && [StashItem] == "true"	//南方		存倉																									
+[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Southbound" && [ForceSellItem] == "true"	//南方		存倉																									
 //[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Winds" && [ForceSellItem] == "true"	//斯卡沃之翼		賣出																									
 [Type] == "Legion Gloves" && [Rarity] == "Unique" # [UniqueName] == "Null and Void" && [ForceSellItem] == "true"	//虛空		存倉																									
 //[Type] == "Legion Gloves" && [Rarity] == "Unique" # [UniqueName] == "Offering to the Serpent" && [ForceSellItem] == "true"	//蛇皮獻祭		賣出																									
@@ -2106,14 +2106,14 @@
 //[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Replica Prismweave" && [ForceSellItem] == "true"	//贗品．幻彩菱織		賣出																									
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Bated Breath" && [ForceSellItem] == "true"	//凝息		賣出																									
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Maligaro's Restraint" && [ForceSellItem] == "true"	//馬雷葛蘿的染血之環		賣出																									
-//[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Ascent From Flesh" && [ForceSellItem] == "true"	//血軀昇華		賣出																									
+[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Ascent From Flesh" && [StashItem] == "true"	//血軀昇華		賣出																									
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Coward's Chains" && [ForceSellItem] == "true"	//懦夫的鎖鏈		賣出																									
 [Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Coward's Legacy" && [StashItem] == "true"	//懦夫的遺產		存倉																									
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Chains of Emancipation" && [ForceSellItem] == "true"	//解放鏈		賣出																									
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Replica Bated Breath" && [ForceSellItem] == "true"	//贗品．凝息		賣出																									
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Chain of Endurance" && [ForceSellItem] == "true"	//堅決鎖鏈		賣出																									
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Headhunter" && [StashItem] == "true"	//獵首		存倉																									
-[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [StashItem] == "true"	//永生		存倉																									
+[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [ForceSellItem] == "true"	//永生		存倉																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Wurm's Molt" && [ForceSellItem] == "true"	//龍蛻之帶		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Umbilicus Immortalis" && [ForceSellItem] == "true"	//不朽繫命		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Cyclopean Coil" && [ForceSellItem] == "true"	//巨岩之環		賣出																									
