@@ -1014,11 +1014,11 @@
 	[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 普通	拾取且存倉	
 //	// 12F 星團珠寶			設定天賦數																								
 [Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "8" && [StashItem] == "true" //	//巨星團珠寶		存倉	8																								
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "12" && [StashItem] == "true" //	//巨星團珠寶		存倉	12																								
+//[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "12" && [StashItem] == "true" //	//巨星團珠寶		存倉	12																								
 [Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "4" && [StashItem] == "true" //	//中星團珠寶		存倉	4																								
 [Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "5" && [StashItem] == "true" //	//中星團珠寶		存倉	5																								
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "6" && [StashItem] == "true" //	//中星團珠寶		存倉	6																								
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//小星團珠寶		存倉	2																								
+//[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "6" && [StashItem] == "true" //	//中星團珠寶		存倉	6																								
+//[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//小星團珠寶		存倉	2																								
 [Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//小星團珠寶		存倉	3																								
 [Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "8" && [StashItem] == "true" //	//請勿更動//																											
 [Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "12" && [StashItem] == "true" //	//請勿更動//																											
@@ -2336,7 +2336,7 @@
 [Type] == "Dunes Map" && [Rarity] == "Unique" # [UniqueName] == "Replica Pillars of Arun" && [ForceSellItem] == "true"	//贗品．艾倫之柱		存倉																									
 [Type] == "Crypt Map" && [Rarity] == "Unique" # [UniqueName] == "Olmec's Sanctum Bone" && [ForceSellItem] == "true"	//遠古之印		存倉																									
 [Type] == "River Map" && [Rarity] == "Unique" # [UniqueName] == "Caer Blaidd, Wolfpack's Den Underground" && [ForceSellItem] == "true"	//塞爾．佈雷德狼穴		存倉																									
-[Type] == "Pyramid Map" && [Rarity] == "Unique" # [UniqueName] == "Vaults of Atziri Vaal" && [ForceSellItem] == "true"	//阿茲里的秘寶庫		存倉																									
+[Type] == "Pyramid Map" && [Rarity] == "Unique" # [UniqueName] == "Vaults of Atziri Vaal" && [StashItem] == "true"	//阿茲里的秘寶庫		存倉																									
 [Type] == "Courtyard Map" && [Rarity] == "Unique" # [UniqueName] == "The Vinktar Square" && [StashItem] == "true"	//維克塔廣場		存倉																									
 [Type] == "Shore Map" && [Rarity] == "Unique" # [UniqueName] == "Mao Kun" && [ForceSellItem] == "true"	//賊窩		存倉																									
 [Type] == "Island Map" && [Rarity] == "Unique" # [UniqueName] == "Untainted Paradise Tropical" && [ForceSellItem] == "true"	//純淨樂園		存倉																									
@@ -2381,4 +2381,4 @@
 [Type] == "Eldritch Perfection" # [StashItem] == "true" //	完美異能
 [Type] == "Assassin's Gift" # [StashItem] == "true" //	刺客的餽贈
 [Type] == "Portal" # [StashItem] == "true" // //時空之門  存倉
-[Type] == "Two-Toned Boots" && [ItemLevel] >= "68" # [StashItem] == "true" // 82等異色
+//[Type] == "Two-Toned Boots" && [ItemLevel] >= "68" # [StashItem] == "true" // 82等異色
