@@ -10,7 +10,7 @@
 //	 [Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//不朽生命藥劑	不撿不存倉																						
 //	 [Type] == "Eternal Life Flask" # 	[StashItem]	 == "true" 	//	//永恆生命藥劑	不撿不存倉																						
 																						
-	 [Type] == "Divine Mana Flask" # 	[StashItem]	 == "true" 	//	//不朽魔力藥劑	不撿不存倉																						
+//	 [Type] == "Divine Mana Flask" # 	[StashItem]	 == "true" 	//	//不朽魔力藥劑	不撿不存倉																						
 	 //[Type] == "Eternal Mana Flask" # 	[StashItem]	 == "true" 	//	//永恆魔力藥劑	不撿不存倉																						
 
 																						
@@ -1929,7 +1929,7 @@
 //[Type] == "Runic Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Medved's Challenge" && [ForceSellItem] == "true"	//梅德偉的挑戰		賣出																									
 	//戒指		賣出																									
 //[Type] == "Iron Ring" && [Rarity] == "Unique" # [UniqueName] == "Blackheart" && [ForceSellItem] == "true"	//幽暗之語		賣出																									
-[Type] == "Iron Ring" && [Rarity] == "Unique" # [UniqueName] == "Le Heup of All" && [StashItem] == "true"	//英靈寶環		存倉																									
+[Type] == "Iron Ring" && [Rarity] == "Unique" # [UniqueName] == "Le Heup of All" && [ForceSellItem] == "true"	//英靈寶環		存倉																									
 //[Type] == "Iron Ring" && [Rarity] == "Unique" # [UniqueName] == "The Warden's Brand" && [ForceSellItem] == "true"	//獄使之印		賣出																									
 //[Type] == "Iron Ring" && [Rarity] == "Unique" # [UniqueName] == "Circle of Guilt" && [ForceSellItem] == "true"	//愧疚之環		賣出																									
 [Type] == "Iron Ring" && [Rarity] == "Unique" # [UniqueName] == "Icefang Orbit" && [ForceSellItem] == "true"	//冰風軌跡		存倉																									
@@ -2007,7 +2007,7 @@
 //[Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Essence Worm" && [ForceSellItem] == "true"	//菁華蠕蟲		存倉																									
 //[Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Angler's Plait" && [ForceSellItem] == "true"	//漁夫之辮		賣出																									
 [Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "The Hungry Loop" && [ForceSellItem] == "true"	//惡鬼轉世		存倉																									
-[Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Mark of Submission" && [StashItem] == "true"	//臣服之記		賣出																									
+[Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Mark of Submission" && [ForceSellItem] == "true"	//臣服之記		賣出																									
 [Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Vivinsect" && [ForceSellItem] == "true"	//寄生惡魔		存倉																									
 [Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Profane Proxy" && [StashItem] == "true"	//褻瀆之替		存倉																									
 //[Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Replica Malachai's Artifice" && [ForceSellItem] == "true"	//贗品．瑪拉凱的巧技		賣出																									
@@ -2059,7 +2059,7 @@
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Perquil's Toe" && [ForceSellItem] == "true"	//珀奎爾的指頭		賣出																									
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Winterheart" && [ForceSellItem] == "true"	//贗品．冬之心		賣出																									
 [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Astramentis" && [ForceSellItem] == "true"	//均衡之符		存倉																									
-[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [StashItem] == "true"	//屠戮之心		存倉																									
+[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [ForceSellItem] == "true"	//屠戮之心		存倉																									
 [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Eye of Chayula" && [ForceSellItem] == "true"	//夏烏拉之眼		存倉																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hinekora's Sight" && [ForceSellItem] == "true"	//悉妮蔻拉之眼		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Presence of Chayula" && [ForceSellItem] == "true"	//夏烏拉之印		賣出																									
